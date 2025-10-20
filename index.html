@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alex Janssen</title>
+  <title>alex says hi</title>
+  <link rel="icon" href="aj.png" type="image/png" />
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -137,6 +138,16 @@
     .contact-item a { color: inherit; text-decoration: none; font-weight: 600; }
     .icon { width: 28px; height: 28px; fill: currentColor; }
 
+    .self-portrait {
+      display: block;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 2.5rem auto 0 auto; /* CHANGED: Adds space on top */
+      border: 1px solid rgba(0,0,0,0.08);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
 
     @media (max-width: 768px) {
       .hamburger { display: flex; }
@@ -276,6 +287,7 @@
           <a href="https://www.youtube.com/@Forastersoc" target="_blank" rel="noopener">travel vlog</a>
         </div>
       </div>
+      <img src="janss.png" alt="A picture of Alex Janssen" class="self-portrait">
     </section>
   </main>
 
