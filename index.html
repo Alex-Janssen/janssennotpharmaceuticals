@@ -97,6 +97,8 @@
     #travels .dropdown-header:hover { background: #dcefff; }
     #misc .dropdown-header { background: #fff3e8; }
     #misc .dropdown-header:hover { background: #fbead8; }
+    #writing .dropdown-header { background: #e8fff7; }
+    #writing .dropdown-header:hover { background: #d8fcef; }
     
     .dropdown-content {
       height: 0;
@@ -243,6 +245,26 @@
           </div>
         </div>
       </div>
+
+      <div class="dropdown" id="writing">
+        <div class="dropdown-header">Writing</div>
+        <div class="dropdown-content">
+          <div style="padding:1rem 1.25rem; line-height:1.7;">
+            I sometimes write short stories and essays —
+            <a href="writing.html" style="
+              font-weight:600;
+              color:#111;
+              text-decoration:none;
+              border-bottom:1px solid rgba(0,0,0,0.15);
+              transition:color .2s, border-color .2s;
+            " onmouseover="this.style.color='#555'; this.style.borderColor='rgba(0,0,0,0.4)'"
+              onmouseout="this.style.color='#111'; this.style.borderColor='rgba(0,0,0,0.15)'">
+              click here to see a small portfolio
+            </a>.
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <section id="contact" class="section" aria-labelledby="contact-head">
@@ -447,7 +469,6 @@
         attachHoverCard(marker, html);
       });
     }
-    // --- END OF MOVED MAP CODE ---
 
 
     // Intro animation (from v5, with FIX for scene1)
@@ -622,11 +643,17 @@
         }
       });
       
-      // --- OLD MAP CODE IS DELETED FROM HERE ---
 
       // Start v5 intro animation
+// --- Start v5 intro animation OR skip if ?skipintro ---
       const controller = new AnimationController();
-      controller.startOnceThenStop();
+
+      if (window.location.search.includes('skipintro')) {
+        controller.stop(); // directly show main site, no animation
+      } else {
+        controller.startOnceThenStop();
+      }
+
     });
   </script>
 </body>
