@@ -18,7 +18,7 @@
       background-color: #faf8f6; color: #111; overflow-x: hidden; line-height: 1.6;
     }
 
-    /* Intro overlay (from v5) */
+    /* Intro overlay*/
     #animation-container {
       position: fixed; inset: 0; width: 100vw; height: 100vh;
       display: flex; justify-content: center; align-items: center;
@@ -44,7 +44,7 @@
     .reach-out { font-size: clamp(1.3rem, 3.5vw, 2rem); font-weight: 300; line-height: 1.8; padding: 0 1rem; }
     .skip-hint { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); font-size: 0.95rem; opacity: 0.6; }
 
-    /* Nav (from v5) */
+    /* Nav */
     nav { position: fixed; top: 0; left: 0; right: 0; background-color: #faf8f6; z-index: 999;
       padding: 1.5rem 2rem; border-bottom: 1px solid rgba(0,0,0,0.1); display: none;
     }
@@ -59,7 +59,7 @@
     .hamburger.active span:nth-child(2) { opacity: 0; }
     .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(7px, -6px); }
 
-    /* Main/Section (from v5) */
+    /* Main/Section */
     main { display: none; padding-top: 80px; min-height: 100vh; max-width: 1200px; margin: 0 auto; padding-left: 2rem; padding-right: 2rem; }
     main.visible { display: block; }
 
@@ -69,7 +69,7 @@
 
     h1 { font-size: 2.5rem; font-weight: 300; margin-bottom: 2rem; }
 
-    /* Work Section (from v5) */
+    /* Work Section*/
     .work-item { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(0,0,0,0.1); }
     .work-item:last-child { border-bottom: none; }
     .work-title { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; }
@@ -146,7 +146,7 @@
       height: 180px;
       border-radius: 50%;
       object-fit: cover;
-      margin: 2.5rem auto 0 auto; /* CHANGED: Adds space on top */
+      margin: 2.5rem auto 0 auto;
       border: 1px solid rgba(0,0,0,0.08);
       box-shadow: 0 4px 12px rgba(0,0,0,0.06);
     }
@@ -320,7 +320,6 @@
   ></script>
   
   <script>
-    // Config (from v5)
     const CONFIG = {
       GREETING_WORD_DURATION: 500,
       BELIEF_STAGGER_DELAY: 500,
@@ -345,7 +344,6 @@
       { title: "Education", description: "Rice University (2021-2025)\nBachelor of Science in Computer Science, Bachelor of Arts in Medieval Studies, Transnational Asia Studies\n3.96/4.0, Magna Cum Laude, Distinction in Creative Works and Research\n\nHong Kong University of Science and Technology (Fall 2023)\n3.83/4.0, Deans List (Top 5% of Students)" }
     ];
 
-    // --- MAP CODE (MOVED OUTSIDE DOMCONTENTLOADED) ---
     
     let mapInitialized = false;
 
@@ -423,7 +421,7 @@
           })
           .setLatLng(circleMarker.getLatLng())
           .setContent(html)
-          .openOn(window._leafletMap); // Use global map
+          .openOn(window._leafletMap); 
           const container = popup.getElement();
           container.addEventListener('mouseenter', () => clearTimeout(hideTimer));
           container.addEventListener('mouseleave', scheduleHide);
@@ -471,7 +469,6 @@
     }
 
 
-    // Intro animation (from v5, with FIX for scene1)
     class AnimationController {
       constructor() {
         this.animationContainer = document.getElementById('animation-container');
@@ -480,7 +477,6 @@
         document.addEventListener('keydown', (e) => { if (e.key === 'Escape') this.stop(); });
       }
 
-      // --- THIS FUNCTION IS FIXED ---
       async playScene1() {
         const scene = document.getElementById('scene1');
         scene.classList.add('active');
@@ -502,7 +498,6 @@
         }
         scene.classList.remove('active');
       }
-      // --- END OF FIX ---
 
       async playScene2() { if (this.isStopped) return; const s = document.getElementById('scene2'); s.classList.add('active'); await this.delay(3000); s.classList.remove('active'); }
       async playScene3() {
@@ -545,7 +540,6 @@
     }
     function showSection(id){ document.querySelectorAll('.section').forEach(s=>s.classList.remove('active')); const el=document.getElementById(id); if(el) el.classList.add('active'); }
 
-    // Work content (from v5)
     function loadWorkContent() {
       const box = document.getElementById('work-content');
       workData.forEach(item => {
@@ -599,26 +593,20 @@
             c.style.height = endHeight + 'px';
           });
 
-          // --- THIS IS THE PATCHED SECTION ---
           setTimeout(() => {
             c.style.height = 'auto';
             el.isAnimating = false;
             el.isOpen = true;
             
-            // --- MAP FIX ---
             if (el.id === 'travels') {
-              // This will create the map on the first click
               initializeMap(); 
               
-              // This will resize it every time it's opened
               if (window._leafletMap) {
                 window._leafletMap.invalidateSize();
               }
             }
-            // --- END MAP FIX ---
             
           }, 700); // Match CSS transition
-          // --- END OF PATCH ---
         }
 
         function closeDropdown(el) {
@@ -644,8 +632,6 @@
       });
       
 
-      // Start v5 intro animation
-// --- Start v5 intro animation OR skip if ?skipintro ---
       const controller = new AnimationController();
 
       if (window.location.search.includes('skipintro')) {
