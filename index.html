@@ -42,6 +42,49 @@
     .belief-item { opacity: 0; margin: 0.5rem 0; animation: fadeInUp 0.75s ease forwards; }
     @keyframes fadeInUp { from { opacity: 0; transform: translateY(10px);} to { opacity: 1; transform: translateY(0);} }
     .reach-out { font-size: clamp(1.3rem, 3.5vw, 2rem); font-weight: 300; line-height: 1.8; padding: 0 1rem; }
+    
+    #progress-dots {
+      position: absolute;
+      bottom: 60px; /* Position it above the skip hint */
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 12px;
+      z-index: 1001;
+      align-items: center; /* Ensures dots align nicely */
+    }
+
+    /* Style for the simple dots (2, 3, 4) */
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgba(0,0,0,0.15); /* Unfilled dot color */
+      transition: background-color 0.5s ease;
+      flex-shrink: 0; /* Prevents shrinking */
+    }
+    .dot.filled {
+      background-color: rgba(0,0,0,0.7); /* Filled dot color */
+    }
+
+    /* New styles for the first (progressive) dot */
+    .dot-container {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgba(0,0,0,0.15); /* Unfilled bg */
+      overflow: hidden; /* This is key */
+      flex-shrink: 0; /* Prevents shrinking */
+    }
+
+    .dot-fill {
+      width: 0%; /* Starts at 0 */
+      height: 100%; /* Fills parent vertically */
+      background-color: rgba(0,0,0,0.7); /* Filled color */
+      /* Fill animation speed */
+      transition: width 0.4s ease-out; 
+    }
+
     .skip-hint { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); font-size: 0.95rem; opacity: 0.6; }
 
     /* Nav */
@@ -179,9 +222,15 @@
         reach out for literally any reason. i am happy to talk to anyone with an interesting perspective on their world, their work, or who just wants to chat.
       </div>
     </div>
+    
+    <div id="progress-dots">
+      <div class="dot-container"> <div class="dot-fill"></div>
+      </div>
+      <span class="dot"></span> <div class="dot-container"> <div class="dot-fill"></div>
+      </div>
+      <span class="dot"></span> </div>
     <div class="skip-hint">click anywhere to skip</div>
   </div>
-
   <nav id="main-nav" aria-label="main">
     <div class="nav-container">
       <div class="logo">alex janssen</div>
@@ -479,13 +528,15 @@
 
       async playScene1() {
         const scene = document.getElementById('scene1');
+        const dotFill = document.querySelector('#progress-dots .dot-fill'); // Get the first fill element
+        const totalGreetings = greetings.length;
+        
         scene.classList.add('active');
         
-        for (let i = 0; i < greetings.length; i++) {
+        for (let i = 0; i < totalGreetings; i++) {
           if (this.isStopped) return;
           
           // Create a new element for each word
-          // This avoids the "force reflow" hack and browser bugs
           const wordContainer = document.createElement('div');
           wordContainer.className = 'greeting-word';
           wordContainer.textContent = greetings[i];
@@ -494,24 +545,75 @@
           scene.innerHTML = '';
           scene.appendChild(wordContainer);
           
+          // Calculate and set the fill percentage
+          if (dotFill) {
+            const percent = ((i + 1) / totalGreetings) * 100;
+            dotFill.style.width = percent + '%';
+          }
+          
           await this.delay(CONFIG.GREETING_WORD_DURATION);
         }
         scene.classList.remove('active');
       }
 
       async playScene2() { if (this.isStopped) return; const s = document.getElementById('scene2'); s.classList.add('active'); await this.delay(3000); s.classList.remove('active'); }
+      
+      // --- START JAVASCRIPT CHANGE (playScene3) ---
       async playScene3() {
         if (this.isStopped) return;
         const s = document.getElementById('scene3');
-        const c = s.querySelector('.belief-items'); c.innerHTML = ''; s.classList.add('active');
-        for (let i = 0; i < beliefs.length; i++) {
+        const c = s.querySelector('.belief-items');
+        const dotFill = document.querySelectorAll('#progress-dots .dot-fill')[1]; // Get the second progressive dot
+        const totalBeliefs = beliefs.length;
+        
+        c.innerHTML = ''; 
+        s.classList.add('active');
+        
+        for (let i = 0; i < totalBeliefs; i++) {
           const el = document.createElement('div'); el.className = 'belief-item'; el.textContent = beliefs[i];
           el.style.animationDelay = `${i * CONFIG.BELIEF_STAGGER_DELAY}ms`; c.appendChild(el);
         }
-        const total = (beliefs.length - 1) * CONFIG.BELIEF_STAGGER_DELAY + 1800; await this.delay(total); s.classList.remove('active');
+
+        // This second loop updates the dot fill in time with the stagger
+        for (let i = 0; i < totalBeliefs; i++) {
+            if (this.isStopped) return;
+            if (dotFill) {
+                const percent = ((i + 1) / totalBeliefs) * 100;
+                dotFill.style.width = percent + '%';
+            }
+            await this.delay(CONFIG.BELIEF_STAGGER_DELAY);
+        }
+        
+        // Add extra delay for reading after the last item has appeared
+        await this.delay(1800); 
+        s.classList.remove('active');
       }
+
       async playScene4() { if (this.isStopped) return; const s = document.getElementById('scene4'); s.classList.add('active'); await this.delay(3750); s.classList.remove('active'); }
-      async startOnceThenStop() { await this.playScene1(); await this.delay(CONFIG.SCENE_GAP); await this.playScene2(); await this.delay(CONFIG.SCENE_GAP); await this.playScene3(); await this.delay(CONFIG.SCENE_GAP); await this.playScene4(); await this.delay(CONFIG.ANIMATION_LOOP_DELAY); if (!this.isStopped) this.stop(); }
+      
+      async startOnceThenStop() {
+        // Select only the simple dots (now dot 2 and dot 4)
+        const dots = document.querySelectorAll('#progress-dots .dot'); 
+
+        await this.playScene1();
+        // dot 1 is filled by playScene1
+        await this.delay(CONFIG.SCENE_GAP);
+        
+        await this.playScene2();
+        if (!this.isStopped && dots[0]) dots[0].classList.add('filled'); // Fill dot 2
+        await this.delay(CONFIG.SCENE_GAP);
+        
+        await this.playScene3();
+        // dot 3 is now filled by playScene3
+        await this.delay(CONFIG.SCENE_GAP);
+        
+        await this.playScene4();
+        if (!this.isStopped && dots[1]) dots[1].classList.add('filled'); // Fill dot 4
+        await this.delay(CONFIG.ANIMATION_LOOP_DELAY);
+        
+        if (!this.isStopped) this.stop();
+      }
+
       delay(ms){ return new Promise(res=>setTimeout(res, Math.max(0, ms))); }
       stop(){ if (this.isStopped) return; this.isStopped = true; this.animationContainer.classList.add('hidden'); document.getElementById('main-nav').classList.add('visible'); document.getElementById('main-content').classList.add('visible'); showSection((location.hash || '#work').replace('#','') || 'work'); }
     }
