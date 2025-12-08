@@ -118,7 +118,7 @@
     .work-title { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; }
     .work-description { color: #4a4a4a; line-height: 1.8; white-space: pre-line; }
 
-    /* Dropdowns (from v7, with v5 colors) */
+    /* Dropdowns */
     .dropdown {
       border: 1px solid rgba(0,0,0,0.08);
       border-radius: 12px;
@@ -133,7 +133,7 @@
       user-select: none;
       transition: background 0.3s;
     }
-    /* Re-applied v5 color scheme to v7 IDs */
+    
     #languages .dropdown-header { background: #ffe8f3; }
     #languages .dropdown-header:hover { background: #fbe0ee; }
     #travels .dropdown-header { background: #e8f3ff; }
@@ -142,6 +142,9 @@
     #misc .dropdown-header:hover { background: #fbead8; }
     #writing .dropdown-header { background: #e8fff7; }
     #writing .dropdown-header:hover { background: #d8fcef; }
+    /* Food Reviews Dropdown Color (Pastel Orange) */
+    #food-reviews .dropdown-header { background: #ffedcc; }
+    #food-reviews .dropdown-header:hover { background: #ffdfb3; }
     
     .dropdown-content {
       height: 0;
@@ -152,7 +155,116 @@
       overflow: visible;
     }
     
-    /* Map/Leaflet (from v7) */
+    /* Food Review Styles */
+    .food-review-container {
+      min-height: 200px;
+      position: relative;
+    }
+    
+    .food-review-button {
+      background-color: #ffedcc; /* Pastel orange matching tab */
+      color: #111; /* Dark text for readability */
+      border: 1px solid rgba(0,0,0,0.08);
+      padding: 10px 20px;
+      font-size: 0.95rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+    
+    .food-review-button:hover {
+      background-color: #ffdfb3; /* Slightly darker pastel on hover */
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    
+    .food-review-button:active {
+      transform: translateY(0);
+    }
+    
+    .food-review-card {
+      opacity: 0;
+      animation: fadeIn 0.4s forwards;
+    }
+    
+    .review-restaurant {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #111;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    
+    .review-location {
+      text-align: center;
+      color: #666;
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+      background: #ffedcc;
+      padding: 4px 12px;
+      border-radius: 4px;
+      display: inline-block;
+      width: 100%;
+    }
+    
+    .review-meta {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #111;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    
+    .review-meta span {
+      margin: 0 0.5rem;
+    }
+    
+    .review-grade {
+      color: #ff6b35;
+      font-weight: 600;
+    }
+    
+    .review-foods {
+      margin-bottom: 1.5rem;
+    }
+    
+    .review-foods-title {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #111;
+    }
+    
+    .food-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.35rem 0;
+      font-size: 0.95rem;
+      color: #333;
+    }
+    
+    .food-rating {
+      font-weight: 500;
+      color: #ff6b35;
+    }
+    
+    .review-text {
+      line-height: 1.75;
+      color: #333;
+      font-size: 0.98rem;
+      text-indent: 2em;
+      text-align: justify;
+    }
+    
+    .review-empty {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+    }
+
+    /* Map/Leaflet */
     #map {
       width: 100%;
       height: 520px;
@@ -175,7 +287,7 @@
     .tip-img { width: 100%; height: 120px; object-fit: cover; border-radius: 8px; display: block; }
     .tip-story { font-size: 0.9rem; opacity: 0.95; }
 
-    /* Contact (from v5) */
+    /* Contact */
     .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; margin-top: 1rem; }
     .contact-item { display: flex; align-items: center; gap: 0.9rem; padding: 1rem; border-radius: 12px; background-color: #fff; transition: transform 0.25s ease, box-shadow 0.25s ease; border: 1px solid rgba(0,0,0,0.06); }
     .contact-item:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
@@ -316,6 +428,20 @@
               onmouseout="this.style.color='#111'; this.style.borderColor='rgba(0,0,0,0.15)'">
               click here to see a small portfolio
             </a>.
+          </div>
+        </div>
+      </div>
+
+      <div class="dropdown" id="food-reviews">
+        <div class="dropdown-header">Random Restaurant Review</div>
+        <div class="dropdown-content">
+          <div class="food-review-container" style="padding:1rem 1.25rem;">
+            <button class="food-review-button" onclick="showRandomReview()">
+              Get Random Review
+            </button>
+            <div id="review-display" class="review-empty">
+              Click the button to see a random restaurant review from my life
+            </div>
           </div>
         </div>
       </div>
@@ -522,6 +648,58 @@
       });
     }
 
+    // Food review data (global to be accessible)
+    let foodReviews = [];
+
+    function showRandomReview() {
+      if (foodReviews.length === 0) {
+        document.getElementById('review-display').innerHTML = 
+          '<div class="review-empty">Loading reviews... Please try again in a moment.</div>';
+        return;
+      }
+      
+      // Get random review
+      const review = foodReviews[Math.floor(Math.random() * foodReviews.length)];
+      
+      // Build the HTML
+      let foodsHtml = '';
+      if (review.foods && review.foods.length > 0) {
+        foodsHtml = `
+          <div class="review-foods">
+            <div class="review-foods-title">What I tried:</div>
+            ${review.foods.map(food => `
+              <div class="food-item">
+                <span class="food-name">${food.name}</span>
+                <span class="food-rating">${food.rating}</span>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+      
+      const reviewHtml = `
+        <div class="food-review-card">
+          <div class="review-restaurant">${review.name}</div>
+          <div class="review-location">${review.location}</div>
+          <div class="review-meta">
+            <span>${review.cuisine}</span> |
+            <span>${review.price}</span> |
+            <span class="review-grade">${review.rating}</span>
+          </div>
+          ${foodsHtml}
+          <div class="review-text">${review.review}</div>
+        </div>
+      `;
+      
+      // Update display with animation
+      const display = document.getElementById('review-display');
+      display.style.opacity = '0';
+      setTimeout(() => {
+        display.innerHTML = reviewHtml;
+        display.style.opacity = '1';
+      }, 200);
+    }
+
 
     class AnimationController {
       constructor() {
@@ -661,6 +839,41 @@
     document.addEventListener('DOMContentLoaded', () => {
       initNavigation();
       loadWorkContent();
+
+      // Load the culinary experiences data
+      fetch('./culinary_experiences.json')
+        .then(response => {
+          if (!response.ok) throw new Error("HTTP error " + response.status);
+          return response.json();
+        })
+        .then(data => {
+          // Robust handling for array or object wrapper
+          if (Array.isArray(data)) {
+            foodReviews = data;
+          } else if (data && Array.isArray(data.reviews)) {
+            foodReviews = data.reviews;
+          } else {
+            console.error('Unexpected JSON structure:', data);
+            throw new Error('Invalid JSON structure');
+          }
+          console.log(`Loaded ${foodReviews.length} restaurant reviews`);
+        })
+        .catch(error => {
+          console.error('Error loading food reviews (ensure you are using a local server):', error);
+          // Fallback sample
+          foodReviews = [{
+            name: "Sample Restaurant",
+            cuisine: "International",
+            location: "Somewhere, Earth, 2024",
+            price: "$$",
+            rating: "A",
+            foods: [
+              { name: "Amazing Dish", rating: "A+" },
+              { name: "Good Appetizer", rating: "B" }
+            ],
+            review: "This is a sample review. If you see this, the external JSON file failed to load (likely due to CORS/local file restrictions)."
+          }];
+        });
       
       // --- Dropdown Logic (Auto-Collapse) ---
       const dropdowns = document.querySelectorAll('.dropdown');

@@ -1,0 +1,3841 @@
+[
+  {
+    "name": "Kabul Afghan Cuisine",
+    "cuisine": "Afghan",
+    "location": "San Carlos, CA, 05 August 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Aush (dumplings with lamb sauce)",
+        "rating": "B"
+      },
+      {
+        "name": "Kabab-e-Gousfand (Lamb Kebab)",
+        "rating": "B+"
+      }
+    ],
+    "review": "This restaurant was recommended by two Farsi speaking Uber drivers. This was a good call. Not cheap, at about $40 for appetizers and dinner, but absolutely worth it. Packed on a Saturday night with good service and decor. The aush was delicious, a great start and worth the $13 because of the delicious lamb sauce. Highly flavorful kebab with great bread heightened the whole meal. Probably the best restaurant in this price range that I’ve eaten in California."
+  },
+  {
+    "name": "Al-Shamam",
+    "cuisine": "Arab (Gulf)",
+    "location": "Kuwait City, Kuwait, 22 December 2023 (Dinner)",
+    "price": "$",
+    "rating": "A-",
+    "foods": [
+      {
+        "name": "Shish Grill",
+        "rating": "A-"
+      },
+      {
+        "name": "Bread",
+        "rating": "B+"
+      },
+      {
+        "name": "Hummus",
+        "rating": "B"
+      }
+    ],
+    "review": "A packed local restaurant in the old souq. Very friendly staff who humored my Arabic but spoke enough English so that a patois worked. I amused the restaurant by saying “al-hayat sa3b,” or life is difficult. That aside, for less than 3 dinar you get 4 skewers of chicken, 2 things of bread, more hummus than could fit in the red sea, and about a Bornean rainforest worth of leafy vegetables. They asked if I wanted more free bread after finally stuffing the last down: I said no. Decent free tea as well. Juicy, flavorful chicken and great hummus, probably the best Arabic restaurant I’ve ever been to. Friendly staff, great, juicy food, and highly competitive prices in a convenient location: what’s not to like?"
+  },
+  {
+    "name": "Daily Driver",
+    "cuisine": "Bagel",
+    "location": "Dogpatch, San Francisco, CA, 26 May 2024 (Snack)",
+    "price": "$$",
+    "rating": "F",
+    "foods": [
+      {
+        "name": "Cream Cheese bagel",
+        "rating": "C+"
+      }
+    ],
+    "review": "$5 for the worst bagel I’ve had in my life. I am not sure how they put building insulation into cream cheese, maybe worth visiting for that emulsion alone. Tried to be fancy, ended up with a hard and flavorless product. Pass."
+  },
+  {
+    "name": "Fairmount",
+    "cuisine": "Bagel",
+    "location": "Montreal, QC, 27 July 2022 (Snack)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Cream Cheese bagel",
+        "rating": "C+"
+      }
+    ],
+    "review": "Good but horrifically overrated.  Not anywhere close to as good as New York bagel and mediocre service."
+  },
+  {
+    "name": "St. Viateur’s",
+    "cuisine": "Bagel",
+    "location": "Montreal, QC, 26 July 2022 (Snack)",
+    "price": "$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Bagel with Salmon and Capers",
+        "rating": "C"
+      }
+    ],
+    "review": "Ibid."
+  },
+  {
+    "name": "Boulangerie Eric Kayser",
+    "cuisine": "Bakery",
+    "location": "Dakar, Senegal, 16 March 2024 (Snack)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Croissant",
+        "rating": "A-"
+      },
+      {
+        "name": "Pain Au Chocolat",
+        "rating": "B+"
+      }
+    ],
+    "review": "Possibly the best croissant of my life. Bakeries have a large local contingent everywhere in Senegal, and so are probably the best bang-for-your-buck eateries. Really high quality, but very crowded. Get there early if you want to get your bread."
+  },
+  {
+    "name": "La Traditionnelle",
+    "cuisine": "Bakery",
+    "location": "Dakar, Senegal, 16 March 2024 (Snack)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Croissant",
+        "rating": "B+"
+      }
+    ],
+    "review": "Not as good as Eric Kayser, but still really solid. Maybe a bit butterier: I ate both at the same time. Still really recommended."
+  },
+  {
+    "name": "Bake House",
+    "cuisine": "Bakery",
+    "location": "Dambulla, Sri Lanka, 18 November 2023 (Snack)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Sweet Bun",
+        "rating": "C"
+      },
+      {
+        "name": "Gnanakatha",
+        "rating": "D-"
+      }
+    ],
+    "review": "Worst gnanakatha I’ve ever had, and I’ve had them from 4 places. That being said, it’s a cute, upscale bakery in a city without those, and the buns are quite good."
+  },
+  {
+    "name": "Mother Dough",
+    "cuisine": "Bakery",
+    "location": "Little India, Singapore, 24 September 2023 (Breakfast)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Croissant",
+        "rating": "B-"
+      }
+    ],
+    "review": "US-style trendy bakery in Little India. A high quality croissant that was not overtly a scam, and decent coffee from what I can recall. Absolutely packed, 0 sitting room at 10AM."
+  },
+  {
+    "name": "Antoine’s Cookie Shop",
+    "cuisine": "Bakery",
+    "location": "San Mateo, CA, 16 July 2023 (Snack)",
+    "price": "$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Dark Chocolate Cookie",
+        "rating": "D+"
+      }
+    ],
+    "review": "$2.10 is a reasonable price for a cookie, after eating I see why it didn’t conform to a Bay Area pricing scheme. Seems like the sort of free cookies you’d get at a Hackathon or academic conference, presented with the dignity of an artisanal good. How it got 4.8 stars is a mystery to me."
+  },
+  {
+    "name": "Simply Cake",
+    "cuisine": "Bakery",
+    "location": "San Mateo, CA, 10 June 2023 (Snack)",
+    "price": "$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Pork Bun",
+        "rating": "C"
+      }
+    ],
+    "review": "Decent Chinese style pork buns, $2.50 per. Could have been more flavorful, and the bun was strangely bready, but it overall worked and was filling."
+  },
+  {
+    "name": "Great American Cookies",
+    "cuisine": "Bakery",
+    "location": "Monterey, CA, 21 May 2023 (Snack)",
+    "price": "$",
+    "rating": "D-",
+    "foods": [
+      {
+        "name": "Macadamia Cookie",
+        "rating": "F"
+      }
+    ],
+    "review": "In the middle of a highly touristy Cannery Row Street, a kitschy bakery which I later learned has a justifiable 2 star rating on Google reviews stands. Expensive, mediocre cookies. I would say drive past, but I would not recommend getting within the vicinity of the restaurant to begin with."
+  },
+  {
+    "name": "Carmel Bakery",
+    "cuisine": "Bakery",
+    "location": "Carmel, CA, 21 May 2023 (Snack)",
+    "price": "$$",
+    "rating": "F",
+    "foods": [
+      {
+        "name": "Pretzel",
+        "rating": "F"
+      }
+    ],
+    "review": "After a long, beautiful, congested drive down the 17 mile drive (which cost us $11) and a fun aquarium visit ($60+48 parking ticket), Carmel also decided to nickel and dime us for access to medium high quality service. Except it failed on the latter front. A busy, small, restroomless restaurant that flipped the options on the tip menu to trick people into tipping 20% instead of 15% for picking up a baked good, the server didn't reheat the pretzels without prompt. The pretzels tasted like mildly warm bread with low-sodium salt. If New York is pretzel heaven, I could imagine that this is about as far away you can get from there in the continental United States."
+  },
+  {
+    "name": "Brett's",
+    "cuisine": "Barbeque",
+    "location": "Katy, TX, 22 April 2023 (Lunch)",
+    "price": "$$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Brisket",
+        "rating": "B"
+      },
+      {
+        "name": "Iced Tea",
+        "rating": "F"
+      }
+    ],
+    "review": "In the outskirts of the outskirts of Houston, by a blindingly bright field and mound of dirt, you will find a dismal strip mall. There, you will walk into Brett's BBQ Shop, which will immediately assault your eyes by how dark it is. The next assault is upon your dignity when the non-existent customer service asks for a tip on the credit card scanner. Then, your wallet gets hit: ½ pound brisket, ⅓ pound brisket, Coleslaw and iced tea was $40. The iced tea may have been the worst liquid I have ingested, and I have swam in country streams plenty of times. Unfortunately, however, the brisket was pretty decent, meaning I can't feel fully outraged about the experience. Drive by next time."
+  },
+  {
+    "name": "Jack Stack - Plaza",
+    "cuisine": "Barbeque",
+    "location": "Kansas City, MO, 13 April 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Burnt Ends",
+        "rating": "B"
+      },
+      {
+        "name": "Pulled Pork",
+        "rating": "B+"
+      },
+      {
+        "name": "Pork ribs",
+        "rating": "B+"
+      },
+      {
+        "name": "Coleslaw",
+        "rating": "B-"
+      },
+      {
+        "name": "Fries",
+        "rating": "B-"
+      }
+    ],
+    "review": "An excellent restaurant in the Plaza area. They were accommodating to me sitting alone, with extraordinarily fast service. I prefer KC BBQ to Texas style which may show in my ranking. Recommended by my AirBnB host."
+  },
+  {
+    "name": "Theodore’s",
+    "cuisine": "Barbeque",
+    "location": "Springfield, MA, 27 July 2022 (Dinner)",
+    "price": "$$$",
+    "rating": "B",
+    "foods": [],
+    "review": "St. Louis Ribs, B+ Cornbread, C+ Appreciated the wide variety of sauces alongside high quality meat.  Definitely beat the Houston barbeque that I had had, even though Theodore’s was slightly more expensive.  Primarily a bar, but outside seating is available."
+  },
+  {
+    "name": "Pinkerton’s",
+    "cuisine": "Barbeque",
+    "location": "Houston, TX, 19 August 2021 (Lunch)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Brisket",
+        "rating": "A-"
+      },
+      {
+        "name": "Southern Style Beans",
+        "rating": "B-"
+      },
+      {
+        "name": "Coleslaw",
+        "rating": "B-"
+      }
+    ],
+    "review": "A casual, no frills barbeque spot in the Greater Heights.  Service was quick and there was an excellent meat selection.  Public seating."
+  },
+  {
+    "name": "Pancake Cafe",
+    "cuisine": "Breakfast",
+    "location": "Bugis, Singapore, 23 September 2023 (Breakfast)",
+    "price": "$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Chocolate Banana Pancake",
+        "rating": "D+"
+      }
+    ],
+    "review": "This is every stereotype about American food, in a Japanese-inspired Singaporean breakfast spot. The pancakes are only partially cooked, so they are very doughy. That, combined with the military grade stickiness and sweetness of the chocolate meant the minor price increase to 8 pancakes was not worth it: I ate about half despite being hungry at the end. Rarely do I feel so disgusting after leaving a restaurant, seeing that Rasmus ate all his pancakes. I can only imagine how much worse it was for him."
+  },
+  {
+    "name": "The Food Peeps",
+    "cuisine": "Breakfast",
+    "location": "Chinatown, Singapore, 22 September 2023 (Breakfast)",
+    "price": "$$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Waffle",
+        "rating": "B"
+      }
+    ],
+    "review": "A decent breakfast place catering to the foreigner crowd in Chinatown. This was where we went immediately after waking up from sleeping on the Changi airport rug for 4 hours, so realizing I was in Singapore mostly took place lazily staring at the school groups touring the Buddhist temple ahead of us. While they were appreciating Chinese culture, I was enlightened in the intricacies of an American waffle. Expensive, but if you are craving a Western breakfast it was good. You may wonder why there are so many Western breakfast places we ate at in Singapore, stay in Hong Kong for a month and you will no longer wonder."
+  },
+  {
+    "name": "Hi Sweetie Tea",
+    "cuisine": "Bubble Tea",
+    "location": "Chinatown, San Francisco, CA, 25 May 2024 (Snack)",
+    "price": "$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Coffee Milk Tea",
+        "rating": "C"
+      }
+    ],
+    "review": "Bizzare, cutesy coffee shop which was mildly repulsive to me. Loud anime music playing as well, did not appreciate that (neither did the 60 year old worker seemingly). That doesn’t affect the rating, but should be known. I got the least bubble-tea like thing on the menu. Solid flavor, very sweet, too expensive. I got a pink straw because I am confident in my masculinity."
+  },
+  {
+    "name": "Sunright Tea Studio",
+    "cuisine": "Bubble Tea",
+    "location": "Burlingame, CA, 18 June 2023 (Snack)",
+    "price": "$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Sunright Milk Tea",
+        "rating": "D+"
+      }
+    ],
+    "review": "Mediocre, sugary milk tea. Does not come with boba, despite the description, unless you pay more, which I didn’t. Supposedly ceylon, the actual tea quality is not the star of the show. I’m not sure there was a star of the show to begin with, to be frank."
+  },
+  {
+    "name": "By Me Bubble Tea",
+    "cuisine": "Bubble Tea",
+    "location": "San Francisco, CA, 26 May 2023 (Snack)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Taiwanese Classic Tea",
+        "rating": "B+"
+      }
+    ],
+    "review": "Cheap, only $4.75 for a medium. Good flavor with less sweetness than normal and an actual good tea flavor as well. Ordered without bubbles. Ridiculously fast: got the tea less than a minute after ordering. In a fun alleyway in the middle of SF Chinatown, went with roommates after accidentally getting off at the wrong MUNI station."
+  },
+  {
+    "name": "TP Tea",
+    "cuisine": "Bubble Tea",
+    "location": "San Mateo, CA, 20 May 2023 (Snack)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Taiwanese Classic Tea",
+        "rating": "B-"
+      }
+    ],
+    "review": "Good bubble tea with very efficient online ordering. Wait of 20 minutes dragged on, and the grass jelly was not enough to absolve the $8 price tag for a simple beverage. Probably the best bubble tea I’ve had, but that’s not saying much when you are paying for half a luxury watch just to have it."
+  },
+  {
+    "name": "Pot & Pan",
+    "cuisine": "Cambodian",
+    "location": "Siem Reap, Cambodia, 16 December 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Fish Amok",
+        "rating": "B"
+      }
+    ],
+    "review": "A popular little Cambodian restaurant in the center. Great flavor on the amok, the fish was very good and the vegetables were in good proportion to the fish. For $4.5, though, it is a small portion. Rice is served too, so it’s not underwhelming, but you won’t be stuffed either."
+  },
+  {
+    "name": "(A stand I believe is) Mrs. Chantrea Canteen",
+    "cuisine": "Cambodian",
+    "location": "Krong Siem Reap, Cambodia, 16 December 2023 (Lunch)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Fried Noodle",
+        "rating": "B+"
+      }
+    ],
+    "review": "My tuk-tuk took me to an overrated, overpriced tourist restaurant next to Angkor temples. I walked to a stand close by “Banana Tree,” and saw that there were plenty of chickens walking around. Emboldened by clearly competent food safety, I heard that the noodles were $2: for the rural areas that is amazing. Then I saw a picture of cup noodles on the placard and lowered my expectations. However, despite the noodles themselves likely being cup noodles, they are prepared with tons of pork, sauce, and vegetables that are fresh. Legitimately the best non-Indian dish I’ve had here. Delicious, great portions, and, as you can tell, non-pretentious."
+  },
+  {
+    "name": "My Little Cafe",
+    "cuisine": "Cambodian",
+    "location": "Siem Reap, Cambodia, 15 December 2023 (Dinner)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Mango Lassi",
+        "rating": "C-"
+      },
+      {
+        "name": "Beef Lok Lak",
+        "rating": "B+"
+      }
+    ],
+    "review": "A reasonable cafe in Siem Reap, with a menu the size of the old Testament (or one half of a cheesecake factory dessert list). Friendly service in this small place which fits half locals and half tourists who wander off of the white person ghetto and into the actual city, and for $3 for a real meal it is very affordable in this tourist capital. The lassi was not recommended, but that is Indian: not counting that against them. Lok Lak was quite good, flavorful beef and egg. Not mind-blowing, but a good, cheap place, with Western fare if you are traveling with an insufferable companion too."
+  },
+  {
+    "name": "Neak Mday",
+    "cuisine": "Cambodian",
+    "location": "Phnom Penh, Cambodia, 14 December 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Spring Rolls",
+        "rating": "D"
+      },
+      {
+        "name": "Beef",
+        "rating": "C-"
+      }
+    ],
+    "review": "Trying to be an upscale Cambodian restaurant in a hotel, Neak Mday attracted me and one other guy in a button down. A deserted restaurant, the prices proved why: $15 here is extortionate. The food was well presented, but with vegetable garnishes that were not supposed to be eaten, a pet peeve of mine. The spring rolls were not too flavorful with a chewy texture and the beef was good but a tiny portion, the rest being leaves of lettuce. Not recommended."
+  },
+  {
+    "name": "Kengkong Restaurant",
+    "cuisine": "Cambodian",
+    "location": "Phnom Penh, Cambodia, 14 December 2023 (Lunch)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Beef Noodle Stew",
+        "rating": "C"
+      }
+    ],
+    "review": "Decent, albeit touristy, cheap Cambodian eats in PP. The beef stew did not have a ton of meat, but the sides added a lot to the flavor (add-your-own lemongrass, lime, etc.). Good service and a nice, neighborhood vibe."
+  },
+  {
+    "name": "Redwood Bistro",
+    "cuisine": "Chinese (American)",
+    "location": "Redwood City, CA, 06 August 2023 (Dinner)",
+    "price": "$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Pork Potstickers",
+        "rating": "C"
+      },
+      {
+        "name": "Redwood City Chicken",
+        "rating": "D"
+      }
+    ],
+    "review": "After Jeffrey led us to a restaurant that did not accept dine-in at 8 and then led us astray, he took us to this American Chinese restaurant. There were forks on plates: a bad sign in the Bay. The potstickers were okay but a bit too thick. The redwood city chicken was just spicy but relatively flavorless. Highly mediocre, the only highlight was price."
+  },
+  {
+    "name": "Bao",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "Kuwait City, Kuwait, 22 December 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Chicken Bao",
+        "rating": "B+"
+      },
+      {
+        "name": "Brisket Bao",
+        "rating": "C+"
+      }
+    ],
+    "review": "An inventive, quirky restaurant serving imaginative Chinese buns. The chicken bao was absolutely delicious, with a good sauce and crunchy fried base. The brisket was slightly overpowered by the sauce. However, the restaurant, as it stands, is very overpriced, around 5 dinar for 10 bites is criminal. That’s ½ dinar per bite. I should not go into debt for a full meal."
+  },
+  {
+    "name": "Loong Seng Buns",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "Tuaran, Sabah, Malaysia, 04 November 2023 (Snack)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "BBQ Pork Bun",
+        "rating": "B"
+      },
+      {
+        "name": "Pork Bun (different)",
+        "rating": "B-"
+      }
+    ],
+    "review": "Good pork (!!!!) bun in Malaysia. Fun speaking Mandarin to the server. Cheap, and similar flavor to those in Hong Kong. Good snack in the very Chinese town."
+  },
+  {
+    "name": "Yehuoshao",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "Mong Kok, Hong Kong, 9 September 2023 (Snack)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Xinjiang Lamb",
+        "rating": "C"
+      }
+    ],
+    "review": "Mediocre street food kioskin Mong Kok. Expensive for one skewer of lamb as well, not recommended. Still happy I tried."
+  },
+  {
+    "name": "Tong Kee Bao Dim",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "Tsim Sha Tsui, Hong Kong, 7 September 2023 (Lunch)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Pork Bun",
+        "rating": "C+"
+      }
+    ],
+    "review": "$8 for a gigantic bao is hard to say no to: 3 is easily enough to fill you up. Got kicked out by Pacific Wong in an adjacent coffee shop, but even cold they were worth their while. Just imagine shockingly affordable, solid baos."
+  },
+  {
+    "name": "Mak Man Kee Noodle Shop",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "Jordan, Hong Kong, 31 August 2023 (Dinner)",
+    "price": "$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Wonton Soup",
+        "rating": "C-"
+      },
+      {
+        "name": "Pork Noodle",
+        "rating": "C-"
+      }
+    ],
+    "review": "Recommended in the Michelin guide, so went with other exchangers. Was surprised that something this highly mediocre would be in the guide, I would dare say highly below average food. Price was amazing, non-existent service which normally wouldn’t bother me, but the food wasn’t great. Seafood dumplings were the highlight in a low-light environment: the noodles even smelled a bit off to me and were impossible to chew. The meat wasn’t delicious either. Shame on you, Mr. Tire."
+  },
+  {
+    "name": "Penang Hainanese Chicken Fried Rice",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "Kowloon Bay, Hong Kong, 29 August 2023 (Dinner)",
+    "price": "$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Chicken Rice",
+        "rating": "D+"
+      }
+    ],
+    "review": "Went to this restaurant by Ikea, after the gauwunsangs wanted to get Ikea meatballs. This is what I bumped into. The worker was very friendly, being curious about my 5 words of Cantonese and sitting down with me. She also gave me a larger portion. Really homely place, and I appreciated the kindness and welcoming, especially on the first day. The chicken and soup were highly mediocre: Alex Janssen does not grant sympathy grades. If you have ever cooked a chicken with passable texture, you could open this restaurant."
+  },
+  {
+    "name": "Dough Zone",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "Seattle, WA, 29 July 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Q Bun",
+        "rating": "B+"
+      },
+      {
+        "name": "Xiaolongbao",
+        "rating": "C-"
+      },
+      {
+        "name": "Scallion Pancake",
+        "rating": "D+"
+      }
+    ],
+    "review": "A (chain) restaurant that was our backup to Din Tai Fong which had over an hour wait. Really good and flavorful buns, but mediocre soup dumplings and scallion pancakes soured the overall experience. Highly affordable though, the three dishes came out to about $22."
+  },
+  {
+    "name": "Town of Dumpling",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "San Mateo, CA, 1 July 2023 (Lunch)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Pork Dumplings with Cabbage",
+        "rating": "B"
+      }
+    ],
+    "review": "You know a dumpling place is good when they have the black vinegar on the side. Complete hole in the wall in an unwalkable neighborhood that I walked to, the food is extraordinarily priced. $12 for 12 dumplings is practically illegal here. Standard steamed dumplings, but good flavor. Non-existent service, but at this price point who cares?"
+  },
+  {
+    "name": "Noodleosophy",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "San Mateo, CA, 16 June 2023 (Dinner)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Cumin Lamb Noodles",
+        "rating": "C-"
+      }
+    ],
+    "review": "A random hole in the wall restaurant I went to with James and twin after Taishoken was too busy. Not the cleanest and laconic, slow service. Noodle portion was decent, but not too flavorful. Spicy was not spicy, and the noodle quality was not particularly high. Not unaffordable, though."
+  },
+  {
+    "name": "Fen Guilin Rice Noodles",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "San Mateo, CA, 27 May 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Guilin Noodles w/ Brisket",
+        "rating": "Pork C+"
+      }
+    ],
+    "review": "Maybe the fact that I have had 4 noodle soups in a week is biasing this review, but the impromptu choice after wandering out of Foodieland to eat here led to the least impressive, albeit still admirable of the four. The meat quality was quite good and generous portions, and overall prices were reasonable. Still, the broth was very bland, and so the soup and noodles were less delicious to eat. Good food for the price, but not as flavorful as I would have hoped. Service was sparse but fine."
+  },
+  {
+    "name": "Bund Shanghai",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "San Francisco, CA, 26 May 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Xiaolongbao",
+        "rating": "B+"
+      },
+      {
+        "name": "Laziji (Spicy Chicken)",
+        "rating": "B+"
+      },
+      {
+        "name": "Dan Dan Mian",
+        "rating": "B"
+      },
+      {
+        "name": "Dong Po Rou (Pork Belly)",
+        "rating": "B+"
+      },
+      {
+        "name": "Bean Paste Desert",
+        "rating": "B"
+      }
+    ],
+    "review": "Fun Shanghainese restaurant in SF Chinatown. Spoke Mandarin with waiters which was nice and went with enough roommates so sharing food was productive. Not the quickest but that was not a problem. Reasonably busy for 5 PM on a Friday, but not overflowing. Xiaolongbao were good, if a bit small with less soup than expected. Some of the better chicken and bean paste I’ve had. Dan dan mian was decent but impossible to pick up. Braised pork belly was delicious (don’t know the difference vis-a-vis Hong shao rou). Overall a very fun experience with high quality food."
+  },
+  {
+    "name": "Duck N Bao",
+    "cuisine": "Chinese (Miscellaneous)",
+    "location": "Houston, TX, 21 April 2033 (Dinner)",
+    "price": "$$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Peking Duck",
+        "rating": "A-"
+      },
+      {
+        "name": "Pork Soup Dumplings",
+        "rating": "A-"
+      }
+    ],
+    "review": "Despite the great expense and mildly aggressive service both times I have been here, this may be my favorite Houston spot to eat at when someone gainfully employed is paying for me. Probably the best duck of my life with good sides and sauce, and soup dumplings that were only surpassed by Flushing New York mean that this is a welcome break from Texas barbeque. Don't pay for this yourself, but enjoy it if you're there."
+  },
+  {
+    "name": "Telescope Cafe",
+    "cuisine": "Coffee",
+    "location": "SoMa, San Francisco, CA,  7 December 2025 (Snack)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Flat White",
+        "rating": "B-"
+      }
+    ],
+    "review": "Beautiful decor in probably the trendiest SF cafe I’ve been to, very industrial. They roast their own beans which I have bought before and been underwhelmed by. The coffee quality will not knock your socks off, but it’s good as a neighborhood staple, and the location is great for working, a date night, or people watching."
+  },
+  {
+    "name": "Twisted St. Cafe",
+    "cuisine": "Coffee",
+    "location": "Marina, San Francisco, CA,  26 May 2024 (Snack)",
+    "price": "$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "C-"
+      }
+    ],
+    "review": "Fine, forgettable, one-note latte that does its job. It hits the price floor of $5 which is legally mandated to never go under in the state of California. Mostly focused on my conversation there. SF has greater spots, go to one of them instead."
+  },
+  {
+    "name": "Saint Frank Cafe",
+    "cuisine": "Coffee",
+    "location": "Embarcadero, San Francisco, CA,  25 May 2024 (Snack)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Iced Mocha",
+        "rating": "C+"
+      }
+    ],
+    "review": "Well executed mocha in a great location. I mainly needed to use the restroom which is why I went here in the first place, but it turns out that the mandated purchase wasn’t that onerous either. Beautiful spot with mostly people doing remote work, which is my absolute favorite atmosphere. Anyone who does more than an hour of work in a coffee shop with music at my future company is getting furloughed first."
+  },
+  {
+    "name": "Sana’a Cafe",
+    "cuisine": "Coffee",
+    "location": "Financial District, San Francisco, CA,  25 May 2024 (Snack)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Sana’a Latte",
+        "rating": "B-"
+      }
+    ],
+    "review": "Definitely an interesting cafe. Yemen inspired, as my astute readership (yes, that means you) would have already surmised by the name including the capital of Yemen. Very nice service, good ambiance. The coffee is heavily spiced, almost taking inspiration from chai. Not something I’d want often, but the sweetness and spice were unique and well executed. Try it."
+  },
+  {
+    "name": "Piccino Coffee",
+    "cuisine": "Coffee",
+    "location": "Dogpatch, San Francisco, CA,  25 May 2024 (Snack)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "B+"
+      },
+      {
+        "name": "Croissant",
+        "rating": "C+"
+      }
+    ],
+    "review": "A solid neighborhood coffee place. $5 which is good for here. Decent size, reasonably complex flavor. No ambiance, so you’ll likely want to take it and walk."
+  },
+  {
+    "name": "Catalina Coffee",
+    "cuisine": "Coffee",
+    "location": "Houston, TX,  26 March 2024 (Snack)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Iced Coffee",
+        "rating": "B+"
+      },
+      {
+        "name": "Cookie",
+        "rating": "B+"
+      }
+    ],
+    "review": "A really solid, trendy coffee place. Latte only $4.5, really cheap for the area. Iced coffee was black, an interesting, fruity coffee which was a very bold choice but was quite drinkable. High quality cookie for $2 as well. Got beans there, but would return for just the cafe service as well: quick, trendy, and good quality."
+  },
+  {
+    "name": "Mood Cafe and Restaurant",
+    "cuisine": "Coffee",
+    "location": "Dakar, Senegal,  12 March 2024 (Snack)",
+    "price": "$$$",
+    "rating": "D-",
+    "foods": [
+      {
+        "name": "Espresso",
+        "rating": "D-"
+      }
+    ],
+    "review": "A coffee shop owned by some French expats in Dakar, in a rich area by the sea. They were delighted to hear about my solo-travel adventures and were really nice. Does that save them? No. They made a tiny espresso shot and charged around USD 4 (CFA 2500). Friendship, in my mind, should not come with a $3 surcharge. Do not recommend."
+  },
+  {
+    "name": "Delan Coffee",
+    "cuisine": "Coffee",
+    "location": "Kuwait City, Kuwait, 22 December 2023 (Snack)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "C"
+      },
+      {
+        "name": "Croissant",
+        "rating": "C+"
+      }
+    ],
+    "review": "A decent, trendy coffee shop at reasonable prices in downtown KC. Latte was good but not memorable and the croissant was quite large. However, I thought Will cafe was strictly better, cheaper, and it’s nearby."
+  },
+  {
+    "name": "Will Cafe",
+    "cuisine": "Coffee",
+    "location": "Kuwait City, Kuwait, 22 December 2023 (Snack)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "B+"
+      }
+    ],
+    "review": "Really good latte by the Persian Gulf. Who knew! The Ugandan employee was extraordinarily nice and chatty with me and other customers. Good depth to the latte: more emphasis on coffee flavor than others I’ve had recently. Reccomended."
+  },
+  {
+    "name": "Busaba Cafe & Bake Lab",
+    "cuisine": "Coffee",
+    "location": "Ayutthaya, Thailand, 21 December 2023 (Snack)",
+    "price": "$$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "D"
+      }
+    ],
+    "review": "Overpriced, relatively bad latte in Ayutthaya. Apparently famous for their donuts, I refrained from purchasing them as they were the size of a particularly small rat. Lots of space at least."
+  },
+  {
+    "name": "Café Velodome",
+    "cuisine": "Coffee",
+    "location": "Phra Nakhon, Bangkok, Thailand, 19 December 2023 (Snack)",
+    "price": "$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Iced Mocha",
+        "rating": "B"
+      },
+      {
+        "name": "Croissant",
+        "rating": "B+"
+      }
+    ],
+    "review": "A good place for breakfast food and serviceable coffee. A trendy place that, as you might guess, is very bicycle oriented."
+  },
+  {
+    "name": "RMA Cafe",
+    "cuisine": "Coffee",
+    "location": "Sukhumvit, Bangkok, Thailand, 19 December 2023 (Snack)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "C-"
+      }
+    ],
+    "review": "I spilled half my coffee and cleaned it up myself (they offered to help, I was being polite, dear reader). I don’t regret spilling it that much. Mediocre, overly milky latte. A place with a lot of foreigners working on laptops. Not my scene."
+  },
+  {
+    "name": "Sara J Cafe",
+    "cuisine": "Coffee",
+    "location": "Sukhumvit, Bangkok, Thailand, 18 December 2023 (Snack)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "B-"
+      },
+      {
+        "name": "Croissant",
+        "rating": "B"
+      }
+    ],
+    "review": "A decent, trendy cafe in a leafy neighborhood. Amazing service and quick coffees. Not transcendent quality, but the croissant made up for it. A good local haunt in the area."
+  },
+  {
+    "name": "Nuk Cafe",
+    "cuisine": "Coffee",
+    "location": "Phnom Penh. Cambodia, 14 December 2023 (Snack)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "C-"
+      }
+    ],
+    "review": "The fact that you could choose the roast level of the coffee gave me hope. It was well reviewed, too! However, it turns out that this was generic, low effort latte. Good service and nice place, but not my favorite cup, especially after two shockingly good contenders."
+  },
+  {
+    "name": "Brown Coffee",
+    "cuisine": "Coffee",
+    "location": "Phnom Penh/Siem Reap. Cambodia, 14, 15 December 2023 (Snack)",
+    "price": "$$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "B-"
+      },
+      {
+        "name": "Croissant",
+        "rating": "A-"
+      },
+      {
+        "name": "Mocha",
+        "rating": "C"
+      },
+      {
+        "name": "Chocolate Croissant",
+        "rating": "B"
+      }
+    ],
+    "review": "A tourist trap coffee shop. I see why. Two stories, immaculate design, and responsive service. The croissant was buttery and warm, the best I’ve had this year, and the latte was nothing to scoff at either. Decently high prices for Cambodian standards, but still affordable and, if you, like me, need white person coffee occasionally this is the place to get it."
+  },
+  {
+    "name": "ATM + Coffee",
+    "cuisine": "Coffee",
+    "location": "Phnom Penh. Cambodia, 14 December 2023 (Snack)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "B"
+      }
+    ],
+    "review": "I don’t think this is the name of the place, and it does not exist on Google maps. I was morbidly curious what sort of coffee a place advertising ATM first would serve. Shockingly, shockingly high quality latte, it turns out. Well, maybe not transcendent, but for $2 from an ATM I would have been happy with it for $6 in CA. Free bread too, although that might have been because the workers were confused and amused by my presence."
+  },
+  {
+    "name": "Caroma Elite Speciality Coffee",
+    "cuisine": "Coffee",
+    "location": "Colombo. Sri Lanka, 19 November 2023 (Snack)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Iced Coffee",
+        "rating": "D+"
+      }
+    ],
+    "review": "Apparently the floating market was a tourist trap for domestic tourists too. I was shocked to not only see white people there. On that market, there was this coffee shop which is exceptionally well rated. Service is great, people were nice and chatted. The waiter “checked to make sure I got the best possible cup,” possibly because no one else was there and he had nothing better to do. Highly forgettable coffee, by no means good. Great service, beautiful location, subpar beans."
+  },
+  {
+    "name": "Java Coffee",
+    "cuisine": "Coffee",
+    "location": "Kandy. Sri Lanka, 17 November 2023 (Snack)",
+    "price": "$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "D+"
+      }
+    ],
+    "review": "Forgettable, mildly expensive latte in Kandy. So forgettable that, on the day of drinking it, I don’t remember anything other than a vague negative impression. Apparently it’s a chain."
+  },
+  {
+    "name": "Barista World Trade Center",
+    "cuisine": "Coffee",
+    "location": "Colombo. Sri Lanka, 15/16 November 2023 (Snack)",
+    "price": "$$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "C-"
+      }
+    ],
+    "review": "Passable white person coffee in a building with a lot of important people with suits. Okay prices, decent vibe sitting there and okay flavor. Honestly, just okay, but sometimes that’s enough."
+  },
+  {
+    "name": "Nook Cafe",
+    "cuisine": "Coffee",
+    "location": "Kota Kinabalu, Sabah, Malaysia, 9 November 2023 (Snack)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Churros",
+        "rating": "C+"
+      },
+      {
+        "name": "Latte",
+        "rating": "B-"
+      }
+    ],
+    "review": "Decent prices in the middle of nowhere in KK. If moths like the light, white people like here, so if you want to see obnoxious Scandinavians in KK you know the place. Latte was a standard good one here, with the milk on bottom and not foamy, and churros were not exceptional but serviceable. Has actually working bathrooms, which is pretty wild here."
+  },
+  {
+    "name": "Coffee Bean Tea Leaf",
+    "cuisine": "Coffee",
+    "location": "Bandar Seri Begawan, Brunei, 05 November 2023 (Snack)",
+    "price": "$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Croissant",
+        "rating": "F"
+      },
+      {
+        "name": "Mocha",
+        "rating": "C-"
+      }
+    ],
+    "review": "This was the whitest place I’ve seen in Brunei, already a bad start. Was almost identical to an autochthonous Starbucks. The mocha was decent: as a milkshake. Hardly any coffee flavor, but if you come in wanting that it is decent. It was so sugary I felt the need to run after. The croissant was on par with Hotel Diplomat in Prague: inedible. Not recommended."
+  },
+  {
+    "name": "Macchiato Cafe",
+    "cuisine": "Coffee",
+    "location": "Bandar Seri Begawan, Brunei, 05 November 2023 (Snack)",
+    "price": "$$",
+    "rating": "B",
+    "foods": [],
+    "review": "Latte, B+ Cake, B- A trendy cafe in the Bandar suburbs up North. Was a good place to refill before walking an hour on a highway to the city center. Very American style cafe, with a deep latte and good dessert selection. This is where I bought Jan his birthday cake, which he seemingly appreciated as well (I ordered a different, cheaper one)."
+  },
+  {
+    "name": "Espresso @ A9 Cafe",
+    "cuisine": "Coffee",
+    "location": "Bangar, Brunei, 05 November 2023 (Snack)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Capuccino",
+        "rating": "C+"
+      }
+    ],
+    "review": "Held up by its ultra-remote location. Trendy third wave coffee in the closest thing Brunei, a tiny country of 400,000 people, has to remote nothingness. Good depth, and they played “El Condor Pasa” which instantly bumps it up in my ratings."
+  },
+  {
+    "name": "Convene House 九聚",
+    "cuisine": "Coffee",
+    "location": "Kota Kinabalu, Sabah, Malaysia, 04/05/07/08 November 2023 (Snack)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Latte",
+        "rating": "A-"
+      },
+      {
+        "name": "Baked Cookie",
+        "rating": "B"
+      }
+    ],
+    "review": "Shockingly high quality coffee in KK. Low profile, looks like a dentist office and is not famous online. What it lacks in presence it makes up in RM 11 latte which would sell for $7 in the Bay. Nice vibe, nice people, and good depth of coffee makes it an Alex recommendation, and where we went when hotel chargers failed.."
+  },
+  {
+    "name": "Pregio",
+    "cuisine": "Coffee",
+    "location": "Kota Kinabalu, Sabah, Malaysia, 04 November 2023 (Snack)",
+    "price": "$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Latte",
+        "rating": "B-"
+      }
+    ],
+    "review": "Passable coffee in shell plaza, where I briefly lost Jan to food poisoning. While waiting, I grabbed a latte. With better options, it makes sense to go elsewhere, but it is still decent for the price and location."
+  },
+  {
+    "name": "N1 Coffee and Co",
+    "cuisine": "Coffee",
+    "location": "Tsim Sha Tsui, Hong Kong, 15 October 2023 (Snack)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Fruity Latte",
+        "rating": "C+"
+      }
+    ],
+    "review": "A decent, highly popular cafe in TST. The latte was strongly fruity, tasted like a light roast Ethiopian if I had to guess. However, $50 for a tiny coffee was not satisfying. With good service, serviceable coffee, and, according to Google reviews, good food I’d be willing to give it another shot, but it’s not a great value proposition."
+  },
+  {
+    "name": "Browny Cafe",
+    "cuisine": "Coffee",
+    "location": "Tsuen Wan, Hong Kong, 13 October 2023 (Snack)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Latte",
+        "rating": "B+"
+      }
+    ],
+    "review": "This is what I am talking about! Tsuen Wan is in the middle of nowhere, and this is in a back alley in the middle of Tsuen Wan, so this is about the geographic center of nowhere in Hong Kong. Somehow, the shop is still cramped. The books make for great decor, and this was the friendliest service I’ve seen by far in HK. Chatty, with customers pouring in at 3PM to talk to each other or work. The latte was the same quality I’d expect for 7US in America and be happy with: it was $36 HK (about $4.6). Wow. Reasonable prices, great vibe, and quirky enough location make this a proud Alex recommendation. If I ever take the 100 minute train ride again I’ll be back."
+  },
+  {
+    "name": "Red Rock Coffee",
+    "cuisine": "Coffee",
+    "location": "Mountain View, CA, 06 August 2023 (Snack)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Latte",
+        "rating": "B"
+      }
+    ],
+    "review": "This was a random cafe I found after missing a Caltrain. I found a hidden gem: amazing vibe with good decor, a lot of people working and hanging out, and $6 for a 16oz latte: fair for the area. Good flavor if not incredibly deep. Recommended in Mountain View."
+  },
+  {
+    "name": "Fresh Flours",
+    "cuisine": "Coffee",
+    "location": "Seattle, WA, 29 July 2023 (Snack)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Latte",
+        "rating": "B"
+      },
+      {
+        "name": "Chocolate Croissant",
+        "rating": "C+"
+      }
+    ],
+    "review": "Okay pastries and high quality coffee next to The Station. Decently more expensive than The Station, and not for higher quality in my opinion. Come here for a large selection of baked goods, but for coffee it has a very traditional feeling. Good flavor, but not exceptionally rich."
+  },
+  {
+    "name": "The Station",
+    "cuisine": "Coffee",
+    "location": "Seattle, WA, 28 July 2023 (Snack)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Latte",
+        "rating": "B"
+      },
+      {
+        "name": "Blueberry Scone",
+        "rating": "B-"
+      }
+    ],
+    "review": "Possibly the closest I’ve been to giving the forbidden grade. An immaculate, cool vibe in a residential area of Seattle which I am staying in (Beacon Hill). Interesting, punky decor and a perpetually busy vibe. Amazing prices: the largest coffee is $5.5 for something high quality. Pastries are $3.5 and good (sandwiches are apparently worse). Fun, good food, and you don’t break the bank: go here if you’re in Beacon Hill."
+  },
+  {
+    "name": "Kaizen & Coffee",
+    "cuisine": "Coffee",
+    "location": "San Mateo, CA, 16 June 2023 (Snack)",
+    "price": "$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Latte",
+        "rating": "C-"
+      }
+    ],
+    "review": "Another expensive coffee place. The latte was close to being very good, but lacked any depth to the flavor, making it relatively mediocre. Quite trendy, but I don’t think it was backed up by pure coffee quality: perhaps sugarier drinks would have been more delicious."
+  },
+  {
+    "name": "Fifth Street Coffee Roasting Co.",
+    "cuisine": "Coffee",
+    "location": "Gilroy, CA, 21 May 2023 (Snack)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Sidama Pour Over",
+        "rating": "B+"
+      }
+    ],
+    "review": "Really good third wave coffee in the middle of garlic town. Probably the best black coffee I've had, this is what I want to make at home. Coffee was very soft in flavor, maybe a tad watery and $5.50. Still, excellent location, busy and vibrant atmosphere."
+  },
+  {
+    "name": "3 Bees Coffee",
+    "cuisine": "Coffee",
+    "location": "San Mateo, CA, 20 May 2023 (Snack)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Iced Latte",
+        "rating": "B"
+      }
+    ],
+    "review": "Perfectly serviceable $5 latte, but a bit on the expensive side. Laconic service as well, with no ambience whatsoever."
+  },
+  {
+    "name": "Mercantile",
+    "cuisine": "Coffee",
+    "location": "Houston, TX, 19 February 2023 (Snack)",
+    "price": "$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Quadruple Shot Espresso",
+        "rating": "C-"
+      }
+    ],
+    "review": "Tasted like what I could make with an aeropress, and not too cheap either. At the same time, the space was nice enough for me not to mind, too much, that is."
+  },
+  {
+    "name": "Tim Horton’s",
+    "cuisine": "Coffee",
+    "location": "St-Jean-sur-Richelieu, QC, 27 July 2022 (Snack)",
+    "price": "$",
+    "rating": "F",
+    "foods": [
+      {
+        "name": "Black Coffee",
+        "rating": "F"
+      }
+    ],
+    "review": "Worst coffee I’ve ever had.  Tasteless, hot, and slow service."
+  },
+  {
+    "name": "Cuban Kitchen",
+    "cuisine": "Cuban",
+    "location": "San Mateo, CA, 11 June 2023 (Lunch)",
+    "price": "$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Vaca Frita",
+        "rating": "B+"
+      }
+    ],
+    "review": "Amazing, amazing, amazing Cuban food. Absolutely delicious fried beef with enough citrus flavor to add depth, with great plantains and beans on the side. $17 for this was a steal. Service was slow, but the online ordering system was seamless, adding everyone into a group with no friction. Never got the sauce I ordered, but the quality of food was worth it. Without those hiccups, it would be a contender for B+."
+  },
+  {
+    "name": "Song Palace",
+    "cuisine": "Dim Sum",
+    "location": "Colombo. Sri Lanka, 16 November 2023 (Dinner)",
+    "price": "$$$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Char Siu Pork BBQ Bun",
+        "rating": "B+"
+      },
+      {
+        "name": "Pork Belly",
+        "rating": "A-"
+      },
+      {
+        "name": "Piglet Bun",
+        "rating": "B-"
+      },
+      {
+        "name": "Xiaolongbao",
+        "rating": "C"
+      }
+    ],
+    "review": "This was in the Shangri-La hotel, a famous luxury hotel in Colombo that was the victim of ISIS suicide bombs in 2019. History aside, this is about as expensive of a meal as you can find in Colombo, costing about $20. It was worth it. Honestly, I can say that this was on par with any dim sum I’ve had in Hong Kong. A bit unorthodox, with the pork belly coming with mustard, it took risks that generally heightened the flavor a lot. Char Siu bun was well executed, and the piglet was adorable (with a pig face drawn on) if a bit worse. Xiaolongbao was a bit of a disappointment, with small dumplings leading to little soup, but I deserve that ordering Shanghainese dumplings in a dim sum place. Highly recommended if you can splurge, or, by Bay Area standards, afford a Subway sandwich."
+  },
+  {
+    "name": "Phongmun Restaurant",
+    "cuisine": "Dim Sum",
+    "location": "Bandar Seri Begawan, Brunei, 25 October 2023 (Dinner)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Siu Mei",
+        "rating": "D+"
+      },
+      {
+        "name": "Har Gaw",
+        "rating": "C+"
+      },
+      {
+        "name": "Pork Belly",
+        "rating": "C"
+      }
+    ],
+    "review": "Mediocre dim sum in Brunei. Decent service and good price, but it is on par with worse touristy dim sum in HK. Har Gaw was good, but the pork buns were not flavorful, bread in the sweet pork bun dry, and siu mei strangely hard. At the same time, you can eat pork in Brunei, which is surprising."
+  },
+  {
+    "name": "One Dim Sum",
+    "cuisine": "Dim Sum",
+    "location": "Mong Kok, Hong Kong, 25 October 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Siu Mei",
+        "rating": "C+"
+      }
+    ],
+    "review": "Highly fair dimsum in the heart of Mong Kok. A mostly foreign clientele spooked me, but I guess it was famous for a reason. Almost comparable to good Flushing dim sum, but flavor was still very solid. Nothing too out of left field or brilliant, just simple dishes done well."
+  },
+  {
+    "name": "Hou hou (好好）Dim Sum",
+    "cuisine": "Dim Sum",
+    "location": "Tsim Sha Tsui, Hong Kong, 31 August 2023 (Lunch)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Sui Mai",
+        "rating": "B+"
+      },
+      {
+        "name": "Chicken Feet",
+        "rating": "C-"
+      },
+      {
+        "name": "Duck Dumplings",
+        "rating": "D"
+      }
+    ],
+    "review": "Mediocre dimsum in a fun place. Met up with a group of German students who wanted to visit Kowloon, was a spontaneous fun trip. Service wasn’t anything special. Find it funny that US dim-sum uses the older, cart pushing style: modern Hong Kong prefers QR codes apparently."
+  },
+  {
+    "name": "Cruel Donuts",
+    "cuisine": "Donuts",
+    "location": "San Mateo, CA, 1 July 2023 (Snack)",
+    "price": "$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Cruel Donut (Chocolate glaze, vanilla base)",
+        "rating": "B-"
+      }
+    ],
+    "review": "Good donuts in the middle of no-where. Ok value, cheaper coffee which I did not try. The donut was quite sticky, but had a good, not-too-sweet flavor. I’m not normally a donut fan, but this was serviceable."
+  },
+  {
+    "name": "Dumpling Time",
+    "cuisine": "Dumpling",
+    "location": "Dogpatch, San Francisco, CA, 27 May 2024 (Dinner)",
+    "price": "$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Char Siu Pork Bun",
+        "rating": "C+"
+      },
+      {
+        "name": "Siu Mai",
+        "rating": "A-"
+      }
+    ],
+    "review": "The best siu mai I’ve ever had was here, which is surprising for a chain dumpling place in SF. Curt service didn’t bother me. The BBQ pork buns were giant but plain, too doughy. Great oolong tea as well."
+  },
+  {
+    "name": "Cheung Hing Kee Shanghai Pan Fried Buns",
+    "cuisine": "Dumpling",
+    "location": "Tsim Sha Tsui, Hong Kong, 19 October 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Classic Fried Dumpings",
+        "rating": "A-"
+      }
+    ],
+    "review": "If there was a B++, this would be it. Ridiculously, inordinately good juice bombs. Literally, both me and Saba got oil all over our pants when eating, caveat emptor. Still, absolutely best in class: I can’t really imagine how this would be better executed. Price is high, $40 for 4, but I can’t say I didn’t come back for a second order later. Just juicy, tender meat in a good fried base. A simple dish perfectly executed."
+  },
+  {
+    "name": "Dumpling House",
+    "cuisine": "Dumpling",
+    "location": "Tsuen Wan, Hong Kong, 13 October 2023 (Lunch)w",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Pork + Cabbage Dumpling Soup",
+        "rating": "B-"
+      }
+    ],
+    "review": "No frills restaurant. Seeing that it’s on the first floor of an industrial building with “massage” shops nearby, I am not surprised. This is so out there that an old person waved at me and said hi, obviously confused as to how I found the very long line: this is the first unprompted interaction I have had in the month I’ve been here. If you don’t speak any Cantonese, it would be hard to order. I speak 10 words, and also had difficulty. Not the quickest service, but 8 dumplings the size of frogs and a giant amount of broth for $46 is highly worth it. Easily the best value I have had anywhere on this peninsula. Flavor was good, but nothing to write home about (ignore the fact that that is what I am doing now)."
+  },
+  {
+    "name": "Dumpling Yuan",
+    "cuisine": "Dumpling",
+    "location": "Central, Hong Kong, 30 August 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Pork Dumpling",
+        "rating": "C+"
+      }
+    ],
+    "review": "Solid, very affordable ($30 for 5 dumplings), but nothing to write home about. A random shop I entered wandering around (after almost getting run over by forgetting the left-side driving) which seemed mildly popular. Like everything here, no service, but that shouldn’t matter."
+  },
+  {
+    "name": "Zeni",
+    "cuisine": "Ethiopian",
+    "location": "San Jose, CA, 20 May 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Ye Beg Tibs Fir Fir",
+        "rating": "C-"
+      },
+      {
+        "name": "Coffee",
+        "rating": "B-"
+      }
+    ],
+    "review": "Slow, slow, slow. About an hour and a half from order to food in this bustling spot, but very friendly service. This restaurant is an anomaly, because I am convinced I made the wrong dish choice which hurt the overall score. Ye Begs Tibs is lamb, but I ordered it with extra injera, which is fermented sour teff (lovewheat) bread. Everything was served with it already served, and so the majority of the plate was sour fermented bread. Next time, I would just order meat, because the bread was quite good as was the lamb, but the proportions were all off. Interesting experience regardless."
+  },
+  {
+    "name": "Fuego",
+    "cuisine": "Fine Dining",
+    "location": "Thonglor, Bangkok, Thailand, 21 December 2023 (Dinner)",
+    "price": "$$$$",
+    "rating": "A",
+    "foods": [
+      {
+        "name": "Ikura Bun",
+        "rating": "A"
+      },
+      {
+        "name": "Yakitori",
+        "rating": "A"
+      },
+      {
+        "name": "Wagyu Paella",
+        "rating": "A"
+      }
+    ],
+    "review": "The first ever A I give. This is the equivalent of an Alex Michellin star, and might be the best restaurant I’ve eaten at. The key word is subtlety. The taste is at 50% of the volume to allow really interesting combinations to play: this isn’t your HK moderation as an excuse. Instead, there are amazing flavor combinations borrowing from the Japanese and Spanish palate, which are obvious enough to be noticed only because there isn’t anything overwhelming them. The yakitori is beautifully cooked chicken with a Spanish pepper sauce and Japanese mustard on the side. The chef and I chatted about the plating decision there, where the mustard is arranged so you can play with the quantity and taste the result, with the heat complementing the warmer tones of the sauce and the juicy chicken. The ikura bun was a lightly fried oiled bun with a Spanish cream sauce and high quality salmon eggs, all of which had a sense of creaminess and light saltiness expressed in different ways. The paella maintained heterogeneity via the incorporation of well cooked wagyu, but there I felt the rice was the main highlight, with a sauce, a light touch of lemon adding to amazing meat quality. At every step, you could see how the Japanese touch added to the traditionally Spanish menu. The chef was very chatty to me, mainly to speak Spanish but was willing to talk about the philosophy, and he did this while entertaining other groups as well. For $80, this was a steal of a fine dining experience. Truly original, non-pretentious (entirely bar seating, with music and tasteful chef dancing included), and fun."
+  },
+  {
+    "name": "Spruce",
+    "cuisine": "Fine Dining",
+    "location": "San Francisco, CA, 11 August 2023 (Dinner)",
+    "price": "$$$$$",
+    "rating": "A-",
+    "foods": [
+      {
+        "name": "Australian Perigord Truffle Cappelletti",
+        "rating": "B+"
+      },
+      {
+        "name": "Honey and Pistachio Glazed Pekin Duck Breast",
+        "rating": "A"
+      },
+      {
+        "name": "Tarte au Chocolat",
+        "rating": "B-"
+      },
+      {
+        "name": "Sourdough Bread",
+        "rating": "A-"
+      }
+    ],
+    "review": "Final roommate celebration of the internship: we of course decided to celebrate like the future members of upper-class society that we would become. An immaculate venue: we were of course the odd ones out. Good but not transcendent service: perfectly attendant but a bit colder when we did not order drinks. Unlimited bread refills were divine: we had three rounds (how gauche!) trying each of the olive, bun, and sourdough. A forgettable amuse-bouche with glorified cheese and crackers with roe. The cappelletti used aged parmesan, usually not my favorite, but made it excellently. The duck was superb: the cherry jus was sublime and the portion marginally larger than expected. The turnips were shockingly delicious as well. The tarte au chocolat was less sweet than I expected, but still solid, like everything here. This restaurant is a low A-: not the greatest meal of my life, but the best I’ve eaten in SF. (For those of you wondering why it is not docked on price, that is relative to category. I would be more price sensitive to, say, a coffee shop, and would expect anything in this category to have a luxury experience. At the same time, it’s a bit ridiculous to consider that you could get 10 In-N-Out meals for one of these: you are not considering fine dining unless you are willing to spend. A sub-par experience would be docked, a good experience would not unless it was truly egregious.)"
+  },
+  {
+    "name": "Le Cartet",
+    "cuisine": "French",
+    "location": "Montreal, QC, 26 July 2022 (Lunch)",
+    "price": "$$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Grilled Cheese with Pulled Pork",
+        "rating": "B+"
+      }
+    ],
+    "review": "Expensive for a lunch place, but the best grilled cheese or grilled cheese derivative I’ve had.  Service was nice and gave biking recommendations, and was one of the few places to humor my French."
+  },
+  {
+    "name": "GAI Chicken Rice",
+    "cuisine": "Fried Chicken",
+    "location": "SoMa, San Francisco, California 7 December 2025 (Lunch)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Fried Chicken Rice",
+        "rating": "C"
+      }
+    ],
+    "review": "Fast, unpretentious, not elevated chicken rice in SF. While it claims to be a Hainanese chicken rice restaurant, most of the dishes served are fried chicken and most of the reviews were about the fried chicken, so the fried chicken rice felt like a good compromise to get a sense of the restaurant’s quality. Which is not high, but good enough for its reasonable price for me to give it another chance if I’m in SoMa and don’t want to break the bank. I added the dandan and Hoi an sauces, Hoi An was a waterier, sweeter sauce and dandan a peanut sauce that was passable. Filing."
+  },
+  {
+    "name": "Royal Fried Chicken",
+    "cuisine": "Fried Chicken",
+    "location": "Kota Kinabalu, Sabah, Malaysia, 7 November 2023 (Snack)",
+    "price": "$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Fried Chicken Burger",
+        "rating": "C"
+      }
+    ],
+    "review": "Reasonable, and trendy, fried chicken in a mall. We continued the joke. As run of the mill as it gets: burger looks unappetizing but is fine. Booth seating is uncomfortable, but service is moderately better than other establishments here."
+  },
+  {
+    "name": "KFC",
+    "cuisine": "Fried Chicken",
+    "location": "Labuan, Federal Territories Malaysia, 6 November 2023 (Dinner)",
+    "price": "$",
+    "rating": "F",
+    "foods": [
+      {
+        "name": "Fried Chicken",
+        "rating": "D"
+      },
+      {
+        "name": "Fried Chicken Spaghetti Sandwich",
+        "rating": "F"
+      }
+    ],
+    "review": "First KFC I went to in my life. Terrible experience, the people who say it’s better in Asia are liars. The wait was 10 minutes, chicken dry, and whoever thought spaghetti went well with fried chicken will definitively be burning in hell. No, no, no."
+  },
+  {
+    "name": "Jolibees",
+    "cuisine": "Fried Chicken",
+    "location": "Bandar Seri Begawan, Brunei, 5 November 2023 (Dinner)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Chicken Burger",
+        "rating": "B"
+      },
+      {
+        "name": "Fries",
+        "rating": "D"
+      }
+    ],
+    "review": "We did not want to eat fried chicken a third time, but after going to 7 (!) local places open at 9, none accepted card. Back to fast food we go: at least it is Southeast Asian. We wait for 15 minutes, which is not great, but the food is shockingly good. Fries are highly mediocre, but I am sad to say the burger was actually very solid. $5.4 is fair for it too. It would be a deriliction of duty to say it was not worth it."
+  },
+  {
+    "name": "Super Fries",
+    "cuisine": "Fried Chicken",
+    "location": "Bandar Seri Begawan, Brunei, 4 November 2023 (Dinner)",
+    "price": "$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Fries",
+        "rating": "D-"
+      },
+      {
+        "name": "Chicken Nuggets",
+        "rating": "C"
+      }
+    ],
+    "review": "Mediocre chicken in “The Mall,” the laconically titled main mall in BSB. Very long fries are the gimmick, very long waits are a part of the experience. Decent spice on the chicken. May have liked it more if I was not temporarily homeless, less if that wasn’t my first meal of the day."
+  },
+  {
+    "name": "Borneos Fried Chicken",
+    "cuisine": "Fried Chicken",
+    "location": "Kota Kinabalu, Sabah, Malaysia, 3 November 2023 (Snack)",
+    "price": "$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Fried Buns",
+        "rating": "B-"
+      },
+      {
+        "name": "Chicken Nuggets",
+        "rating": "D+"
+      }
+    ],
+    "review": "Mediocre fast food style nuggets in Borneo. Amazing name aside, it was a forgettable experience. Not enough sauce options and the nuggets were not particularly flavorful. The RM 1.5 buns ($0.3) were quite good for a snack though, so there was that upside."
+  },
+  {
+    "name": "Red Chicken",
+    "cuisine": "Fried Chicken",
+    "location": "Tsim Sha Tsui, Hong Kong, 15 October 2023 (Lunch)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Honey Fried Chicken",
+        "rating": "B+"
+      }
+    ],
+    "review": "A larger, seemingly energetic restaurant in a dynamic part of TST. I say seemingly because it is mostly a dinner spot: I was the sole person there at 3PM on a Sunday. This came with an advantage, a highly generous 30% happy hour discount (I was the only happy person that hour, apparently). Thus, for $150 I got a giant, 10 piece boneless chicken pile. The monotony is the only downside: the sweet honey sauce went excellently with the crunchy and well cooked chicken. With two sauces (an other option) or fries this would have been transcendent, but the free pickled radish was a nice touch."
+  },
+  {
+    "name": "Bonchon",
+    "cuisine": "Fried Chicken",
+    "location": "San Mateo, CA, 16 July 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Soy Sauce Garlic Wings",
+        "rating": "B"
+      }
+    ],
+    "review": "First time actually ordering wings at a restaurant. Service is not the highlight, but good fried chicken with a decent sauce. Miles’ spicy gochujang went well with the chicken. Decently affordable as well. The wings are the highlight of the restaurant, but not the most memorable part. Jeffrey got a seemingly non-descript plate with some mozzarella and meat, didn’t look too unhealthy. 2,400 calories. Chiran’s bulgogi was over 2,000 too, and it looked like a moderately healthy beef dish. I have no idea how they fit so much energy into so little size: gasoline perhaps? Recommended if you want to try Korean fried chicken or you want to bulk up for cheap."
+  },
+  {
+    "name": "Winner-Winner",
+    "cuisine": "Fried Chicken",
+    "location": "San Mateo, CA, 28 May 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [],
+    "review": "Decent mall spot in Hillsdale. $15 for a sandwich is too much for a cheap mall place, but this was substantially better than similar restaurants I’ve tried here. Medium spice should be called low, but the slaw and fries were admirable, at least to what I expected going in. Don’t go out of your way, but if you are stuck slightly South of purgatory I can’t think of many better restaurants."
+  },
+  {
+    "name": "Souvla",
+    "cuisine": "Greek",
+    "location": "Dogpatch, San Francisco, CA, 27 May 2024 (Dinner)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Pork Sandwich",
+        "rating": "C"
+      },
+      {
+        "name": "Lamb Sandwich",
+        "rating": "C-"
+      },
+      {
+        "name": "Fries",
+        "rating": "D+"
+      }
+    ],
+    "review": "Gentrified Greek food which insults the memory of my dear Cobani. There, the service was aloof, decor was simple, and food was good. Here, the service is aloof, decor is strangely gaudy (why there is a suspended tree and line of wine bottles with some dude staring back at you remains to be seen), and food is mediocre. Too expensive for the quality. Although decently good, it’s nothing spectacular and is about the third most impressive restaurant I’ve tried within a 2 minute walk of there."
+  },
+  {
+    "name": "El Quetzal",
+    "cuisine": "Guatemalan",
+    "location": "Burlingame, CA, 18 June 2023 (Lunch)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [],
+    "review": "A delicious small spot in Burlingame. Very authentic cuisine according to recommendations and good service. Menu is only in Spanish, and the waiters did not speak English. The stew was rich: not much meat but I felt like it didn’t need it. Affordable too, $13 for a solid, filling meal."
+  },
+  {
+    "name": "Flip’n Patties",
+    "cuisine": "Hamburger",
+    "location": "Houston, TX, 6 January 2024 (Dinner)",
+    "price": "$$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Lechon Kawali",
+        "rating": "C"
+      },
+      {
+        "name": "Flip’n Patties Burger",
+        "rating": "B+"
+      }
+    ],
+    "review": "A Filipino-burger fusion restaurant that knows what it wants to do and does it well. The burger is really cool, mixing mushroom, good beef, and sauce into an (admittedly overpriced) delicious combo. So big, in fact, that I hardly had room for the appetizer, which was also decent. Very good quality overall, good service, and not too busy as well. Price is the only downside."
+  },
+  {
+    "name": "Roam",
+    "cuisine": "Hamburger",
+    "location": "San Mateo, CA, 10 August 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Heritage Burger (Onion, Bacon, Aioli)",
+        "rating": "C"
+      }
+    ],
+    "review": "This was the final team lunch, and my final time meeting my manager in person. A bittersweet ending, and I am very grateful for an amazing summer! You’re not here to hear about this, you’re here for restaurant reviews. For $15, this burger was marginally better than the $9 Franklin Templeton burger with much more wait and probably smaller portions (with no fries). Go elsewhere for high quality hamburgers: I see why Jeffrey and Miles had a distaste for this."
+  },
+  {
+    "name": "Godfather Burger Lounge",
+    "cuisine": "Hamburger",
+    "location": "Belmont, CA, 9 July 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Cheeseburger w/ Bacon, Mushrooms",
+        "rating": "B+"
+      },
+      {
+        "name": "Oreo Shake",
+        "rating": "B"
+      }
+    ],
+    "review": "Relatively expensive, higher end burgers in San Mateo’s forgotten tail. Decent atmosphere with a relatively busy Sunday night crowd. Burger was probably one of the top I’ve ever had: absolutely delicious medium rare, and the shake was quite good too. Prices, as always, bring it down a notch: $17 burger and $8 shake are not reasonable. Still, if you want to have a solid burger, this is a good place."
+  },
+  {
+    "name": "Champ Burger",
+    "cuisine": "Hamburger",
+    "location": "Houston, TX, 10 February 2023 (Lunch)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Cheeseburger",
+        "rating": "B"
+      },
+      {
+        "name": "Onion Rings",
+        "rating": "C"
+      }
+    ],
+    "review": "Fun, cheap, quick, and friendly place in EaDo. Burger was solid if a tiny bit dry, onion rings were nothing to write home about. Casual outdoor seating next to tremendously annoying birds."
+  },
+  {
+    "name": "Burger Joint",
+    "cuisine": "Hamburger",
+    "location": "Houston, TX, 18 April 2023 (Dinner)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Classic Burger",
+        "rating": "B-"
+      },
+      {
+        "name": "Fries",
+        "rating": "C-"
+      }
+    ],
+    "review": "A fun restaurant with decent burgers. Some mishaps in communication which were caused by our group of goons. Burger was a bit dry, but I liked the overall structure of it. Somehow, like Champ Burger, camped out by birds, albeit quieter ones."
+  },
+  {
+    "name": "El Sipote",
+    "cuisine": "Honduran",
+    "location": "San Mateo, CA, 9 July 2023 (Lunch)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Pupusa",
+        "rating": "B-"
+      }
+    ],
+    "review": "A food truck that we visited because the taco truck we were visiting was not there. Monolingual Spanish and cash/venmo only. Prices are not listed on the truck: ask (pupusas are $3.5, main courses mostly around $13). Nice service but very slow, my pupusas took about 30 minutes. First time having the Honduran/Salvadorean classic: cheesy bread with meat filling. The meat was delicious, but some bites were filled mostly with molten cheese which got tiring. Filling and overall a good meal."
+  },
+  {
+    "name": "Leyanlao Beijing Tonghuoguo",
+    "cuisine": "Hot Pot",
+    "location": "Shenzhen, Guangdong, China, 12 November 2023 (Dinner)",
+    "price": "$$$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Lamb Slices",
+        "rating": "B"
+      },
+      {
+        "name": "Beef Slices",
+        "rating": "B+"
+      }
+    ],
+    "review": "Really good hot pot in Shenzhen. Amazingly large portions, and a lot of people in the restaurant makes a good atmosphere. I went with my group of CUHK exchange students, and it was a great way to send off their adopted American they met at the border station. Beef was especially delicious."
+  },
+  {
+    "name": "Haidilao",
+    "cuisine": "Hot Pot",
+    "location": "Tsim Sha Tsui, Hong Kong, 8 September 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Beef Slices",
+        "rating": "B"
+      },
+      {
+        "name": "Lamb Slices",
+        "rating": "B"
+      },
+      {
+        "name": "Sweet Potato Noodles",
+        "rating": "B-"
+      },
+      {
+        "name": "Pork Bone Base",
+        "rating": "B"
+      }
+    ],
+    "review": "An expensive dinner with Zeyuan, who was showing me around the city. I was not prepared for the weirdest dinner of my life. Robots went around serving the food. Waiters would not let you sit without water for one second: the immediate service was off putting. When a kid had a birthday, they had a competent, pop-like singer sing a ballad for two minutes. At 8, a traditional Sichuan opera character who could switch masks quickly galavanting around. We ordered delicious hand-pulled noodles which were thrown around in front of us. Was this a spot for graduation parties, awkward first dates, or business deals? I had no idea: I was the only white guy there so it wasn’t a tourist trap. A+ eccentricity, go if you have the chance (although it’s a Singaporean chain, it’s very popular in the mainland for service)."
+  },
+  {
+    "name": "Seapot",
+    "cuisine": "Hot Pot",
+    "location": "San Mateo, CA, 3 July 2023 (Dinner)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Miso Broth",
+        "rating": "D"
+      },
+      {
+        "name": "Pork",
+        "rating": "C+"
+      },
+      {
+        "name": "Pork Belly",
+        "rating": "C"
+      },
+      {
+        "name": "Conveyer-Belt Crustacean (Isopod?)",
+        "rating": "C"
+      }
+    ],
+    "review": "$30 for all you can eat hot-pot, what’s not to love? A lot. The loudest music I have ever heard, interspersed with 3 (!) rousing Youtube renditions of Happy Birthday that may have generated as many noise complaints as Hong Kong’s old Kai Tek Airport. Or, perhaps, it was the fact that the endless meat was reliant on servers bringing it to you, and who were not the quickest in doing so. The giant tv playing BBC with many men going shirtless, K-Pop, and live-fish aquarium did not help the atmosphere either. I appreciated the hot-pot staples, lotus root and tripe are always good. The meats were okay, and the broth selection was poor. I was urged to eat a strange crustacean by my friends: it was fine but a lot of work for very little edible parts. An eclectic restaurant."
+  },
+  {
+    "name": "Garden Creamery",
+    "cuisine": "Ice Cream",
+    "location": "Mission, San Francisco, California, 5 December 2025 (Snack)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Japanese Coffee",
+        "rating": "C"
+      },
+      {
+        "name": "Matcha",
+        "rating": "B+"
+      }
+    ],
+    "review": "Apparently this is San Francisco’s top rated ice cream shop. San Francisco’s top rated anything tends to be very underwhelming - this is only mildly. They are famous for quirky flavors that everyone samples and no one orders, like every ice cream store that specializes in dragonfruit licorice mud track ice cream (I made that one up…). The coffee ice cream tasted Japanese in the sense that it would appeal to its primarily elderly population that might be afraid of strong flavors assaulting its senses, but the matcha was a surprise hit. The milkiness went really well with the bitter matcha flavor powder. I guess I really am a performative male."
+  },
+  {
+    "name": "Gelato Lab",
+    "cuisine": "Ice Cream",
+    "location": "Siem Reap, Cambodia, 16 December 2023 (Snack)",
+    "price": "$$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Coffee",
+        "rating": "B-"
+      },
+      {
+        "name": "Chocolate",
+        "rating": "B-"
+      }
+    ],
+    "review": "I let myself have some expensive ice cream after realizing that I didn’t eat any non-packaged ice cream in my 4 months in Hong Kong. This was a serviceable return. Good flavor, good service, regrettably packed with tourists. Next to the highly classy Pub Street, so there’s that to look forward to. If the people outside ask you for massages, don’t make eye contact or acknowledge their existence in any way: focus on the ice cream."
+  },
+  {
+    "name": "Serendipity",
+    "cuisine": "Ice Cream",
+    "location": "Brooklyn, NY, 24 August 2023 (Snack)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Tiramisu",
+        "rating": "C-"
+      },
+      {
+        "name": "Chocolate",
+        "rating": "C"
+      }
+    ],
+    "review": "I am so disappointed in you, NYC ice-cream snobs. A lot of my family loves this chain: it is bog-standard gelato with tiny portions. Apparently $6-7.5 for a double is a national price control at this point, I may be outdated on that front. Great service, but service is not the focus of an ice cream shop, or else it would be called a customer service shop."
+  },
+  {
+    "name": "Kimberly Farm",
+    "cuisine": "Ice Cream",
+    "location": "New Milford, CT, 22 August 2023 (Snack)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Butter Pecan",
+        "rating": "A-"
+      },
+      {
+        "name": "Chocolate",
+        "rating": "B"
+      }
+    ],
+    "review": "Attention all ice cream fans of Northwest CT: this new place easily rivals incumbent king Arethusa. Right by that giant cow statue that’s puzzled me for years, prices are CT high but overall okay ($6.5 for a double). Amazing, amazing butter pecan, which I ordered on accident. Great chocolate too. For a new place, this has a ton of promise: most of the clientele seemed to be on the New Milford Ice Cream Crawl visiting all spots: this was the consensus favorite."
+  },
+  {
+    "name": "Sweet Alchemy",
+    "cuisine": "Ice Cream",
+    "location": "Seattle, WA, 30 July 2023 (Snack)",
+    "price": "$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Vanilla",
+        "rating": "C-"
+      },
+      {
+        "name": "Chocolate",
+        "rating": "B-"
+      }
+    ],
+    "review": "More affordable ice cream right by Molly Moons in Capitol Hill. Doubles are $6.5, and quality is decent. Limited selection of eight flavors: the vanilla was quite mediocre but the chocolate was strong."
+  },
+  {
+    "name": "Molly Moon's Ice Cream",
+    "cuisine": "Ice Cream",
+    "location": "Seattle, WA, 29 July 2023 (Snack)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Caramel",
+        "rating": "D"
+      },
+      {
+        "name": "Chocolate",
+        "rating": "C+"
+      }
+    ],
+    "review": "Decent ice cream, but a very high cost for Seattle ($10 for a double). In an interesting area of Capitol Hill. Caramel is very, very strong: I did not enjoy this but was forwarned of this. Decent size, but nothing to write home about."
+  },
+  {
+    "name": "Shug’s Soda Fountain and Ice Cream",
+    "cuisine": "Ice Cream",
+    "location": "Seattle, WA, 28 July 2023 (Snack)",
+    "price": "$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Coffee Shake",
+        "rating": "C"
+      }
+    ],
+    "review": "Decent shakes in a central area of Seattle. Long, long line, but okay prices. The shake was decently sized, but, of course, any add ons cost extra."
+  },
+  {
+    "name": "Nature’s Organic",
+    "cuisine": "Ice Cream",
+    "location": "Sunnyvale, CA, 4 July 2023 (Snack)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Coffee",
+        "rating": "B+"
+      },
+      {
+        "name": "Cookies and Cream",
+        "rating": "C"
+      }
+    ],
+    "review": "Mediocre cookies and cream but quite delicious coffee. A single was $4.5, the cheapest found yet in the bay, but a double was $7.5. Okay portions. The shop blasted Taylor Swift, which was not necessarily welcome."
+  },
+  {
+    "name": "Gio Gelati",
+    "cuisine": "Ice Cream",
+    "location": "San Francisco, CA, 24 June 2023 (Snack)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Coffee",
+        "rating": "C"
+      },
+      {
+        "name": "Stracciatella",
+        "rating": "B-"
+      }
+    ],
+    "review": "A cone of ice cream should NOT be $10. I despise Bay prices. Solid and trendy spot in the Marine that I went to with a large group, and, like everywhere here, would recommend if not for the price tag."
+  },
+  {
+    "name": "Salt & Straw",
+    "cuisine": "Ice Cream",
+    "location": "Palo Alto, CA, 17 June 2023 (Snack)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Coffee",
+        "rating": "B+"
+      },
+      {
+        "name": "Vanilla",
+        "rating": "B"
+      }
+    ],
+    "review": "Long line, but the ice cream was a reasonable price for the Bay, meaning only an arm and not a leg. A menagerie of trendy youngsters, probably with a median Instagram follower count in the high thousands, lined up to get “upcycled” ice cream flavors made from seemingly old ingredients. This was too rich for me, so I had the classic coffee-vanilla combo. Perfectly satisfactory, quick, and the coffee especially was quite good."
+  },
+  {
+    "name": "Jack's Prime Burgers & Shakes",
+    "cuisine": "Ice Cream",
+    "location": "San Mateo, CA, 11 June 2023 (Snack)",
+    "price": "$",
+    "rating": "D-",
+    "foods": [
+      {
+        "name": "Coffee Shake",
+        "rating": "C-"
+      }
+    ],
+    "review": "Only got a shake here, thus the designation. $8.50 for this was highway robbery. Chiran was kicked out from sitting on one of the many empty boothes because we ordered to go. The straw didn’t actually work for the shake, and mine was decently watery. Bad."
+  },
+  {
+    "name": "Humphry Slocombe",
+    "cuisine": "Ice Cream",
+    "location": "San Mateo, CA, 4 June 2023",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Chocolate",
+        "rating": "B+"
+      },
+      {
+        "name": "Coffee",
+        "rating": "C"
+      }
+    ],
+    "review": "A perfectly serviceable ice cream shop directly next to our apartment. This is a small chain that operates in the Bay Area, supposedly gourmet. Has a limited flavor selection, but Jeffery was happy with the Bubble Tea Flavor. The coffee was relatively bland, with little coffee flavor, but the malt chocolate was quite good. Cone was delicious too. Low sweetness was nice, enough to enjoy but not saccharine. I have to accept that the price of two scoops in the Bay is $8, and so this was an okay value, but it will never sit entirely right with me."
+  },
+  {
+    "name": "My Milkshake",
+    "cuisine": "Ice Cream",
+    "location": "Santa Jose, CA, 21 May 2023",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Chocolate Milk Shake",
+        "rating": "B-"
+      }
+    ],
+    "review": "A strange superhero theme did not stop me from ordering something on the menu that seemed chocolatey. Not too expensive and a very big youth stop, which made the long wait scarcely more tolerable. Milkshake was decent, but not deserving of the heroic title."
+  },
+  {
+    "name": "The Penny Ice Creamery",
+    "cuisine": "Ice Cream",
+    "location": "Santa Cruz, CA, 21 May 2023",
+    "price": "$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Vanilla Ice Cream",
+        "rating": "A-"
+      },
+      {
+        "name": "Earl Gray Ice Cream",
+        "rating": "A-"
+      }
+    ],
+    "review": "Long, long lines at night for this trendy spot. Absolutely amazing ice cream and a fun place, but $8.50 for two scoops can’t help but leave some sour aftertaste. Still, very, very high quality ice cream with an amazing homemade cone."
+  },
+  {
+    "name": "La Monarca Michoacana",
+    "cuisine": "Ice Cream",
+    "location": "Houston, TX, 23 April 2023 (Snack)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Coffee Ice Cream",
+        "rating": "B+"
+      },
+      {
+        "name": "Pistachio Ice Cream",
+        "rating": "B"
+      }
+    ],
+    "review": "$3.5 for two scoops in a cone is a rarity in Houston. Good flavors and light. Great coffee, better than Sweet Cup. Very nice person at the counter. Just in the middle of nowhere, on the way to IAH."
+  },
+  {
+    "name": "Sweet Cup",
+    "cuisine": "Ice Cream",
+    "location": "Houston, TX, 10 April 2023 (Snack)",
+    "price": "$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Coffee Ice Cream",
+        "rating": "C"
+      }
+    ],
+    "review": "Went at 12PM while waiting for a prescription to be filled, it was completely dead. Worker warned me the Turkish coffee was strong: I wish it were stronger. $5 for one scoop in a bowl is not a tenable price: it only works for people taken hostage by the boredom of CVS."
+  },
+  {
+    "name": "Aaha",
+    "cuisine": "Indian (General)",
+    "location": "Mission, San Francisco, California, 5 December 2025 (Dinner)",
+    "price": "$$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Curry Chicken Dosa",
+        "rating": "B-"
+      },
+      {
+        "name": "Lamb Vindaloo",
+        "rating": "C-"
+      }
+    ],
+    "review": "Perfectly passable Indian in a neighborhood with a lot of perfectly passable Indian spots. Clearly a worse option than some of its neighbors, with pretty horrific service too. The reason for the C still is the delicious dosa with amazing batter and portions enough to serve a family of five genetically predisposed to eating a lot. The vindaloo was a smaller portion and absolutely nothing special, we definitely got white person spice level. You have to flag down a person to order: with the preponderance of delivery drivers that took about ten minutes. Would only go back for the dosa."
+  },
+  {
+    "name": "Mama’s Indian",
+    "cuisine": "Indian (General)",
+    "location": "Phra Nakhon, Bangkok, Thailand, 19 December 2023 (Lunch)",
+    "price": "$$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Mutton Vindaloo",
+        "rating": "B+"
+      },
+      {
+        "name": "Naan Aloo",
+        "rating": "B"
+      },
+      {
+        "name": "Mango Lassi",
+        "rating": "C"
+      }
+    ],
+    "review": "A very good, more reasonably priced than Dum Handi Indian place in the center of Indian life in Bangkok. When I said I was one person, the old waiter instantly asked “why not two?” I knew it would be a good experience. Flavorful vindaloo, not overly spicy even though I asked for overly spicy but still good, with a decent lassi and crunchy naan. Recommended: I’m happy I passed by other places."
+  },
+  {
+    "name": "Dum Handi Biryani",
+    "cuisine": "Indian (General)",
+    "location": "Sukhumvit, Bangkok, Thailand, 17 December 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Hyderabadi Mutton Biryani",
+        "rating": "B+"
+      },
+      {
+        "name": "Butter Naan",
+        "rating": "B+"
+      }
+    ],
+    "review": "This restaurant is accessible by stairs on the edge of a bar that was upset I didn’t drink there. Not tremendously busy, and long wait for the biryani. I would say it’s worth it, made in a clay pot that needs to be broken open to eat. Naan is delicious and light, and the mutton was very high quality. The server, probably a 15 year old boy, was extraordinarily nice even though he evidently hated his job. I gave him a B200 tip, about which the owner joked “give that to me” in Hindi. I replied in Hindi that I understood him. Fun days."
+  },
+  {
+    "name": "Lotus Dosa Corner",
+    "cuisine": "Indian (General)",
+    "location": "Siem Reap, Cambodia, 16 December 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Lamb Kadai",
+        "rating": "B-"
+      },
+      {
+        "name": "Masala Dosa",
+        "rating": "B"
+      },
+      {
+        "name": "Butter Naan",
+        "rating": "B"
+      }
+    ],
+    "review": "A line? In my Siem Reap? It’s more likely than you think. 20 minute wait for this favorite. Less of an Indian crowd than curry walla. I think they are about as good as each other. This owner has a fascinating history traveling for environmental causes for 30 years, meeting people like the UN Secretary General, before settling down in Siem Reap. That doesn’t make the food transcendent though, and I preferred Curry Walla’s crowd. The masala dosa was delicious, and lamb kadai was good (not remotely spicy). Workable naan too."
+  },
+  {
+    "name": "Curry Walla",
+    "cuisine": "Indian (General)",
+    "location": "Siem Reap, Cambodia, 15 December 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Shrimp Vindaloo (Sic)",
+        "rating": "C+"
+      },
+      {
+        "name": "Buttern Naan",
+        "rating": "C+"
+      }
+    ],
+    "review": "A popular place with Indian expats in the city. Looked decent, and was decent food. Service was extraordinarily kind, even giving me complementary rice to finish my curry. I ordered lamb, but got shrimp. Still good. Extra spicy felt mild, although I am not sure that was also part of the error and someone else got a very unwelcome surprise…"
+  },
+  {
+    "name": "Azmia Curry House",
+    "cuisine": "Indian (General)",
+    "location": "Sipitang, Sabah, Malaysia, 7 November 2023 (Lunch)",
+    "price": "$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Mutton with Biryani",
+        "rating": "D+"
+      }
+    ],
+    "review": "Mediocre Indian fare on the middle of a town which exists as a crappy beach resort and stopover between those ferrying/driving to KK. Not my favorite restaurant on earth in not my favorite city on earth. Food was not flavorful, but portions were big. Served, at the least, as a place to get fed. Service was strangely on edge although seemingly friendly, don’t know what that was about."
+  },
+  {
+    "name": "JJ Nazar Restaurant",
+    "cuisine": "Indian (General)",
+    "location": "Labuan, Federal Territories Malaysia, 6 November 2023 (Dinner)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Chicken Karachi",
+        "rating": "B"
+      },
+      {
+        "name": "Butter Naan",
+        "rating": "B"
+      },
+      {
+        "name": "Mango Lassi",
+        "rating": "F"
+      }
+    ],
+    "review": "A very busy place spilling onto the street in Labuan. Affectionate service: after knowing something about Kerala I got a strangely tender head pat. Portions on chicken were small, but naan was plentiful: 2 naan can finish the meat. Good prices too, and the spices were flavorful. Mango Lassi was basically melted ice with no mango flavor and was expensive, avoid at all costs. Still, despite the FIFA World Cup Opening Ceremonies playing it was a decent place to stop an eat in the island."
+  },
+  {
+    "name": "Aladin Mess",
+    "cuisine": "Indian (General)",
+    "location": "Causeway Bay, Hong Kong, 21 October 2023 (Dinner)",
+    "price": "$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Butter Naan",
+        "rating": "C"
+      },
+      {
+        "name": "Rogan Josh",
+        "rating": "D+"
+      }
+    ],
+    "review": "On the second floor of building an alley I walked by twice before recognizing that that, in fact, was it. Near Times Square, so a bustling area. This restaurant is decently sized and quite popular. However, it’s Indian food made for the Hong Kong palette in my view, and, if you have gotten the current of my reviews in the past two months, my palette is decidedly antipodal from Canton. Less spice, less flavor, and bland rogan josh. Naan was nothing special. Good prices don’t mask that this is substantially more mediocre than other Indian options, even in Hong Kong. I should have known that when there were no Indians eating here (it’s a perennial Online favorite, however)…"
+  },
+  {
+    "name": "Shreengkhala Curry House HK",
+    "cuisine": "Indian (General)",
+    "location": "Yuen Long, Hong Kong, 19 October 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Garlic Naan",
+        "rating": "B"
+      },
+      {
+        "name": "Lamb Vindaloo",
+        "rating": "B+"
+      }
+    ],
+    "review": "Good, affordable ($140 total) curry in the Northwest New Territories (which, as the MTR would remind you, is home to such tourist sights as a nice canyon, a regular well, and a normal, if a bit long, bridge. Book your trip today!). Went with Deivid before a classical concert. Relatively quick service, and good food. Naan was plentiful and quite good, although our Lithuanian chef thought it undersalted. The vindaloo was not, as they warned, super-spicy, in San Francisco we’d call that a medium spice, but it was still very flavorful. Highly tender lamb in a good sauce, and generous portions. Definitely a win on this one."
+  },
+  {
+    "name": "Murthu’s Curry",
+    "cuisine": "Indian (General)",
+    "location": "Little India, Singapore, 24 September 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Peshawari Naan",
+        "rating": "B-"
+      },
+      {
+        "name": "Mango Lassi",
+        "rating": "B-"
+      },
+      {
+        "name": "Mutton Mysore",
+        "rating": "B"
+      }
+    ],
+    "review": "A famous Indian locale in Little India recommended by a friend of my dad’s who is a Cordon Bleu chef. He knew what he was talking about with flavor, but perhaps not on a college budget, at $35 S’pore it was the most expensive meal I had. Despite the smaller portions (the naan being the most egregious, 2 pieces for $6), it was the best flavor of any food I had in my three day visit. Mutton was absolutely delicious, and spicy even when unmarked. Eating on banana leaves at 11 PM was a new experience for me. All in all, a very good send-off dinner."
+  },
+  {
+    "name": "Keeva Indian Kitchen",
+    "cuisine": "Indian (General)",
+    "location": "San Francisco, CA, 17 July 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Chettinad Goat Curry",
+        "rating": "A-"
+      },
+      {
+        "name": "Garlic Naan",
+        "rating": "B"
+      },
+      {
+        "name": "Mango Lassi",
+        "rating": "C"
+      }
+    ],
+    "review": "Delicious curry in Richmond, SF’s second Chinatown. The first restaurant I’ve been to in the Bay where spicy means spicy: I was the only one to finish the meal out of the three because the roommates were fighting for their lives against biryani and losing. The curry was delicious, and the sauce went well with the garlic naan. Lassi was expensive but a welcome respite from the spice, and main dishes were all less than $20 pre-tax. A reasonable, delicious Indian place!"
+  },
+  {
+    "name": "Arunthathee Vihaar",
+    "cuisine": "Indian (Strict Vegetarian)",
+    "location": "Kandy. Sri Lanka, 19 November 2023 (Lunch)",
+    "price": "$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Masala Dosa",
+        "rating": "C+"
+      },
+      {
+        "name": "Medhu Vada",
+        "rating": "C-"
+      }
+    ],
+    "review": "Decent vegetarian food in Colombo. Went mainly because they took credit card and I had no cash. Not as good as Balaji in Kandy, but still decent flavor and a wide variety of sauces. These experiences taught me that even vegetarians have good cuisine: you only need to fly 10 hours to find it."
+  },
+  {
+    "name": "Balaji Dosai",
+    "cuisine": "Indian (Strict Vegetarian)",
+    "location": "Kandy. Sri Lanka, 18 November 2023 (Dinner)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Masala Dosa",
+        "rating": "B-"
+      }
+    ],
+    "review": "A busy vegetarian spot in central Kandy. Unlike every other Indian spot here, there were actual non-tourists eating here, although that might have been because this was the only vegetarian one. The potato dosa was a good fried dish, and the cheap price makes it a good choice, especially if one cannot eat meat. Filling and satisfying, with upstairs seating if one prefers."
+  },
+  {
+    "name": "Fikscue",
+    "cuisine": "Indonesian",
+    "location": "Mission Bay, San Francisco, California, 6 December 2025 (Lunch)",
+    "price": "$$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Nasi Goreng",
+        "rating": "C-"
+      },
+      {
+        "name": "Rendang Plate",
+        "rating": "B+"
+      }
+    ],
+    "review": "Easily the best (and worst) Indonesian-Texas-Barbecue fusion place I ever ate at. Packed at the warrior’s stadium despite no game going on, and I see why. The meat quality was exceptional, and I would have to go back for the brisket alone. It would have been a passable bbq joint in Texas itself, but the concept was really Indonesian food with Texan ingredients. The Nasi Goreng was normal fried rice as a side, good but nothing to rave for. The rendang plate had amazing coconut-marinated brisket, lots of greens and spices, and mysterious, multicolored rice crackers too. Very flavorful but focused on the meat quality first and foremost, a restaurant that knows its niche. Recommended."
+  },
+  {
+    "name": "L`Opera Ristorante",
+    "cuisine": "Italian",
+    "location": "Tashkent, Uzbekistan, 9 May 2024 (Dinner)",
+    "price": "$$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Veal",
+        "rating": "D+"
+      }
+    ],
+    "review": "Amazing to not eat plov for a day! Ice cream too, which I don’t recall the quality of after writing this. In a nice area with lots of pedestrians and young people. Unfortunately, the food itself was expensive, catering to the “Italian food is fancy” cliche, while being quite flavorless. Slow service as well. Mainly speaks Russian."
+  },
+  {
+    "name": "Ristorante Buon Gusto",
+    "cuisine": "Italian",
+    "location": "South San Francisco, CA, 23 July 2023 (Dinner)",
+    "price": "$$$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Veal Milanese",
+        "rating": "C+"
+      }
+    ],
+    "review": "As Chiran doesn’t like Italian food, I picked this as our post-marathon 3-roommate meal. What a mistake that was. A cheeky excuse to see our almost-to-be-city (filled with a shocking amount of smoke shops and traffic cones), this restaurant had the ambiance of a quiet money laundering scheme. Two other tables of customers. Menu prices were $8 more than online (and Jeffrey ended up being charged even more on top of that). Still, I coughed up the almost $50 for high quality but low serving-size veal. The others were not impressed with their pasta for the price either. However, the sticking point of memory will definitely be the two Irish customers who asked us if we were vaccinated, threw a credit card at a waitstaff, and made it so the ambiance of the restaurant was hearing a loud confrontation followed by a police escort out of the restaurant (and added interrogation.) The server pointed to our table as witnesses: we kept our heads down. They didn’t even apologize for this. The fact that this was a D should give you context for the Fs."
+  },
+  {
+    "name": "Rondo",
+    "cuisine": "Japanese (General)",
+    "location": "Seattle, WA, 30 July 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Ahi Tuna Chips",
+        "rating": "C-"
+      },
+      {
+        "name": "Pork Katsu Curry",
+        "rating": "A-"
+      }
+    ],
+    "review": "An hour wait for a community table did not start off with a good impression. Neither too did the salmon chips that had portion sizes that would have angered a German in a 1920s ration line. Then, the curry came out, and it was easily the best thing I’ve eaten in Seattle. Delicious sauce, fair portions, and a good price. The pork was cooked excellently as well. Recommended, even if only for the pork katsu curry. Eclectic environment in Seattle’s trendy part (if there is any non-trendy part, that is)."
+  },
+  {
+    "name": "Prime BBQ",
+    "cuisine": "Japanese (General)",
+    "location": "San Mateo, CA, 25 June 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Chicken Skin Skewer",
+        "rating": "B-"
+      }
+    ],
+    "review": "Solid yakitori skewers, the skin was absolutely delicious. A dysfunctional ordering system and lack of service are questionable, but what is more questionable are the portions. Each skewer has three stingily cut pieces of meat: the beef must come from the worlds’ smallest cows. Five dollars per bite is a terrible cost/benefit ratio: this would have been a B- if I were a billionaire. Went to Bizza after as a joke because I was starving after paying $30. Avoid for value."
+  },
+  {
+    "name": "Kobeya",
+    "cuisine": "Japanese (General)",
+    "location": "San Mateo, CA, 4 June 2023 (Dinner)",
+    "price": "$$",
+    "rating": "F",
+    "foods": [
+      {
+        "name": "Takoyaki (Octopus Balls)",
+        "rating": "D+"
+      },
+      {
+        "name": "Chicken Katsu w/ Sweet Sauce",
+        "rating": "C"
+      }
+    ],
+    "review": "No, no, no. The saga of this restaurant started after Miles, Saatvik, and I were searching for a restaurant after foodieland. It was closed. Me and other people visited it twice more, it was closed twice (once at 1 PM with a sign attached saying “back at 11:30”). Was this a money laundering scheme or the most diva restaurant imaginable? Prices were too low to make a killing on the food, so I leaned toward the first explanation. After eating, my convictions grew stronger. The restaurant is organized around takeout: with two other parties eating they had to assemble a table out of assorted chairs next to a PC monitor playing a Youtube 8k Japan background loop (with ads). Service was slow and very random as to who was served first. The takoyaki were searing hot and overly creamy. The chicken katsu was substantially better, but was a portion that even a malnourished child would have trouble graciously thanking their donor for: and I paid $13 for mine. Perhaps worst of all, after paying the waitress watched as poor Chiran had to tip on the screen, pressuring him to tip 20% (this tipped it from D to F). That overly hot restaurant pleased no one in the group. Hopefully it will stay closed for longer in the future."
+  },
+  {
+    "name": "Seoul Restaurant",
+    "cuisine": "Korean",
+    "location": "Dakar, Senegal, 16 March 2024 (Lunch)",
+    "price": "$$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Sam Gyup Sal",
+        "rating": "C"
+      }
+    ],
+    "review": "Do you really need Asian-style food while in Senegal? Then this will do. Not cheap, but the quality is decent, and it’s even KBBQ cook-it-yourself! I only went here to annoy a Korean friend with how good Senegalese Korean food is, but honestly I’ve eaten at plenty worse restaurants. One of the older Chinese customers got poked at by some random street child, so I’m sure she has a worse rating for the establishment."
+  },
+  {
+    "name": "Arirang",
+    "cuisine": "Korean",
+    "location": "Wan Chai, Hong Kong, 13 September 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Sam Gyup Sal",
+        "rating": "B-"
+      },
+      {
+        "name": "Bulgogi",
+        "rating": "B+"
+      },
+      {
+        "name": "Side Dish Platter",
+        "rating": "B"
+      }
+    ],
+    "review": "A really fun meeting with friends before my dreaded Walmart software interview (pure practice, I assure you dear reader.) A fun restaurant vibe with KBBQ classics, decently high quality meat and reasonable portions. Good service as well. For the price here, however, it lacks a bit of oomph: this is the KBBQ you would get at the same price point in the US or Canada. Decent if you need to scratch that itch, and a good place to meet as a group."
+  },
+  {
+    "name": "Daeho",
+    "cuisine": "Korean",
+    "location": "San Mateo, CA, 22 May 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B-",
+    "foods": [],
+    "review": "A restaurant that is exactly what I would think a Bay Area Korean restaurant would be, 80% authentic and 20% KPop fan. Very good beef, but I put in too many peppers which slightly overpowered the delicious broth. Mea culpa. Quite expensive, $30 per person for a reasonable portion (extra meat seemingly did nothing). Fun first intern dinner, hopefully will have many more!"
+  },
+  {
+    "name": "L'orientale",
+    "cuisine": "Lebanese",
+    "location": "Dakar, Senegal, 16 March 2024 (Dinner)",
+    "price": "$$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Lamb Shawarma",
+        "rating": "B"
+      }
+    ],
+    "review": "Really solid Lebanese fare on a good balcony, relaxing to see the whole city busily walking underneath. Not the fastest service, or the cheapest prices (it’s pretty solidly in the targeting-richer-visitors-or-wealthy-Senegalese category, which, seeing that the vast majority of Senegalese hardly ever go out to eat, is most), but the food is good and is the most Western-style restaurant I ate at in my time there. Large portions, with well cooked meat and a lot of sides too."
+  },
+  {
+    "name": "Mims",
+    "cuisine": "Lebanese",
+    "location": "Dakar, Senegal, 10 March 2024 (Lunch)",
+    "price": "$$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Chicken Pita",
+        "rating": "C-"
+      }
+    ],
+    "review": "Lebanese food, in Senegal, often means generally Western. This is seemingly the hot place to be in town, lots of aloof 20-odds with nice watches or 30-odd Europeans with bad sunburns. The pita was okay, a bit too much cheese. However, I suspect that this restaurant’s true purpose is conspicuous consumption: the prices are mildly criminal. Worse, I spent about thirty minutes looking for this, walking the same streets in a triangle muttering to myself. There is one street where 30 people on wheelchairs hung out doing not much of anything, and I walked by it enough that I think I am part of their community now. At least, some guy saluted me when I walked by the third time. A security guard on the street by the restaurant also yelled at me and said I should try to find a Senegalese wife… Come to think of it, maybe the real restaurant is the bizarre acquaintances you make along the way. Malaysian:"
+  },
+  {
+    "name": "Restoran Pak Haji 2",
+    "cuisine": "Lebanese",
+    "location": "Kota Kinabalu, Sabah, Malaysia, 08 November 2023 (Lunch)",
+    "price": "$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Nasi Kampung",
+        "rating": "C+"
+      }
+    ],
+    "review": "A local cafe to end our wonderful trip in Borneo. We got the nasi kampung as it was RM 9 and we only had 12 left. The rice itself was not tremendously flavorful, but with the provided sauce was surprisingly good (some sort of sweet soy). Perfectly serviceable."
+  },
+  {
+    "name": "Satay Siga-Siga",
+    "cuisine": "Lebanese",
+    "location": "Sipitang, Sabah, Malaysia, 05 November 2023 (Lunch)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Beef Satay",
+        "rating": "B-"
+      }
+    ],
+    "review": "Very good satay on the seaside. Feels like a tourist trap, but 7 Rm for 10 sticks is a good deal. Great peanut sauce, and well cooked, if stingy, sticks. They give another thing on the side which they don’t tell you is charged if you eat it: don’t. Else, enjoy the view of the ugly beach and pretty town!"
+  },
+  {
+    "name": "Tanjung Cafe",
+    "cuisine": "Lebanese",
+    "location": "Tuaran, Sabah, Malaysia, 04 November 2023 (Lunch)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Nasi Kerabu",
+        "rating": "B"
+      }
+    ],
+    "review": "I am too friendly to Malaysia, but the food is just that good. In a outlying, majority Chinese town, the nasi kerabu, a blue rice dish, was spicy, flavorful, and cheap. Really interesting flavor, and I only ordered it because there was nothing else on the menu. A great restaurant for a more local eating experience."
+  },
+  {
+    "name": "Selera Borneo",
+    "cuisine": "Lebanese",
+    "location": "Kota Kinabalu, Sabah, Malaysia, 3 November 2023 (Dinner)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Custom Soup",
+        "rating": "B+"
+      }
+    ],
+    "review": "Ridiculously good flavor for RM 11: that’s $2.2. Ridiculously friendly service that tolerated my terrible Malay and was very happy to serve, and customers were open to chatting a bit. Ridiculously packed when no other restaurant was in the area. This was a great choice for our first restaurant here in KK, highly recommended on price and flavor, but not amazing enough in isolation for an A-."
+  },
+  {
+    "name": "Satay Street @ Lau Pa Sat Hawker Center",
+    "cuisine": "Lebanese",
+    "location": "Telok Ayer, Singapore, 23 September 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Beef Satay",
+        "rating": "C+"
+      }
+    ],
+    "review": "Pre-prepared but cheap satay in Singapore’s most touristy hawker center, an architecturally interesting building. 10 for $8 S’pore was perfectly reasonable, and the meat was tasty. This may be the grilled-meat enthusiast in me speaking, but I would have satay any day of the week. Aggressive vendors taint the experience of walking through (also, do not get scared at the high prices on the images outside the stalls, the advertisements are for group deals)."
+  },
+  {
+    "name": "Unnamed Nigerian Market on the First Floor of the Chungking Mansions",
+    "cuisine": "Nigerian",
+    "location": "Tsim Sha Tsui, Hong Kong, 19 October 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Okra Stew with Fufu",
+        "rating": "C+"
+      }
+    ],
+    "review": "Ghana Locals, a famous place, was not operating. We were looking for a replacement, when a Igbo man asked us if we wanted to eat African food. We did. We asked for the menu. There was none. He asked if we wanted pumpkin/okra stew, we said sure, not entirely sure if we placed an order (we had). After, we inquired about the price ($80, that’s fine). The fufu was just normal starch, but eating the slimy okra with it was difficult. Ergonomics aside, the meal was quite good, and the man at the market was chatty (and had briefly studied in New Haven). Would I find this restaurant again? Probably not. If you are reading this, you definitely won’t. It also is definitely unlicensed, and we heard an older Indian man loudly curse about a man who owed him money for 40 minutes. This is definitely the only part of Hong Kong where you’d have to worry about pickpocketing, so having a friendly oasis in that is nice."
+  },
+  {
+    "name": "Aria Suya",
+    "cuisine": "Nigerian",
+    "location": "Houston, TX, 14 January 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Asun (Goat) Plate with Jolof Rice, Plantains",
+        "rating": "A-"
+      }
+    ],
+    "review": "Very long service. Went with friends searching for some new cuisine, and this was not the first Nigerian restaurant we stopped at. The goat was very good, tender and spicy. Jolof rice was also well seasoned, and the plantains were the first I’ve ever eaten that I have enjoyed."
+  },
+  {
+    "name": "Himalaya Cuisine",
+    "cuisine": "Nepali",
+    "location": "Nob Hill, San Francisco, CA, 26 May 2024 (Dinner)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Lamb Vindaloo",
+        "rating": "C"
+      }
+    ],
+    "review": "Good Indian fare for reasonable prices. Ridiculously nice service. The “very spicy” option, like at most American Indian restaurants, is basic spice tolerance, but that aside the flavoring of the curry was good. Not much meat, a lot more sauce than I would have expected."
+  },
+  {
+    "name": "Annapurna Cafe",
+    "cuisine": "Nepali",
+    "location": "Seattle, WA, 28 July 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Momos",
+        "rating": "C+"
+      },
+      {
+        "name": "Lamb Madras",
+        "rating": "B"
+      },
+      {
+        "name": "Garlic Naan",
+        "rating": "B-"
+      }
+    ],
+    "review": "The food safety rating is OK, and the food quality rating is probably the same. Great lamb, but naan is sorely needed to enjoy it fully. Momos have never been my thing: these were ok. A weird situation with an upstairs bar and a downstairs general seating area for us under 21s, but overall a pleasant experience."
+  },
+  {
+    "name": "Momos and More",
+    "cuisine": "Nepali",
+    "location": "San Mateo, CA, 10 June 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Chicken Momos",
+        "rating": "C+"
+      }
+    ],
+    "review": "Decent food truck in the middle of nowhere in San Mateo. Very nice people and relatively quick. Dumplings came with two sauces, a very spicy red sauce and an interesting, heavier orange one. Main downside was the price, $13 pretax for 8 dumplings: the quantity was too low for lunch and so I bought tacos at a neighboring food truck. Would try again."
+  },
+  {
+    "name": "Jewel of Himalaya",
+    "cuisine": "Nepali",
+    "location": "Newton, CT, 2 May 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [],
+    "review": "Lamb Makhini, C+ Garlic Naan, B I was torn between B- and C+, and only gave the latter because I felt like I have been too generous recently. Great decor and service, very quick too. Delicious naan. Sauce on the makhini was delicious, but was so rich that it was a bit tiring at the end. Somewhat small portions for the price."
+  },
+  {
+    "name": "Pakeeza",
+    "cuisine": "Pakistani",
+    "location": "Tsim Sha Tsui, Hong Kong, 3 September 2023 (Dinner)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [],
+    "review": "Non-vegetarian Buffet, B In the middle of the second floor of plenty of alleys, passing by children running around and having to ask a security guard for directions, we encountered the promised land. 796 reviews, 5.0 stars. Hong Kong is stingier than the US with ratings too. The reason was not the good food, the lamb was delicious, soup good, bread crunchy, it was price. $100 got you unlimited food, an insane deal. $25 for mango lassi too. For that price, it was a no-brainer to eat here, and so this may be the first restaurant I’ve rated the experience higher than all food items. Went with a fun group as well after our long temple tour."
+  },
+  {
+    "name": "Aga’s",
+    "cuisine": "Pakistani",
+    "location": "Houston, TX, 19 August 2021 (Dinner)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [],
+    "review": "Keema Samosa, B+ Goat Peshawari Karahi, A- Lassi, B- Delicious Indian Pakistani right by Sugarland.  Goat was delicious and the service was very fast.  Set in a banquet hall with hundreds of tables, so very high turnover.  Lassi was accidentally served sweet, but was also delicious (I was looking for ayran)."
+  },
+  {
+    "name": "Kasra Persian Grill",
+    "cuisine": "Persian",
+    "location": "Houston, TX, 18 February 2024 (Dinner)",
+    "price": "$$$",
+    "rating": "D+",
+    "foods": [],
+    "review": "Lamb Chops, C- Bread, C- Persian Ice Cream, B- Pretty standard Persian fare near Rice. Not too expensive for a fancy night out, which, as a person in an Under Armour Jacket, me and David were the two non-partakers in formal dress. The price is shown in the portion sizes however, with a tiny amount of mediocre meat for the lamb chops ($30). The rice was absolutely deliciously made, but that doesn’t make up for the lack of value on the signature product. The dessert was inventive if not highly memorable, with spiced vanilla ice cream. Istanbul grill is a better Middle Eastern eatery nearby, would recommend over this."
+  },
+  {
+    "name": "La Ronda",
+    "cuisine": "Peruvian",
+    "location": "San Mateo, CA, 9 July 2022 (Dinner)",
+    "price": "$$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Anticuchos",
+        "rating": "B"
+      },
+      {
+        "name": "Ceviche",
+        "rating": "B"
+      }
+    ],
+    "review": "Decent Peruvian fare for when your heart craves beef heart. In the middle of a concrete jungle, with the exterior looking something between a bail-bond shop and florist. Inside, however, is moderately nicer. Prices are relatively high: $14 for appetizers and $21 for a smaller plate of ceviche (although not unfair). Very friendly service and the food is cooked exactly as I would expect: very good traditional ceviche and anticuchos were served with a good sauce on the side. If you want Peruvian, you could easily do worse."
+  },
+  {
+    "name": "Tiradito",
+    "cuisine": "Peruvian",
+    "location": "Montreal, QC, 26 July 2022 (Dinner)",
+    "price": "$$$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Chorros a la Chalaca",
+        "rating": "C-"
+      },
+      {
+        "name": "Ceviche",
+        "rating": "F+"
+      },
+      {
+        "name": "Duck Anticuchos",
+        "rating": "C"
+      },
+      {
+        "name": "Octopus Anticuchos",
+        "rating": "C-"
+      }
+    ],
+    "review": "Criminally overpriced, hipster Peruvian tapas in the capital of French Canada.  A bar with outdoor seating, the service was fine.  However, the food was disappointing, possibly due to my expectations of a more traditional Peruvian restaurant.  For instance, the chorros a la chalaca contained maiz tostado, which, while both are Peruvian, do not go together, much like how Philly cheesesteak would not be an appropriate topping for a New York bagel.  Why there was squash in ceviche remains a mystery as well.  As Millie put it, this was Peru gringo fusion, and the high quality of the food was overshadowed by these puzzling creative decisions."
+  },
+  {
+    "name": "Yummy Bakery & Cafe",
+    "cuisine": "Pineapple Bun",
+    "location": "Chinatown, San Francisco, CA, 27 May 2024 (Snack)",
+    "price": "$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Pineapple Bun",
+        "rating": "C"
+      },
+      {
+        "name": "Char Siu Bun",
+        "rating": "C+"
+      }
+    ],
+    "review": "The category's back! A neighborhood spot in Chinatown. Me immediately ordering the bun in Cantonese threw the worker off but we had a nice chat, little did she know the amount of training I have accrued in ordering pineapple buns quickly. These did not have cold butter, but were dirt cheap ($1.75). The more croissant shaped ones. The dough flavor was not excellent but the addition of butter might have raised this up a peg as my dislike of the bun is concentrated on some pretty minor artificial notes that I find are pretty common in the food. Very fun."
+  },
+  {
+    "name": "Men Wah Bing Teng",
+    "cuisine": "Pineapple Bun",
+    "location": "Kwai Fong, Hong Kong, 13 October 2023 (Snack)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Pineapple Bun with Butter",
+        "rating": "B-"
+      }
+    ],
+    "review": "Cheapest pineapple bun so far. Searched for this in the mall for 30 minutes, but I decided to treat myself after almost getting kidnapped by the Russian mafia (so, I wanted Georgian lemonade, went 100 minutes by train to a “Russian supermarket” whose Google location was actually an unstaffed warehouse in the third floor of an industrial building in the middle of nowhere, hence me in Kwai Fong). Decent crust, sweet flavor, although not as transcendent as Fu Wah. It’s hard to give any of these things a C or below though."
+  },
+  {
+    "name": "Fu Wah Cafe",
+    "cuisine": "Pineapple Bun",
+    "location": "Mong Kok, Hong Kong, 9 September 2023 (Snack)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Pineapple Bun with Butter",
+        "rating": "B+"
+      }
+    ],
+    "review": "Oh my god, these things are addictive. Even better with butter too. $7 without, $11 with is criminally cheap. The heterogeneity of the cold, fatty butter with a warm, pleasant, cookie-like bun is amazing. Please go here and eat as many pineapple buns as you can before you are sick."
+  },
+  {
+    "name": "Hong Cha",
+    "cuisine": "Pineapple Bun",
+    "location": "Mong Kok, Hong Kong, 9 September 2023 (Snack)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Pineapple Bun with Butter",
+        "rating": "B-"
+      }
+    ],
+    "review": "Was going to rate this higher before going to Fu Wah Cafe. Solid first pineapple bun experience, but Fu Wah is better, cheaper, and nearby."
+  },
+  {
+    "name": "L’Industrie",
+    "cuisine": "Pizza",
+    "location": "Brooklyn, NY, 24 August 2023 (Lunch)",
+    "price": "$$",
+    "rating": "A-",
+    "foods": [
+      {
+        "name": "Sausage, Pepperoni, Ricotta Slice",
+        "rating": "A-"
+      }
+    ],
+    "review": "An amazing New York slice shop. Some of the best pizza I have ever had. Sauce to die for, a great balance of cheese, and even did fancy cheese layering in a way that didn’t hurt the end product. Is it expensive ($5.5 for a slice, although only $3.5 for margherita)? Yes! Is it busy? It was full on a Wednesday at 3PM. Is customer service to die for? You have to bring the pizza to your table yourself. Is it clean? Not remotely. Do I care, and should you? No. Only surpassed by Modern’s in New Haven, whose review I will have to write shortly. For a brief search of pizza in Williamsburg, I see why this had 4.8 stars."
+  },
+  {
+    "name": "All Aboard",
+    "cuisine": "Pizza",
+    "location": "New Milford, CT, 22 August 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Sausage Pizza",
+        "rating": "C-"
+      }
+    ],
+    "review": "A local hotspot of mine. Always at 10% capacity and a completely unchanging, frozen crowd: I’m sure some remnants of the Revolutionary War remain if you’re perceptive enough. I have had experiences ranging from D- to C, never going far higher than that, but today was reasonable. Okay pizza in New Milford, absolutely better than Bizza but I am grading with a California curve."
+  },
+  {
+    "name": "Bizza",
+    "cuisine": "Pizza",
+    "location": "San Mateo, CA, 25 June 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Sausage Pizza",
+        "rating": "C"
+      }
+    ],
+    "review": "Do not get a small pizza. Roommate’s small pizza was $23 and was the size of my $6.5 slice. That being said, I am sorry to say that this wasn’t terrible. Not good by any means, but crunchy enough and with okay sausage that it would alleviate a desperate need for pizza. Tragic, seeing we went as a joke."
+  },
+  {
+    "name": "Amore",
+    "cuisine": "Pizza",
+    "location": "New York, NY, 23 April 2023 (Dinner)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Sausage Pizza",
+        "rating": "B+"
+      }
+    ],
+    "review": "This was the pizza restaurant near LaGuardia that sold quick slices at 9PM. Inside is pizza with very solid sauce, a crunchy, well done crust, good sausage, and half a dozen kids swearing about New York hockey. The dad, the presumed owner of the establishment, recommended cutting one of the players with a steak knife in front of their family. This feels like home. I may have been lenient, as this was the first non-Houston pizza I'd eaten for a year, but I was still impressed."
+  },
+  {
+    "name": "Homeslice Pizza",
+    "cuisine": "Pizza",
+    "location": "Houston, TX, 11 February 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Pepperoni Cheese Pizza",
+        "rating": "C"
+      }
+    ],
+    "review": "Decent pizza, but two slices for $16 was too much for something only a tier above Papa John’s. Went with friends which made it worth it, though."
+  },
+  {
+    "name": "Noho Pizza",
+    "cuisine": "Pizza",
+    "location": "Albany, NY, 25 July 2022 (Lunch)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Cheese Pizza",
+        "rating": "C+"
+      }
+    ],
+    "review": "Shockingly solid pizza which I picked randomly.  Cheap, extraordinary fast, and good flavor.  People behind the counter were very nice as well."
+  },
+  {
+    "name": "FOB Poke",
+    "cuisine": "Poke",
+    "location": "Seattle, WA, 29 July 2023 (Lunch)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Salmon, Tuna, Eel Poke Bowl",
+        "rating": "B-"
+      }
+    ],
+    "review": "Shockingly affordable poke in downtown (touristy) Seattle, especially seeing that they forgot to charge me extra for eel. Reasonably high quality and high quantity for $15, if you’re in the mood for poke it will do fine. No service, but that was fine."
+  },
+  {
+    "name": "Poke House",
+    "cuisine": "Poke",
+    "location": "San Mateo, CA, 20 June 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Salmon Poke Bowl",
+        "rating": "C+"
+      }
+    ],
+    "review": "Taken due to Chiran’s gift card. Far better than I’d hoped from its 3.9 star rating. Service was lacking, but portions were generous (of course, it was $20 a bowl, but I have quickly adjusted to the Bay $) and quite tasty. Good if you need some raw salmon in a pinch and for some reason don’t want sushi."
+  },
+  {
+    "name": "Butao",
+    "cuisine": "Ramen",
+    "location": "Central, Hong Kong, 31 August 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Shio Ramen",
+        "rating": "B+"
+      }
+    ],
+    "review": "Possibly the best ramen I’ve had, outside of maybe Taishoken. A small shop, but $100 for a solid bowl with lots of toppings is perfectly reasonable. Great broth: that is the standout here. Like all restaurants so far in Hong Kong, no service, but that’s not why you go to great restaurants here anyway."
+  },
+  {
+    "name": "Ramen Nagi",
+    "cuisine": "Ramen",
+    "location": "Palo Alto, CA, 17 June 2023 (Dinner)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "King Ramen w/ extra pork, seaweed",
+        "rating": "C-"
+      }
+    ],
+    "review": "Lord knows why there was a one hour wait for this. Affordability was stellar: a highly filling mean in Palo Alto for $30 is a steal. Affordability is about the only standout thing about this restaurant. You order by filling out a piece of paper, and they clearly want you out as quickly as possible. I strongly disliked the JPop/anime music playing, a weird choice for an older clientele having a more exclusive culinary experience. Flavor was fine but the noodles were mediocre, and the “nagi sauce” was not particularly great. Would not recommend coming agaiin."
+  },
+  {
+    "name": "Kajiken",
+    "cuisine": "Ramen",
+    "location": "San Mateo, CA, 10 June 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Shio Aburasoba",
+        "rating": "C-"
+      }
+    ],
+    "review": "Did not deserve the 30 minute wait. A novel idea of soupless ramen, but my abursasoba did not have nearly enough sauce or flavor, and so felt like it was eating plain pasta. The pork was not particularly special either. Apparently friends did not have this experience. A slow eating experience, but the price was solid for something this trendy. Fun meeting new people there, though!"
+  },
+  {
+    "name": "Taishoken Ramen",
+    "cuisine": "Ramen",
+    "location": "San Mateo, CA, 20 May 2023 (Lunch)",
+    "price": "$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Tokusei Tsukumen",
+        "rating": "A-"
+      }
+    ],
+    "review": "A mixed bag, that mentally morphed from C- to A- depending on the moment, and I am conflicted between a B and B+ as a result. 45 minute wait, where they called you before the table was actually ready, forcing us to stand outside like a bunch of pedestrians. Service was hurried, which I liked, including bringing a bill without asking. This could be seen as pushy but I appreciated the efficiency. The soba noodles in and of themselves were normal, but the broth was possibly the best soup I have ever had. Pork was okay. Tsukumen is hard to eat, with having to dip the noodles each time causing tremendous finger pain and splashes, but a fun experience if you are willing to wait and don’t want a red carpet treatment. Very good price too, the ramen itself was only $16 for a very hearty meal."
+  },
+  {
+    "name": "Deli Board",
+    "cuisine": "Sandwiches",
+    "location": "SoMa, San Francisco, California, 5 December 2025 (Lunch)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Alison Sandwich (Pastrami)",
+        "rating": "C-"
+      },
+      {
+        "name": "Waffles Fries",
+        "rating": "B-"
+      }
+    ],
+    "review": "After greater than 30 more countries visited, getting a job, getting a law school acceptance, I decide to resume this culinary doc. Truly this is how I contribute to society - now onto the sandwiches. Deli Board seems like the “in” sandwich spot now. Like La Taqueria, it’s a long line of who’s who in early career tech, except for the one guy in a puffer who was talking about his Roblox investment going up. He was probably looking at the graph upside-down. Two Son’s, which I assume I will review sooner rather than later, is a very solid sandwich spot that lived in the back of my mind when considering Deli Board (Deli Board is nearly double the price). While the sandwich was visually beautiful and had generous portions, $24 pre-tax is egregious, and the meat quality was only so-so. Good bread. Overall bad balance of texture though, it turned out quite dry and could have used either a different meat, more of a miler cheese, or more sauce. Fries were great but also $12. Still, they captured the tech-bro market, which seems to reward hype more than quality (see La Taqueria versus the 6 empty taquerias that serve as good food but where the line isn’t all people who know C++)."
+  },
+  {
+    "name": "Welcome Seafood",
+    "cuisine": "Seafood",
+    "location": "Kota Kinabalu, Sabah, Malaysia, 7 November 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Fried Calamari",
+        "rating": "B-"
+      },
+      {
+        "name": "Black Pepper Crab",
+        "rating": "B"
+      }
+    ],
+    "review": "Fresh seafood at tourist prices, mostly aimed at Mainland Chinese. Small prices are reasonable, but ask ahead of time, prices aren’t posted and some are quite pricey (around 60 ringgit for a meal, which is ridiculous here). After frugally calculating, we had a good meal: the crab was the best I’ve had (that’s not saying a ton) and the calamari was a delight as well. Service was mediocre, which is disappointing in a higher end restaurant but understandable. It’s reasonable that this is the most well known seafood place in KK, but I think you could do better."
+  },
+  {
+    "name": "Sam’s Chowder House",
+    "cuisine": "Seafood",
+    "location": "Half Moon Bay, CA, 23 June 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Naked (CT Style) Lobster Roll",
+        "rating": "B"
+      },
+      {
+        "name": "Coleslaw",
+        "rating": "B"
+      }
+    ],
+    "review": "Funny how my first Connecticut lobster roll was in California. Went with someone from the Rice CS server that I inadvertently met at a climbing gym, he recommended it. Amazing seaside view, fun atmosphere, and good service. The dishes were pricey, about $33 per person, but for lobster that is to be expected, and the naked roll was served with minimal seasoning. Delicious fish quality. Would be a go-to if it weren’t for the price."
+  },
+  {
+    "name": "Chez Dasso",
+    "cuisine": "Senegalese",
+    "location": "Saint Louis, Senegal, 13 March 2024 (Dinner)",
+    "price": "$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Thiou Poisson",
+        "rating": "C-"
+      }
+    ],
+    "review": "Simple fish dish, which was nice after a day of fasting to go to Djoudj bird park. Less nice was the ~hour wait time to get the fish, despite a lack of customers, or the lack of communication about this. The dish was quite simple, decent quality fish in sauce with rice on the side. That being said, absolutely nothing spectacular."
+  },
+  {
+    "name": "La Linguere",
+    "cuisine": "Senegalese",
+    "location": "Saint Louis, Senegal, 12 March 2024 (Lunch)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Yassa Poulet",
+        "rating": "C"
+      }
+    ],
+    "review": "Serviceable Yassa Poulet. A bit pricey for Senegal, but doable for a restaurant. That being said, the flavor is simply roast chicken with caramelized onion, nothing that will surprise you. There’s probably better on the island that I did not see."
+  },
+  {
+    "name": "Chez Mame Penda",
+    "cuisine": "Senegalese",
+    "location": "Ile Goree, Senegal, 11 March 2024 (Lunch)",
+    "price": "$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Yassa Poulet",
+        "rating": "B+"
+      }
+    ],
+    "review": "This was a small home restaurant on Goree Island, an easy day trip from Dakar. While I was enjoying the beautiful scenery, I went there. It was closed, but they offered to open early to serve this. Great! A truly family restaurant, basically a house courtyard with some tables. If you don’t mind flies in open-air outdoor kitchens (which, seeing that you are in Senegal, you deeply shouldn’t), the food quality was very good. Well cooked chickens. The onion soup served, for some strange reason, was possibly the best soup I’ve had in my life. Simple, but transcendent."
+  },
+  {
+    "name": "Hunan House",
+    "cuisine": "Sichuan / Hunan / Chongqing",
+    "location": "Sunnyvale, CA, 4 July 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Duck",
+        "rating": "C-"
+      },
+      {
+        "name": "Fried Buns",
+        "rating": "C+"
+      }
+    ],
+    "review": "This place had two reviews, but was one of the very few places open on the fourth. Apparently the beef was good, but I always order duck. Funnily enough, I expected the buns to be pork buns, not desert fried bread buns, and the duck to be more like Beijing duck. Both were good, but the duck got repetitive after a while: it could have used more flavoring. Decent portions for the price."
+  },
+  {
+    "name": "Mala Sichuan",
+    "cuisine": "Sichuan / Hunan / Chongqing",
+    "location": "Houston, TX, 19 February 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Cumin Pork Hock",
+        "rating": "C-"
+      },
+      {
+        "name": "Red Oil Dumplings",
+        "rating": "C-"
+      }
+    ],
+    "review": "For the price, not fantastic, although high quantities of food. Went with Tom and Myles from 382 which was fun, and service was very quick. Other than the spice, however, the pork was a bit bland: not much sweetness or acidity. Similar story with the dumplings, albeit somewhat better. Rick was right to say that there was better."
+  },
+  {
+    "name": "Hard Knox Cafe",
+    "cuisine": "Soul Food",
+    "location": "Dogpatch, San Francisco, CA, 26 May 2024 (Lunch)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Fried Chicken Sandwich",
+        "rating": "B"
+      }
+    ],
+    "review": "Reasonably priced soul food with bar seating. Went for lunch, so I didn't get chicken and waffles. A bit expensive for the end product, but reasonably high quality. I was sitting at the bar next to a guy who ordered 3 orders of the corn muffin appetizer (which were 2 each), he must have had a better time than I did."
+  },
+  {
+    "name": "Cascal",
+    "cuisine": "Spanish",
+    "location": "Mountain View, CA, 06 August 2023 (Lunch)",
+    "price": "$$$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Calamari",
+        "rating": "C"
+      },
+      {
+        "name": "Ahi Tuna",
+        "rating": "D+"
+      },
+      {
+        "name": "Cascal Paella",
+        "rating": "B-"
+      },
+      {
+        "name": "Cuban Pork",
+        "rating": "D+"
+      }
+    ],
+    "review": "Karl from my externship very generously treated me to lunch. Great and fascinating conversation. The food was blankly not worth the $55 that my half would have been. Calamari was standard, ahi tuna was fresh but a tiny quantity. The paella was a decent seafood paella and definitely the highlight. The Cuban pork (which I never saw in Cuba) was not flavorful at all (the sweet potato fries were very good though). Service was good but the restaurant was not busy for a Sunday dinner."
+  },
+  {
+    "name": "Graze @ Hilton",
+    "cuisine": "Sri Lankan",
+    "location": "Colombo, Sri Lanka, 19 November 2023 (Dinner)",
+    "price": "$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Chicken Kottu",
+        "rating": "C"
+      }
+    ],
+    "review": "Went here for the free restroom, stayed for the food. Hotels have famously decent food in Sri Lanka, and I would call it exactly that: decent. Too expensive, around $4 for the meal, and kottu is, I hate to admit, overrated (roti shredded in rice with general fried rice accouterments), but the restaurant itself is passable if you need shelter from the chaos that is Colombo."
+  },
+  {
+    "name": "Gami gedara",
+    "cuisine": "Sri Lankan",
+    "location": "Dambulla, Sri Lanka, 18 November 2023 (Dinner)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Pork Rice Curry",
+        "rating": "B"
+      }
+    ],
+    "review": "A place serving Sri Lankan, Chinese, and Thai food with burgers, a surprisingly common combo here. For about $2 you get a huge plate of food, amazing value and good taste. A bit far from the pure center of the city, but still easily reachable on foot and probably the best low-key Sri Lankan food I had."
+  },
+  {
+    "name": "Benthota Bake House Quick Eats",
+    "cuisine": "Sri Lankan",
+    "location": "Dambulla, Sri Lanka, 18 November 2023 (Dinner)",
+    "price": "$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Chicken Rice Curry",
+        "rating": "B-"
+      }
+    ],
+    "review": "In the same place as the bakery, they have a decent Sri Lankan restaurant. Same good prices as everywhere else, and decent quality. We met a shady guy from Martinique there who left our table because he “needed more space” and was clearly high the whole time. You may too, if you venture in."
+  },
+  {
+    "name": "Mandiya",
+    "cuisine": "Sri Lankan",
+    "location": "Kandy, Sri Lanka, 17 November 2023 (Lunch)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Chicken Rice",
+        "rating": "B"
+      }
+    ],
+    "review": "A low-key, impossible to find, tourist oriented restaurant serving Sri Lankan food in Kandy. Despite having a mixed clientele, prices are very reasonable. The chicken was tremendously flavorful and rice was good in quantity. Might have liked more meat, but the side vegetables were good. Quick and easy."
+  },
+  {
+    "name": "Cafe 113",
+    "cuisine": "Sri Lankan",
+    "location": "Colombo, Sri Lanka, 15 November 2023 (Lunch)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Pork Rice",
+        "rating": "B+"
+      }
+    ],
+    "review": "Poya and I randomly wandered in here for our first meal on Sri Lankan soil. It did not disappoint. Mostly empty, we had buffet style choices and picked the pork. About $5 for both of us, the sauce was spicy and portion sizes very big. Generous with meat too. Come here if you are in the area."
+  },
+  {
+    "name": "Wago Sushi",
+    "cuisine": "Sushi",
+    "location": "Marina, San Francisco, CA, 26 May 2024 (Lunch)",
+    "price": "$$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "California Roll",
+        "rating": "B"
+      },
+      {
+        "name": "Rock N’ Roll",
+        "rating": "C"
+      },
+      {
+        "name": "Cherry Blossom Roll",
+        "rating": "D"
+      }
+    ],
+    "review": "Sushi restaurant in a good location with very regular special rolls. Good sizes for the price. Shockingly, I liked the California roll the most, really fresh and actually decently affordable. The cherry blossom roll was just tuna and avocado with tobiko, which the tuna overpowered. Rock N’ Roll is a solid unagi with a good sauce, but I found that in Wilkes Barre as well. Not impressive, but serviceable."
+  },
+  {
+    "name": "Azuma Sushi (under new name I forgot, but this is the maps pin location)",
+    "cuisine": "Sushi",
+    "location": "Kota Kinabalu, Sabah, Malaysia, 04 November 2023 (Dinner)",
+    "price": "$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Salmon Roll",
+        "rating": "B-"
+      },
+      {
+        "name": "Chicken Katsu",
+        "rating": "D"
+      }
+    ],
+    "review": "Why would Kota Kinabalu have good sushi? I have no idea why I thought it might. The salmon was quite good, the chicken quite bad, and the random thing we didn’t order but couldn’t get refunded due to (my) bad handwriting was mediocre. Prices were relatively high and portions were small, small, small. Go anywhere else other than the Hungarian restaurant we avoided."
+  },
+  {
+    "name": "Sushi Ave",
+    "cuisine": "Sushi",
+    "location": "Seattle, WA, 28 July 2023 (Lunch)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Caterpillar Roll (Eel + Avocado)",
+        "rating": "C-"
+      }
+    ],
+    "review": "Seattle is cheap compared to the Bay! An okay, serviceable sushi restaurant that is very small without great service. Fine in a pinch, but not overtly recommended: the walk from the light rail is not particularly pleasant either."
+  },
+  {
+    "name": "Zushi Puzzle",
+    "cuisine": "Sushi",
+    "location": "San Francisco, CA, 24 June 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Salesforce Roll",
+        "rating": "C+"
+      },
+      {
+        "name": "Wild Schild",
+        "rating": "C-"
+      }
+    ],
+    "review": "A strange, but decently affordable sushi restaurant on the Marina. Went after visiting the Golden Gate Bridge with a group with three people I didn’t know before. Fun experience and solid sushi, but nothing stellar.  Omakase is expensive, but apparently most recommended. Service was mediocre, after refusing to take our bill for a while I downgraded the group tip."
+  },
+  {
+    "name": "Kaori",
+    "cuisine": "Sushi",
+    "location": "San Mateo, CA, 29 May 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "C",
+    "foods": [],
+    "review": "Nice and trendy restaurant in a large Hillsdale stripmall area. The unagi lover roll was delicious, with a good sauce, tempura eel, and roe. Salty and sweet, and reasonable portions as well. I only ordered this, however, because even that roll was $25 post tax. Everything is expensive here, but that does not stop me marking down absolute, rather than locally relative, prices in the Bay."
+  },
+  {
+    "name": "Akira",
+    "cuisine": "Sushi",
+    "location": "Santa Cruz, CA, 21 May 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Eel Sushi",
+        "rating": "B+"
+      },
+      {
+        "name": "Salmon Sushi",
+        "rating": "B+"
+      },
+      {
+        "name": "Crunchy Salmon Roll",
+        "rating": "B-"
+      }
+    ],
+    "review": "A nice vibe in a nice small city. A cryptic back entrance did not stop us from devouring the giant portion sizes here after a very long hike in Big Sur. Rice was not tremendously flavorful, but the quality of the fish was very high and there was tons of food for the price. Recommended for value."
+  },
+  {
+    "name": "Kara",
+    "cuisine": "Sushi",
+    "location": "Havana, Cuba, 16 March 2023 (Lunch)",
+    "price": "$$$",
+    "rating": "C",
+    "foods": [],
+    "review": "Ceviche Sushi C- Crunchy Fish C+ Cappuccino B Too much rice on the sushi, very little fish for a $20 pricetag. The fish was not immensely high quality, and the soy sauce was of poor quality as well. Amazing sea view, and one dollar coffees were very good. An hour and a bit wait before the (admittedly large) group to get food."
+  },
+  {
+    "name": "Nippon",
+    "cuisine": "Sushi",
+    "location": "Houston, TX, 19 February 2023 (Lunch)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [],
+    "review": "For the price, very solid traditional sushi. Probably wouldn’t go for specialty rolls, but for plain rolls the quality of the fish was good. Slow service. Nice ambiance in the middle of nowhere."
+  },
+  {
+    "name": "Yokohama",
+    "cuisine": "Sushi",
+    "location": "New Milford, CT, [2016,2022]",
+    "price": "$$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Specialty Rolls [C",
+        "rating": "B+]"
+      }
+    ],
+    "review": "Probably my most commonly eaten restaurant, and by far the best fare within 30 minutes of Roxbury, CT.  Great food with slow service, and specialty rolls are great.  Sushi quality is amazing too, with consistently good salmon, eel, and tuna.  It doesn’t hurt that the clientele is also exceptionally eccentric and willing to speak."
+  },
+  {
+    "name": "Golden Phoenix",
+    "cuisine": "Steak",
+    "location": "Po Lam, Hong Kong, 12 October 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Western Sirloin Steak w/ Garlic Sauce",
+        "rating": "B-"
+      },
+      {
+        "name": "Russian (?) Soup",
+        "rating": "D+"
+      }
+    ],
+    "review": "A bizarre look into what a fever dream of a US steakhouse might be, but one that was surprisingly good for HK $130. I was told by Cederic to have low expectations for the steak, but it was quite decent. Likely filled with tenderizers and mildly drowned by sauce, but for the prices it was very satisfying. The 10 minute wait before being seated was less satisfying, and the vegetable soup was about as satisfying as that: a bog standard tomato soup. This was the most “East-meets-West” experience I’ve had here (mostly seems to be East-meets-East), a truly Hong Kong take on steak for the proletariat."
+  },
+  {
+    "name": "Porterhouse",
+    "cuisine": "Steak",
+    "location": "San Mateo, CA, 27 June 2023 (Dinner)",
+    "price": "$$$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Kansas City Strip",
+        "rating": "D"
+      }
+    ],
+    "review": "Ah, luxury! To have $100 of a steakhouse expensed by the internship, lovely to talk to the team as our last hurrah before the reorg. Was the steak good? No. Relatively flavorless and extraordinarily expensive, I would absolutely not go back. Tremendously grateful to have had it for free, however. If you are a software engineer in the Bay, you could do worse with the company card, but don’t foot the $80 bill yourself."
+  },
+  {
+    "name": "The Keg",
+    "cuisine": "Steak",
+    "location": "Montreal, QC, 25 July 2022 (Dinner)",
+    "price": "$$$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "New York Strip Steak",
+        "rating": "D-"
+      },
+      {
+        "name": "Calamari",
+        "rating": "B+"
+      }
+    ],
+    "review": "This restaurant was chosen after we were kicked out of a Portuguese restaurant without a reservation.  Decent, kind service.  However, the steak was quite bland for the price-point, and food was slow to come.  Excellent calamari and bread didn’t wash the sour aftertaste of that mediocre steak, although it served admirably in a pinch."
+  },
+  {
+    "name": "Carnitas Michoacan",
+    "cuisine": "Tacos",
+    "location": "Seattle, WA, 31 July 2023 (Lunch)",
+    "price": "$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Tacos al Pastor",
+        "rating": "B+"
+      },
+      {
+        "name": "Beef Tongue Tacos",
+        "rating": "B+"
+      },
+      {
+        "name": "Asado Tacos",
+        "rating": "B+"
+      },
+      {
+        "name": "Beans",
+        "rating": "C"
+      }
+    ],
+    "review": "A really good, local Beacon Hill restaurant. We walked by every time to get to the light rail and decided it would be fitting for a last meal: it did not disappoint. $3.5 for one taco was steep for Seattle but worth it: the salsa bar and add-ons were absolutely delectable. Great meat quality. Bustling, even on a Monday lunch."
+  },
+  {
+    "name": "Taqueria Los Primos #1",
+    "cuisine": "Tacos",
+    "location": "San Mateo, CA, 23 July 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Tacos al Pastor",
+        "rating": "B-"
+      }
+    ],
+    "review": "Decent tacos at a sitdown restaurant in suburban SM. Cash only and mostly Spanish speaking. $3.5 for tacos that were not any better than the food trucks, but still a decent place. They remade food when a minor mistake was made too, so decent service."
+  },
+  {
+    "name": "Tacos Peralta",
+    "cuisine": "Tacos",
+    "location": "San Mateo, CA, 10 June 2023 (Lunch)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Tacos al Pastor",
+        "rating": "B+"
+      }
+    ],
+    "review": "Not as good as Lilo’s, but another good street taco truck. $2.50 per taco is an amazing deal, and the tacos were very flavorful. I was warned that they were spicy: they were not. Delicious flavor and meat quality."
+  },
+  {
+    "name": "Lilo’s Kitchen",
+    "cuisine": "Tacos",
+    "location": "San Mateo, CA, 4 June 2023, 21 May 2024 (Lunch)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Tacos al Pastor",
+        "rating": "B+"
+      },
+      {
+        "name": "Beef Tongue Tacos",
+        "rating": "A-"
+      },
+      {
+        "name": "Sopes (al Pastor + Beef Tongue)",
+        "rating": "A-"
+      }
+    ],
+    "review": "Probably the best tacos I’ve ever had. Amazingly flavorful and with a great soft corn wrap. Each taco is small, but for $3 (sans tax) it’s hard to complain. The truck is efficient, with little seating outside, but plenty of people would come and chat around it. Good vibe, great food."
+  },
+  {
+    "name": "T-Lounge",
+    "cuisine": "Tea",
+    "location": "Colombo, SriLanka, 19 November 2023 (Snack)",
+    "price": "$$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Chocolate Cake",
+        "rating": "D+"
+      },
+      {
+        "name": "Ceylon Tea",
+        "rating": "D-"
+      }
+    ],
+    "review": "A beautiful, trendy, tourist trap in Colombo. They said they had good Ceylon Tea: I buy it’s as good as you can find in Sri Lanka, but it makes sense that it is so popular in Great Britain: Ceylon tea is meant to be covered by milk. Practically undrinkably bitter black, which is how I had it. The cake was overly rich and not sweet. Has plugs and wifi, though, so I like tourist traps."
+  },
+  {
+    "name": "Kafe",
+    "cuisine": "Tex-Mex",
+    "location": "Anuradhapura. Sri Lanka, 17 November 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Chicken Taco",
+        "rating": "C-"
+      },
+      {
+        "name": "Coffee Milkshake",
+        "rating": "D"
+      }
+    ],
+    "review": "This is a strong invocation of the rule that it is categorized under what I ate there, it’s just trying to be a trendy American place. I’m not sure how a tourist trap can survive on a road without lighting and tons of stray dogs in a remote city, but apparently it can. The food was not amazing, although the taco was better than I was expecting, not loaded on cheese but with good sauces on the side. Great Wifi, which was my primary concern."
+  },
+  {
+    "name": "Chimichanga",
+    "cuisine": "Tex-Mex",
+    "location": "Little India, Singapore, 22 August 2023 (Lunch)",
+    "price": "$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Carne Asada Tacos",
+        "rating": "D+"
+      }
+    ],
+    "review": "Why did I let two Europeans bully me into visiting Tex-Mex in Singapore? Small portions (2 tacos) and highly mediocre flavor for $14 US. Generous on avocado, stingy on service quality. When Singapore is about as far away from Mexico as possible, I advise sticking to food from Afro-Eurasia."
+  },
+  {
+    "name": "Chipotle",
+    "cuisine": "Tex-Mex",
+    "location": "San Mateo, CA, 09 August 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Steak Bowl",
+        "rating": "C+"
+      }
+    ],
+    "review": "Internship friends dragged me here against my will for the first time. I am devastated to report that it is pretty good: the guacamole and meat quality is great. Nothing inspiring: I won’t crave it, but okay for its price range. You can easily do worse, and that is pretty sad."
+  },
+  {
+    "name": "Malakor Kitchen",
+    "cuisine": "Thai",
+    "location": "Ayutthaya, Thailand, 21 December 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Chicken w/ Green Curry Rice",
+        "rating": "C"
+      },
+      {
+        "name": "Mocha",
+        "rating": "C+"
+      }
+    ],
+    "review": "Mediocre, touristy restaurant in Ayutthaya. Serviceable lunch, with decently flavorful rice. Great location near the historic center, but nothing memorable."
+  },
+  {
+    "name": "Saneh Mookrata",
+    "cuisine": "Thai",
+    "location": "Sukhumvit, Bangkok, Thailand, 18 December 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Pork",
+        "rating": "B+"
+      },
+      {
+        "name": "Beef",
+        "rating": "B+"
+      }
+    ],
+    "review": "No relation to Saneh Restaurant. Mookrata is Thailand’s KBBQ equivalent. I prefer it, with much more flavorful sauces. I didn’t put enough lard on the metal top at the beginning and burnt the meet, but the waiters taught me how to do it and were very happy to chat to a solo traveler, even after I paid and was about to leave. Meat quality is high and there are reasonable sides too, nothing not to like."
+  },
+  {
+    "name": "Saneh Restaurant",
+    "cuisine": "Thai",
+    "location": "Phra Nakon, Bangkok, Thailand, 19 December 2023 (Lunch)",
+    "price": "$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Fried Chicken Rice",
+        "rating": "C-"
+      }
+    ],
+    "review": "Dirt cheap food that Deivid and Saba loved. I disagree. The service is inordinately impolite, which is fine. However, the food is just not that flavorful. Any of the other $ beats it for 30 more baht. I think it being under a bridge and not giving you food poisoning makes people think that it’s good and not passable."
+  },
+  {
+    "name": "Pad Thai Station",
+    "cuisine": "Thai",
+    "location": "Sukhumvit, Bangkok, Thailand, 18 December 2023 (Dinner)",
+    "price": "$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Chicken Pad Thai",
+        "rating": "B"
+      }
+    ],
+    "review": "Next to the monolingual Thai name place near my hotel. Great pad thai for B60, flavorful. Not the cleanest place, my table had food from the earlier group, but if you care about cleanliness, food safety, or service then I don’t want to be associated with you in any way."
+  },
+  {
+    "name": "Peppery Thai Bistro",
+    "cuisine": "Thai",
+    "location": "Pathum Wan, Bangkok, Thailand, 18 December 2023 (Dinner)",
+    "price": "$$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Pork Green Curry w/ Rice",
+        "rating": "C+"
+      },
+      {
+        "name": "Thai Iced Coffee",
+        "rating": "C"
+      }
+    ],
+    "review": "For the price, this was not good. The green curry was flavorful but small, especially for the meat. The coffee was good, but not as good as the place right next to it. The fact that this was my worst meal so far in Bangkok furthers my thought that it’s the best food city I’ve ever been to."
+  },
+  {
+    "name": "Khun Phu Curry Puff",
+    "cuisine": "Thai",
+    "location": "Chinatown, Bangkok, Thailand, 18 December 2023 (Snack)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Chicken Curry Puff",
+        "rating": "B-"
+      }
+    ],
+    "review": "A quick, cheap-as-hell place (30 us cents per puff) to get little curry puffs, think tiny empanadas with curry chicken inside. Very filling and delicious. A good way to stave off hunger in Bangkok, but if you’re ever hungry here you’re doing it wrong."
+  },
+  {
+    "name": "Zara Maldivian Restaurant",
+    "cuisine": "Thai",
+    "location": "Chinatown, Bangkok, Thailand, 18 December 2023 (Lunch)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Chicken Pad Thai",
+        "rating": "A-"
+      }
+    ],
+    "review": "On the verge of A-. Name aside, this is a cafe with great Thai food as well. Extraordinarily flavorful, with great sauce and meat quality. Easily the best pad thai I’ve had in my life."
+  },
+  {
+    "name": "เด็ดกะเพรา สุขุมวิท22",
+    "cuisine": "Thai",
+    "location": "Sukhumvit, Bangkok, Thailand, 17 December 2023 (Dinner)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [],
+    "review": "For B60, ridiculously good food. Passed up nearby pad thai for this restaurant without an English name. It’s on the street, so no amazing seating, but the flavor on the pork is worth it. Spicy is not that spicy. Egg is highly recommended as an add-on."
+  },
+  {
+    "name": "New Thai Elephant",
+    "cuisine": "Thai",
+    "location": "San Francisco, CA, 16 July 2023 (Dinner)",
+    "price": "$$",
+    "rating": "C-",
+    "foods": [
+      {
+        "name": "Chicken Satay",
+        "rating": "C-"
+      },
+      {
+        "name": "Moo Krop Crispy Pork",
+        "rating": "C+"
+      }
+    ],
+    "review": "Chosen by Myles to meet up in the city as he was starting up his job. Very fun meeting, but the food was relatively forgettable. The chicken was quite plain, with a mediocre peanut sauce, and the moo krop was very light on pork. Instead, there was much more flavorless Chinese broccoli. Rice was not included. Serviceable, but not recommended."
+  },
+  {
+    "name": "Chai Yo [Vegetarian]",
+    "cuisine": "Thai",
+    "location": "San Mateo, CA, 30 June 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Bangkok Duck",
+        "rating": "B"
+      },
+      {
+        "name": "Chicken Satay",
+        "rating": "C"
+      }
+    ],
+    "review": "Went after work. Took me a few seconds of eating to realize that all dishes were vegetarian and mock meat: there was substantially more progress on this front than I thought. Good service who amended prices back to the menu when there was a price hike. Duck was especially decent, and I would go back despite the somewhat high price."
+  },
+  {
+    "name": "Thonglor",
+    "cuisine": "Thai",
+    "location": "San Francisco, CA, 4 June 2023 (Lunch)",
+    "price": "$$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Roast Duck",
+        "rating": "B"
+      }
+    ],
+    "review": "Solid Thai place chosen by consensus after the Giants-Orioles game. Cramped seating and no atmosphere, but everyones’ dishes looked decent. Duck a la carte was $23, $18 with rice, but was a decent portion of delicious duck with a vinegary sauce. In a slightly lower price range, it would be highly recommended."
+  },
+  {
+    "name": "Bro’s Kebab",
+    "cuisine": "Turkish",
+    "location": "Dakar, Senegal, 16 March 2024 (Dinner)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Lamb Doner",
+        "rating": "C"
+      }
+    ],
+    "review": "A solid, fast-food, kebab shop. Not gigantic portions, but open during Ramadan and good flavor on the sauce. Bread was also decent. Nice service, but not chatty. Sat next to an absolutely obnoxious gaggle of French grandmas who made the experience worse. They went over to me and peered over my order, frothing with some entitled rage. They get a D-."
+  },
+  {
+    "name": "Kebab World",
+    "cuisine": "Turkish",
+    "location": "Dakar, Senegal, 10 March 2024 (Dinner)",
+    "price": "$$",
+    "rating": "D",
+    "foods": [
+      {
+        "name": "Lamb Doner",
+        "rating": "D"
+      }
+    ],
+    "review": "Really mediocre (and expensive) kebab chain in Dakar. They were obviously open, and so I went in despite my better judgment. My better judgment was, well, better. Small portion, mediocre meat. The employees were watching English football and mildly included me in the watch party, so that was fun at least."
+  },
+  {
+    "name": "Turkyano",
+    "cuisine": "Turkish",
+    "location": "Yau Ma Tei, Hong Kong, 06 October 2023 (Lunch)",
+    "price": "$$",
+    "rating": "C",
+    "foods": [
+      {
+        "name": "Lamb Doner",
+        "rating": "C"
+      },
+      {
+        "name": "Fries",
+        "rating": "B-"
+      }
+    ],
+    "review": "Bog standard doner in residential Kowloon. About $100 for fries, a drink, and the doner, pretty fair for Kowloon. Soft bread and decent sauce. Fries were shockingly good, the best I’ve had in Asia (of 2). If you’re craving a doner, here’s the place, not nearly as good as Midyat though…"
+  },
+  {
+    "name": "Cobani",
+    "cuisine": "Turkish",
+    "location": "San Mateo, CA, 29 May 2023 (Lunch)",
+    "price": "$$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Beef + Lamb Gyro",
+        "rating": "B-"
+      }
+    ],
+    "review": "Delicious wrap in a humble but comfortably decorated restaurant. Quick service. The deciding factor, however, is price: $13 for a large sandwich means that this is the cheapest decent lunch I’ve found here. Good meat quality and a nice salad on the side."
+  },
+  {
+    "name": "Istanbul Kebab House",
+    "cuisine": "Turkish",
+    "location": "Burlington, VT, 27 July 2022 (Lunch)",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Tenderloin Shish Wrap",
+        "rating": "B-"
+      }
+    ],
+    "review": "Well cooked Turkish food in a city not known for that.  Server was especially kind.  Doner was not available due to mechanical failures, but the wrap, especially with cabbage, was delicious."
+  },
+  {
+    "name": "Sultan’s Turkish Restaurant",
+    "cuisine": "Turkish",
+    "location": "Waterbury, CT, Multiple [2018-2022]",
+    "price": "$$",
+    "rating": "C+",
+    "foods": [
+      {
+        "name": "Iskender Kebap",
+        "rating": "B-"
+      }
+    ],
+    "review": "Really fun restaurant with extraordinarily kind staff that I talk to often. Quality can be a bit inconsistent and availability is not always amazing, but is always fun when in Western CT."
+  },
+  {
+    "name": "Mansur Shashlik",
+    "cuisine": "Uzbek",
+    "location": "Samarkand, Uzbekistan, 7 May 2024 (Dinner)",
+    "price": "$",
+    "rating": "B+",
+    "foods": [
+      {
+        "name": "Mixed Kebabs",
+        "rating": "B+"
+      },
+      {
+        "name": "Bread",
+        "rating": "B"
+      }
+    ],
+    "review": "A very fancy restaurant without that many people (maybe due to being a 30 minute walk outside the city center). Beautiful area with great seating and a friendly waiter who was very excited to talk to Americans. Amazing shashlik, easily the best of the trip and the food I remember most fondly. Cheap, like most Uzbek food not aimed at tourists. Almost exclusively speaks Russian."
+  },
+  {
+    "name": "Tian Shan Cafe",
+    "cuisine": "Uzbek",
+    "location": "Charvak, Uzbekistan, 4 May 2024 (Dinner)",
+    "price": "$",
+    "rating": "B-",
+    "foods": [
+      {
+        "name": "Chaykhona Plov",
+        "rating": "B+"
+      },
+      {
+        "name": "Manti",
+        "rating": "C"
+      }
+    ],
+    "review": "A touristy restaurant in Charvak, a beautiful lake area of Uzbekistan. National food as you’d expect with English service. Plentiful portions and good flavor. The manti were a bit bland, but the plov was solid."
+  },
+  {
+    "name": "Huong Duong",
+    "cuisine": "Vietnamese",
+    "location": "Seattle, WA, 31 July 2023 (Dinner)",
+    "price": "$$",
+    "rating": "D+",
+    "foods": [
+      {
+        "name": "Stir Fry Pho Noodles + Beef",
+        "rating": "C+"
+      },
+      {
+        "name": "Crunchy Spring Rolls",
+        "rating": "D"
+      }
+    ],
+    "review": "Stopped as Othello Station was halfway between Beacon Hill and the airport. This was about as much of a convenience pick as possible. Okay prices, but the food quality was very mediocre: the spring rolls matched Trader Joes quality. The noodles were slightly better, but even the 5/5 spicy hardly put a dent in me. This is a mediocre Vietnamese place in an incredibly diverse city: look elsewhere."
+  },
+  {
+    "name": "Pho Vietnam",
+    "cuisine": "Vietnamese",
+    "location": "Danbury, CT, 18 May 2023 (Dinner)",
+    "price": "$$",
+    "rating": "B",
+    "foods": [
+      {
+        "name": "Short Rib Dumplings",
+        "rating": "B-"
+      },
+      {
+        "name": "Pho Combo (beef, short rib, tripe, tendon)",
+        "rating": "A-"
+      },
+      {
+        "name": "Vietnamese Coffee",
+        "rating": "A-"
+      }
+    ],
+    "review": "Situated in the middle of a dismal strip mall of surprisingly adventurous foods, at least by Western Connecticut standards, my family popped by here after a dental visit stopped us from eating lunch. Possibly the hunger biased me, but the pho was absolutely phenomenal. Amazing broth, good portions, and good meat quality. Dumplings were interesting, my first experience with congee. Very good coffee, slightly sweet but legitimately solid without the milk and sugar. I would question whether child labor laws were violated considering the servers, and there was a loud Youtube video playing from the kitchen, but if you, like me, don’t particularly care about a quiet ambience or youth enrichment then the establishment is your best bet for Vietnamese in Danbury."
+  }
+]
