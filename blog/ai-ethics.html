@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Ethics for AI in Creative Work – alex janssen</title>
+  <link rel="icon" href="aj.png" type="image/png" />
+  <style>
+    :root {
+      --bg: #faf8f6;
+      --ink: #111;
+      --muted: #666;
+      --ring: rgba(0,0,0,0.08);
+      --card-bg: #fff;
+      --hover: #2e5aac;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--ink); line-height: 1.75;
+    }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 60px 20px 100px; }
+
+    .crumb {
+      display: inline-block;
+      margin-bottom: 28px;
+      text-decoration: none;
+      color: var(--ink);
+      border: 1px solid var(--ring);
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: var(--card-bg);
+      transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+      font-size: 0.95rem;
+    }
+    .crumb:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(0,0,0,0.08); opacity: 0.95; }
+
+    h1 {
+      font-weight: 700;
+      font-size: 2.2rem;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 32px;
+    }
+
+    .prose p {
+      margin-bottom: 1.1rem;
+    }
+    .prose .guideline {
+      font-style: italic;
+      color: #333;
+      border-left: 3px solid var(--ring);
+      padding-left: 16px;
+      margin-bottom: 1.5rem;
+    }
+
+    .prose h2 {
+      font-weight: 600;
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      margin-bottom: 0.6rem;
+    }
+    .prose h2.acceptable { color: #2d6a2e; }
+    .prose h2.unacceptable { color: #8b2e2e; }
+
+    .prose ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 1.5rem;
+    }
+    .prose ul li {
+      position: relative;
+      padding-left: 1.5em;
+      margin-bottom: 0.8rem;
+    }
+    .prose ul li::before {
+      position: absolute;
+      left: 0;
+      font-weight: 700;
+    }
+    .acceptable-list li::before {
+      content: "✓";
+      color: #2d6a2e;
+    }
+    .unacceptable-list li::before {
+      content: "✗";
+      color: #8b2e2e;
+    }
+    .prose .example {
+      font-family: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, Consolas, monospace;
+      font-size: 0.88em;
+      background: rgba(0,0,0,0.04);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .prose .rationale {
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="crumb" href="../index.html?skipintro#life">← back to the life and times of alex</a>
+
+    <h1>Personal Ethics for AI in Creative Work</h1>
+
+    <article class="prose">
+
+      <p>In creative work that I claim as my own, here are the guidelines I use toward LLM technology.</p>
+
+      <p class="guideline">The general guideline is — AI is only acceptable if it prompts me to reconsider, broaden, or refine work that I already did. Any AI use which directly affects any meaning in the final product I claim as my own is not acceptable. No AI language is ported wholesale into my writing — I type every last character.</p>
+
+      <h2 class="acceptable">Acceptable</h2>
+      <ul class="acceptable-list">
+        <li><strong>Grammar/readability edits:</strong> <span class="example">"Point out verbosity in the following passage."</span> <span class="example">"Make line edits to the following passage."</span></li>
+        <li><strong>Source selection:</strong> <span class="example">"Point me to 10 scholarly secondary sources on the Meiji Revolution's Impact on Sino-Japanese relations."</span></li>
+        <li><strong>Trivial Calculation:</strong> <span class="example">"Show your work, find the mean wheat output between 1600-1700 in this giant table."</span></li>
+        <li><strong>Counter-argument creation:</strong> <span class="example">"Ideate 3 potential counterarguments to the next passage."</span></li>
+      </ul>
+
+      <h2 class="unacceptable">Unacceptable</h2>
+      <ul class="unacceptable-list">
+        <li><strong>Summary of sources:</strong> <span class="example">"Summarize this article"</span> <span class="rationale">— alters my analysis of secondary sources, you want to read human thoughts. If I cite something then I read every page at least of the chapter I cite.</span></li>
+        <li><strong>Direct edits of writing:</strong> <span class="example">"Make the following passage less verbose."</span> <span class="rationale">— Pointing out errors lets me react to faults and address them, direct edits are likely to be accepted and alter my voice.</span></li>
+        <li><strong>Strengthening arguments:</strong> <span class="example">"What are ways to further argue this point?"</span> <span class="rationale">— Altering my active stance. Counterarguments let me wrestle with alternate viewpoints maintaining my stance or adapting my stance, direct strengthening leans toward an alteration of what I am saying.</span></li>
+        <li><strong>Outlining:</strong> <span class="example">"Create a 5 paragraph structure for the following argument with these pieces of evidence."</span> <span class="rationale">— Structure is substance and style. I take ownership for the skeleton of everything I write.</span></li>
+      </ul>
+
+    </article>
+  </div>
+</body>
+</html>

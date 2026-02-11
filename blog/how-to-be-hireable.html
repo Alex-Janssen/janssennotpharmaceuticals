@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How to Be Hireable – alex janssen</title>
+  <link rel="icon" href="../aj.png" type="image/png" />
+  <style>
+    :root {
+      --bg: #faf8f6;
+      --ink: #111;
+      --muted: #666;
+      --ring: rgba(0,0,0,0.08);
+      --card-bg: #fff;
+      --hover: #2e5aac;
+      --footnote: #8a6d3b;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--ink); line-height: 1.75;
+    }
+
+    /* ── layout ── */
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 60px 20px 100px;
+    }
+
+    /* ── breadcrumb ── */
+    .crumb {
+      display: inline-block;
+      margin-bottom: 28px;
+      text-decoration: none;
+      color: var(--ink);
+      border: 1px solid var(--ring);
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: var(--card-bg);
+      transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+      font-size: 0.95rem;
+    }
+    .crumb:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(0,0,0,0.08); opacity: 0.95; }
+
+    /* ── article header ── */
+    .article-header {
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--ring);
+    }
+    .article-header h1 {
+      font-weight: 700;
+      font-size: 2.2rem;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    .article-meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    /* ── prose ── */
+    .prose h2 {
+      font-weight: 600;
+      font-size: 1.45rem;
+      margin-top: 2.4rem;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.01em;
+    }
+    .prose h3 {
+      font-weight: 600;
+      font-size: 1.15rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.4rem;
+      color: #333;
+    }
+    .prose p {
+      margin-bottom: 1.1rem;
+    }
+    .prose p + p {
+      text-indent: 0;
+    }
+
+    /* ── footnote references (superscript in text) ── */
+    .fn-ref {
+      font-size: 0.75em;
+      vertical-align: super;
+      line-height: 0;
+      text-decoration: none;
+      color: var(--footnote);
+      font-weight: 600;
+      padding: 0 1px;
+      cursor: pointer;
+      transition: color .15s ease;
+    }
+    .fn-ref:hover { color: var(--hover); }
+
+    /* ── footnote section at bottom ── */
+    .footnotes {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--ring);
+    }
+    .footnotes h2 {
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .footnotes ol {
+      list-style: none;
+      counter-reset: fn-counter;
+      padding: 0;
+    }
+    .footnotes li {
+      counter-increment: fn-counter;
+      position: relative;
+      padding-left: 2em;
+      margin-bottom: 0.7rem;
+      font-size: 0.9rem;
+      color: #444;
+      line-height: 1.6;
+    }
+    .footnotes li::before {
+      content: counter(fn-counter) ".";
+      position: absolute;
+      left: 0;
+      font-weight: 600;
+      color: var(--footnote);
+      font-size: 0.85rem;
+    }
+    .footnotes li:target {
+      background: rgba(46, 90, 172, 0.06);
+      border-radius: 4px;
+      margin-left: -6px;
+      padding-left: calc(2em + 6px);
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    .fn-back {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.8em;
+      margin-left: 4px;
+      transition: color .15s ease;
+    }
+    .fn-back:hover { color: var(--hover); }
+
+    /* ── disclosure / ethics link ── */
+    .disclosures {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--ring);
+    }
+    .disclosures h2 {
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+    .disclosures p {
+      font-size: 0.9rem;
+      color: #444;
+    }
+    .disclosures a {
+      color: var(--hover);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(46, 90, 172, 0.3);
+      transition: border-color .15s ease;
+    }
+    .disclosures a:hover { border-color: var(--hover); }
+
+    /* ── italic emphasis for the forward ── */
+    .forward {
+      font-style: italic;
+      color: #444;
+      border-left: 3px solid var(--ring);
+      padding-left: 16px;
+      margin-bottom: 1.5rem;
+    }
+
+    /* ── smooth scroll ── */
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="crumb" href="../blog.html">← blog</a>
+
+    <header class="article-header">
+      <h1>How to Be Hireable</h1>
+      <div class="article-meta">Alex Janssen · 2026</div>
+    </header>
+
+    <article class="prose">
+
+      <h2>Forward</h2>
+
+      <p>This article is meant to be a summary of what I learned being an ambitious college student, and, more importantly, being around ambitious college students. Being surrounded by incredibly bright, driven, motivated people through their germination from student to worker, researcher, or unemployed shows how randomly careers are built and success is found.</p>
+
+      <p>Almost every level-headed ultra-successful person attributes at least half of their lot in life to luck. This article is my perspective on how I nudged my probability of success up. There are no guarantees, but I firmly believe, and most will tell you the same, that there are steps you can take to help realize this particular outcome.</p>
+
+      <h2>Why Listen to Me?</h2>
+
+      <p>Amazing question. I am not an oracle, I do not hold hiring authority. At the same time, companies, consultants, or admissions committees giving advice on what they are looking for in candidates have ulterior motives (boosting applications, seeking clients for their services). The best advice I have received, almost unanimously, has come from people one step ahead of where I wanted to be. If you are in college looking to step up, I hope to be a rung on that very long ladder.</p>
+
+      <p>I can relatively confidently write about entry level software recruiting at big tech companies and unicorns, my current world. I will try to write more broadly — these principles helped me stand out to a top<a id="fnref-1" href="#fn-1" class="fn-ref">1</a> consulting internship and top<a id="fnref-2" href="#fn-2" class="fn-ref">2</a> law school, and gave me good shots at quant firms and investment banking roles. If you are uncharitable, I am perpetually unfocused, but a large sampling period in life has given me confidence that the elite economy has a certain logic irrespective of industry.</p>
+
+      <p>As you'll see in the following pages, I am not at all arguing that hunting for elite outcomes is necessary, sufficient, or particularly correlated to a life remembered well on your deathbed. There are amazingly prestigious programs<a id="fnref-3" href="#fn-3" class="fn-ref">3</a> that do not correspond to these principles.</p>
+
+      <p>That being said, if you are broadly looking for a first step into big-tech, finance, management consulting, top law programs, or, from what I have gathered, medical school, there is a shared, risk-adverse logic underpinning these selection processes. Understanding the mentality of the selector gives you an advantage in being one of the lucky few picked.</p>
+
+      <h2>Who Gets Picked?</h2>
+
+      <p>Top tech, consulting, banking roles almost unanimously have a sub-3% acceptance rate. Top law schools, even after hard LSAT cutoffs, generally have sub-15% acceptance rates, and only 50% of medical school applicants even get into one MD program. As an applicant, there are many of you. If you are the best applicant in the world, these firms, companies, or universities are so talent-dense that they would not lose out on much by erroneously rejecting you. Rejection is standard; it's background noise.</p>
+
+      <p>Do you like poker? Me neither, but I think it's a useful visual. You can be an amazing poker player and still lose the vast majority of hands if there are 100 people at the table. Unlike poker, you have latitude to change the cards in your hand while cards are being played out to the table. Much like poker, you can have a great hand and lose to a schmuck who was bluffing the whole time due to a lucky draw. Taking these losses personally will harm your joie de vivre and not help your resume.</p>
+
+      <p>That being said, at each incredible opportunity you can think of, people are getting picked. People tend to have a perception that hiring at prestigious firms and admissions at top universities is rampant with old-boys networks and inside referrals. I'm sure this happens, but there are normal people who are getting in while applying cold to any firm or university that you can think of<a id="fnref-4" href="#fn-4" class="fn-ref">4</a>. If you learn how to tailor your experiences (not just your resume) toward the opportunities you want and learn how to speak the language of the field you're targeting, it's then a matter of how many hands you see before you get lucky.</p>
+
+      <p>When there are ten people qualified for a job, who gets the lucky call? I tend to think there's a pretty universal outcome to bet on. <strong>The most memorable candidate who's safe.</strong></p>
+
+      <h2>Be Memorable</h2>
+
+      <p>Being memorable doesn't mean setting your Zoom background to a picture of your interviewer's house (in this context, yes, that would be memorable). Being memorable means being a name that the person selecting you is likely to remember fondly even while begrudgingly flipping through applications after partying a bit too hard on New Years.</p>
+
+      <p>I attribute most of my good performance in big-tech interviews to being memorable. How did I do it?</p>
+
+      <p>85% of my time, interviewers saw that I had a BA in Medieval Studies (alongside CS) and spent 5 minutes talking about it. Often they'd also ask about my obnoxiously long language section.</p>
+
+      <p>They asked <em>why</em>.</p>
+
+      <p>An interviewer earnestly asking about your rationale behind something interesting (and impressive) will make a good mark. If you have a solid answer to this <em>why</em>, you're instantly the cross-country ski girl, not just "Full-Stack Engineer @ Eastern-Western Central Ohio U." When you get a job at a good firm, you'll see how your coworkers treat interviewing (it's rarely people's favorite part of the day). You can generally assume that your interviewer has talked to 100 people with relatively similar experiences — if you can actually stand out it can only increase your chances of being picked.</p>
+
+      <p>That being said, the above does assume that you have something interesting to lean into. If you are early in college this is doable — get an interesting hobby, meet interesting people. I knew someone who programmed games on TI-84 calculators, another who spent a lot of time as a pastry chef. It is less "cracked" than a person who has 1000 Github contributions or an accounting internship (which are good, see the next section), but the human hiring you is much more likely to remember the positive and weird than the positive and impressive.</p>
+
+      <p>Part of being memorable is speaking well and being upbeat. I don't have advice on this front, but people in the job search/grad application tend to over-index on things easy to measure, technical skills/case frameworks/test performance. These are important, but as important is seeming like someone that people want to hang around. These companies and universities can reject brilliant assholes — don't be one. The human hiring you might well take 10% less code for 100% better water cooler talk. That being said, they'd rather not sacrifice the 10% less code part, which brings us to…</p>
+
+      <h2>Be Safe</h2>
+
+      <p>Hiring a new employee is incredibly expensive. Yes, you are more expensive than your salary! You are getting health care, potentially meals, training, and, as a new college grad, you will probably not be productive for at least the first six months. You are not applying to be a worker, you are applying to be a temporary burden and then a worker. What is the easiest way to be picked? By making it seem like you won't be too much of a burden.</p>
+
+      <p>The University of Waterloo is not incredibly famous in the US, at least outside of Silicon Valley. Anyone in the Valley would probably identify it as one of, if not the, biggest feeder into top US tech companies. Why so? The average competitive US college grad gets probably two internships, one in sophomore summer and one in junior summer. Waterloo grads often graduate with a year to two of work experience in internships — five internships isn't uncommon. The college experience is built around getting as many professional experiences as possible.</p>
+
+      <p>Desirable? Debatable. Desirable to companies? Evidently yes. Why?</p>
+
+      <p>Top firms have every right to reject any candidate they see fit. They can be lazy and ignore diamonds in the rough. The easiest thing to do to be picked for what you want, is, unfortunately, to have been picked in something impressive before. Showing that others have thought you were worth taking a risk and then showing that risk paying off is the strongest thing you can do.</p>
+
+      <p>So am I arguing the only thing you can do to get a job is to have a job? It's the best thing you can do, but there's an obvious chicken-et-egg problem there. So, then, what are things you can do to boost your chances otherwise?</p>
+
+      <p>I think the main reason I got hired as a sophomore intern is the fact that I did two semesters of research. Academic research, especially in computer science (where freshman/sophomore research is less uncommon than other fields), is a great way to show that you can handle deadlines, abstract projects, and, if you're lucky (I wasn't), have your name cited third in an obscure Albanian programming language theory journal. Research is great to determine if the PhD life is for you<a id="fnref-5" href="#fn-5" class="fn-ref">5</a>, and, if it isn't, a great signal that is feasible to get as early as freshman year of college.</p>
+
+      <p>Academic competitions are another great step to take. Case competitions are incredibly popular, as are policy competitions. Tech makes a big deal about Hackathons, and I have heard recruiters who care about Hackathon wins a lot. I did both policy competitions and hackathons for fun in freshman year — nice resume stuffing which has steadily taken up less space as time has gone on.</p>
+
+      <p>Ultimately, firms don't want to pick you first. They would love someone who has been picked 15 times by names they recognize, but everything you can do to show that you are a safe choice is meaningful. In professional grad programs, that means a good GPA, test scores, and letters of reference. In PhD programs, I've been told it's all in prior research pedigree. In jobs, that generally means professional, volunteer, or research experience.</p>
+
+      <h2>Why Not Join the Elite Economy</h2>
+
+      <p>I tend to think that if you are reading this article, you are driven enough that you owe it to yourself the opportunity to end up in a competitive field. Having that pelt on the wall is satisfying, opens up doors, and gives you a great network. Few people derive a particularly large sense of meaning from their entry level job — if you think that you will actually be happier having conquered this hill you're likely to be mistaken. Grinding this hard to impress people is probably not going to accomplish what you think — the people speaking about what company or university you end up in behind your back and legitimately judging you as a person based on that are probably not people you're trying to impress. Maybe they are! I recommend asking yourself why you want this outcome badly, whether it's a sense of accomplishment in doing something hard, paying off student loan debt, or buying a cafe in Aspen when you're 40. There are no wrong answers — having any answer is likely to lead to more success than mindless drifting. Or maybe not — I'm just a kid.</p>
+
+    </article>
+
+    <!-- ── footnotes ── -->
+    <section class="footnotes">
+      <h2>Notes</h2>
+      <ol>
+        <li id="fn-1">MBB <a href="#fnref-1" class="fn-back">↩</a></li>
+        <li id="fn-2">T14 <a href="#fnref-2" class="fn-back">↩</a></li>
+        <li id="fn-3">I.E., the Iowa Writer's Workshop <a href="#fnref-3" class="fn-back">↩</a></li>
+        <li id="fn-4">This is the vast majority of tech hires for instance, I have never heard of referrals giving a particular advantage for big-tech internship or new grad hiring. <a href="#fnref-4" class="fn-back">↩</a></li>
+        <li id="fn-5">Research experience is practically a prerequisite for most STEM PhDs, and predocs are very common for econ PhDs now. <a href="#fnref-5" class="fn-back">↩</a></li>
+      </ol>
+    </section>
+
+    <!-- ── disclosures ── -->
+    <section class="disclosures">
+      <h2>Disclosures</h2>
+      <p>This essay was written under my AI ethics code. <a href="./ai-ethics.html">Personal Ethics for AI in Creative Work</a></p>    </section>
+  </div>
+</body>
+</html>

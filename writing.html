@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>writing — alex janssen</title>
-  <link rel="icon" href="aj.png" type="image/png" />
+    <link rel="icon" href="aj.png" type="image/png" />
   <style>
     :root {
       --bg: #faf8f6;
@@ -38,10 +38,21 @@
     h1 { font-weight: 300; font-size: 2rem; margin-bottom: 0.5rem; }
     .sub { color: #4a4a4a; margin-bottom: 1.5rem; }
 
+    .section-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .section-label:first-of-type { margin-top: 0.5rem; }
+
     .list {
       display: grid;
       gap: 14px;
-      margin-top: 1rem;
+      margin-top: 0.5rem;
     }
 
     .card {
@@ -61,7 +72,7 @@
       display: block;
       text-decoration: none;
       font-weight: 600;
-      font-size: 1.3rem;  /* smaller */
+      font-size: 1.3rem;
       line-height: 1.4;
       color: var(--ink);
       margin-bottom: 4px;
@@ -82,6 +93,19 @@
     <h1>writing</h1>
     <p class="sub">those who can, write. those who can't, well, they also write. roughly in order of how much i love my thought-children.</p>
 
+    <p class="section-label">blog</p>
+    <div class="list">
+      <article class="card">
+        <a class="title" href="blog.html">
+          essays & longer pieces →
+        </a>
+        <p class="synopsis">
+          thinking out loud about the world, work, and other things
+        </p>
+      </article>
+    </div>
+
+    <p class="section-label">creative</p>
     <div class="list">
       <article class="card">
         <a class="title" href="https://docs.google.com/document/d/1qDa-ZSRZtEuSNXRzeSERK9oUtFvqK0A6dTWbvdGmRoE" target="_blank" rel="noopener">
