@@ -644,7 +644,7 @@
         const html = `
           <div class="tip-wrap">
             <div class="tip-title">${p.name}</div>
-            <img class="tip-img" src="${p.code}.png" alt="${p.name}" onerror="this.style.display='none'">
+            <img class="tip-img" src="pics/${p.code}.png" alt="${p.name}" onerror="this.style.display='none'">
             <div class="tip-story">${p.story || 'No story for this trip... yet!'}</div>          </div>`;
         attachHoverCard(marker, html);
       });
