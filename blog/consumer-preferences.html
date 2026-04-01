@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Consumer Preferences as a Proxy for Development – alex janssen</title>
+  <link rel="icon" href="../aj.png" type="image/png" />
+  <style>
+    :root {
+      --bg: #faf8f6;
+      --ink: #111;
+      --muted: #666;
+      --ring: rgba(0,0,0,0.08);
+      --card-bg: #fff;
+      --hover: #2e5aac;
+      --footnote: #8a6d3b;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--ink); line-height: 1.75;
+    }
+
+    /* ── layout ── */
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 60px 20px 100px;
+    }
+
+    /* ── breadcrumb ── */
+    .crumb {
+      display: inline-block;
+      margin-bottom: 28px;
+      text-decoration: none;
+      color: var(--ink);
+      border: 1px solid var(--ring);
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: var(--card-bg);
+      transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+      font-size: 0.95rem;
+    }
+    .crumb:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(0,0,0,0.08); opacity: 0.95; }
+
+    /* ── article header ── */
+    .article-header {
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--ring);
+    }
+    .article-header h1 {
+      font-weight: 700;
+      font-size: 2.2rem;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    .article-meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    /* ── prose ── */
+    .prose h2 {
+      font-weight: 600;
+      font-size: 1.45rem;
+      margin-top: 2.4rem;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.01em;
+    }
+    .prose h3 {
+      font-weight: 600;
+      font-size: 1.15rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.4rem;
+      color: #333;
+    }
+    .prose p {
+      margin-bottom: 1.1rem;
+    }
+    .prose p + p {
+      text-indent: 0;
+    }
+
+    /* ── footnote references (superscript in text) ── */
+    .fn-ref {
+      font-size: 0.75em;
+      vertical-align: super;
+      line-height: 0;
+      text-decoration: none;
+      color: var(--footnote);
+      font-weight: 600;
+      padding: 0 1px;
+      cursor: pointer;
+      transition: color .15s ease;
+    }
+    .fn-ref:hover { color: var(--hover); }
+
+    /* ── footnote section at bottom ── */
+    .footnotes {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--ring);
+    }
+    .footnotes h2 {
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .footnotes ol {
+      list-style: none;
+      counter-reset: fn-counter;
+      padding: 0;
+    }
+    .footnotes li {
+      counter-increment: fn-counter;
+      position: relative;
+      padding-left: 2em;
+      margin-bottom: 0.7rem;
+      font-size: 0.9rem;
+      color: #444;
+      line-height: 1.6;
+    }
+    .footnotes li::before {
+      content: counter(fn-counter) ".";
+      position: absolute;
+      left: 0;
+      font-weight: 600;
+      color: var(--footnote);
+      font-size: 0.85rem;
+    }
+    .footnotes li:target {
+      background: rgba(46, 90, 172, 0.06);
+      border-radius: 4px;
+      margin-left: -6px;
+      padding-left: calc(2em + 6px);
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    .fn-back {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.8em;
+      margin-left: 4px;
+      transition: color .15s ease;
+    }
+    .fn-back:hover { color: var(--hover); }
+
+    /* ── disclosure / ethics link ── */
+    .disclosures {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--ring);
+    }
+    .disclosures h2 {
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+    .disclosures p {
+      font-size: 0.9rem;
+      color: #444;
+    }
+    .disclosures a {
+      color: var(--hover);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(46, 90, 172, 0.3);
+      transition: border-color .15s ease;
+    }
+    .disclosures a:hover { border-color: var(--hover); }
+
+    /* ── smooth scroll ── */
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="crumb" href="../blog.html">← blog</a>
+
+    <header class="article-header">
+      <h1>Consumer Preferences as a Proxy for Development</h1>
+      <div class="article-meta">Alex Janssen · April 2026</div>
+    </header>
+
+    <article class="prose">
+
+      <p>I realize that the way I categorize towns now is much less by the quality of road pavement than the level of localized preferences residents have.</p>
+
+      <p>Towns tend to have electricity, people wear Premier League jerseys, and kids are up to date on the latest TikTok memes whether they are in Zurich or rural Uganda. But, picking favorites is a privilege, and I argue that the ability to have access to specialized goods and services is a form of development in its own right.</p>
+
+      <h2>Localized Preferences</h2>
+
+      <p>What is your favorite restaurant in town?</p>
+
+      <p>Can you answer that? If so, you probably live in a relatively developed area. The idea of varying quality and offerings within a commercial category is more privileged than a lot of Westerners think.</p>
+
+      <p>I am writing this from Jimma, an Ethiopian provincial capital. Typical of many second-tier African cities, there is passable food at restaurants mostly eaten by out-of-towners. Despite being in the forests where Arabica coffee was first found, all cafes here typically serve the same style of brewed coffee from a plastic container. They cost about the same too. Locals don't think of buying coffee <em>from</em> somewhere, the cafe is providing a generic coffee experience. If you ask people to go to a cafe, there is no reason to pick one over the other - they fill the same category. The furniture stores here have the same few stools, a dove cut-out, and various religious offerings. They aren't distinguishing themselves by their offerings - they can survive by offering the same goods at standard prices. Meanwhile, in Algeria, any coffee was 30 dinar - a similar sign of a generic consumer good. Price differentiation is a sign of development. Standardization of price means that there hasn't been an experiment to elevate or economize on the core offering. If a store can survive with meaningfully higher prices than its neighbors, that means that it has carved a niche that people are willing to pay for.</p>
+
+      <p>Compare this to a higher level in Addis Ababa. Addis, like many other cities, has a few competitive sectors. There are better and worse traditional restaurants, hotels compete on quality beyond just a big name, there are bus services that entice people using the comfort of chairs. Consumers have a relationship to particular brands which serves to guide their behavior - they are rich enough to not be satisfied with the generic experience but want to express their particular preferences. Addis, however, is not to the level of Western cities. If you ask someone in San Francisco their favorite Vietnamese restaurant, they likely have an answer. Addis has around five Chinese restaurants that I could confirm operated in a city flooded with Chinese investment. Thus, there is a level of consumer preference dictated within the typical cultural bounds of residents, but not to the level of a cosmopolitan city.</p>
+
+      <p>Dakar, meanwhile, is closer to the latter. The Senegalese had a higher level of openness to foreign foods - Senegal is home to a large array of foreign enterprises and historic immigrant communities. This is due to Senegalese association with both the French Empire and later France's African politics. In Dakar, you could find killer Lebanese alongside decent Turkish, Korean and Chinese, despite being as much an international center as Addis. A friend in the Senegalese upper class had discussed his favorite world cuisines he had tried in Dakar and Abidjan - most Ethiopians I talked to had never tried any Asian cuisine meanwhile. Another telltale sign of Senegalese development is that long-distance bus transit largely depended on pre-booking, which requires infrastructure to take remote orders and communicate that to a worker checking off names, not trivial. Ethiopia, meanwhile, largely had transit ad-hoc. When my friend needed a standby ticket, he needed to go to the ticket office in the airport and wait there - the website didn't support this. There was no need to compete on booking methods - there was one option.</p>
+
+      <h2>Mechanism</h2>
+
+      <p>I would argue that the existence of consumer preference is caused by optionality. You cannot have a favorite cafe in a town with three cafes that serve the same coffee. The quantity of firms or businesses offering a particular service is directly related to the economic size of the town. As a neighborhood gains more cafes, bookstores, and shoe shops, a logical way to protect your business is by being different. After enough entrants, this is inevitable. If 20% of consumers want loud music blaring in a cafe, it makes sense to buy a speaker if your 10 competitors don't. When these risks are taken through entrepreneurs experimenting, consumers then can refine their preferences by exploring new stores. This leads to an entrenchment of these firms' differences (oh, that's the jazz bar) even while some experiments fail due to insufficient demand (vegan barbeque with Gregorian chant would be a hard sell in most places).</p>
+
+      <p>The existence of these specialized enterprises is a form of development, rather than a sign of it. A mining town 10 hours away from the nearest city where everyone earns 200k USD isn't developed as a lived location if there's one bad restaurant and nowhere to buy a table. Residents are able to earn money that can be spent elsewhere, but the locale does not support residents in pursuing the consumption of what brings them happiness. The paucity of options is underdevelopment. Meanwhile, a poor city with plentiful shops, restaurants, transit, healthcare which is affordable to the common person is reasonably developed.</p>
+
+      <p>For an example of the latter, Turkmenistan has a rigged exchange rate. The average local earns incredibly little in terms of USD, but a domestic flight is 8 USD for Turkmens. Workers can afford a home, can afford gaming consoles, and can occasionally eat out. Friends in Mary, the second city, had a favorite place for milkshakes. They can afford anything other than spending their manat outside of the country, a partial purpose of this system. However, how can we look at their relatively uniformly middle class lifestyle, where they can travel internally, go to university, and buy a relatively large assortment of goods, as undeveloped due to a GDP per capita number that is a fiction of exchange rates? Even with a depressed wage, they exercise greater ability to choose than many richer nations. What use is twenty bucks if you can't buy pad thai?</p>
+
+      <h2>Conclusion</h2>
+
+      <p>Specialization of consumption is a clear sign of wealth and quality of life - something clearly seen by people's memories of progress. Older Chinese friends describe the absolute explosion of the domestic consumer economy - a lot of their impression of modern Chinese prosperity is more focused on Taobao<a id="fnref-1" href="#fn-1" class="fn-ref">1</a> than the Gaotie<a id="fnref-2" href="#fn-2" class="fn-ref">2</a>. Normally, the greatest culture shock I have in a country isn't differences in etiquette, it's the non-answer to "what is the best food in town?" Feel lucky if you can answer it.</p>
+
+    </article>
+
+    <!-- ── footnotes ── -->
+    <section class="footnotes">
+      <h2>Notes</h2>
+      <ol>
+        <li id="fn-1">A Chinese e-commerce platform <a href="#fnref-1" class="fn-back">↩</a></li>
+        <li id="fn-2">The Chinese high-speed rail network <a href="#fnref-2" class="fn-back">↩</a></li>
+      </ol>
+    </section>
+
+    <!-- ── disclosures ── -->
+    <section class="disclosures">
+      <h2>Disclosures</h2>
+      <p>This essay was written under my <a href="./ai-ethics.html">AI in Creative Work Ethics Code</a></p>
+    </section>
+  </div>
+</body>
+</html>
